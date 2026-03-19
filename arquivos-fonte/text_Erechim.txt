@@ -1,0 +1,1347 @@
+Ministério da Educação
+Secretaria de Educação Profissional e Tecnológica
+Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul
+Campus Erechim
+REGIMENTO COMPLEMENTAR DO
+IFRS - CAMPUS ERECHIM
+Aprovado pelo Conselho de Campus do IFRS – Campus Erechim, conforme
+Resolução nº 20, de 14 de outubro de 2024.Instituto Federal de Educação, Ciência e
+Tecnologia do Rio Grande do Sul
+Reitor
+Júlio Xandro Heck
+Campus Erechim
+Diretor-Geral
+Sidnei Dal’Agnol
+Conselho de Campus
+Presidente do Conselho do Campus
+Sidnei Dal’Agnol
+Discentes
+Carla Caren Popiolek
+Roberta Uliana Flores
+Indaiá Tainara Tamagno (suplente)
+Rafaela França (suplente)
+Docentes
+Airton Campanhola Bortoluzzi
+Priscilla Pereira Dos Santos
+Alexandro Magno Dos Santos Adário (suplente)
+Gema Luciane Agliardi (suplente)
+Técnico-administrativos em Educação
+Fernanda Elisa De Oliveira Venturini
+Marília Balbinot Pavan
+Fernanda Zatti (suplente)
+Marlova Elizabete Balke (suplente)
+Representantes da Sociedade Civil
+André Milesi
+Guilherme Ballico Basso (suplente)
+Comissão de elaboração do Regimento Complementar
+Ivan José Suszek - Coordenador de Desenvolvimento Institucional
+Carine Ivone Popiolek
+Carla Caren Popiolek
+Caroline Daiane Kulba
+Catia Santin Zanchett Battiston
+Clarisse Hammes Perinazzo
+Cristiane Câmara
+Daniela Fátima Mariani Mores
+Denise Beatriz Tonin
+Fernanda Elisa de Oliveira Venturini
+Guilherme Ballico Basso
+Guilherme Fagherazzi
+José Victor Pereira de Souza
+Josiele Sfredo Michelin
+Márcia Maria Racoski
+Marcos Antonio Cezne
+Patricia Cristina Nienov Weber
+Priscilla Pereira dos Santos
+Rafaela França
+Régis Nogara dos ReisSUMÁRIO
+TÍTULO I – DAS DISPOSIÇÕES PRELIMINARES................................................................. 5
+CAPÍTULO I – DO REGIMENTO COMPLEMENTAR DO CAMPUS ERECHIM E
+SEUS OBJETIVOS....................................................................................................... 5
+TÍTULO II - DA ESTRUTURA, COMPOSIÇÃO, COMPETÊNCIA, E FUNCIONAMENTO
+DOS ÓRGÃOS DO CAMPUS ERECHIM.................................................................................5
+CAPÍTULO I – DOS ÓRGÃOS COLEGIADOS.............................................................7
+Seção I..................................................................................................................................... 7
+Do Conselho do Campus....................................................................................................... 7
+Seção II.................................................................................................................................... 7
+Das Comissões Permanentes................................................................................................7
+Da Comissão de Avaliação e Gestão de Ações do Ensino (CAGE)...................................7
+Da Comissão de Avaliação e Gestão de Projetos de Pesquisa e Inovação (CAGPPI).....8
+Da Comissão de Avaliação e Gerenciamento de Ações de Extensão (CGAE)................. 8
+Dos Colegiados de Curso...................................................................................................... 8
+CAPÍTULO II – DOS ÓRGÃOS EXECUTIVOS.......................................................... 10
+Seção I................................................................................................................................... 10
+Da Direção-Geral...................................................................................................................10
+Do Gabinete da Direção-Geral............................................................................................. 10
+Do Setor de Auditoria........................................................................................................... 10
+Do Setor de Comunicação................................................................................................... 10
+Da Coordenação de Gestão de Pessoas............................................................................ 11
+Seção II.................................................................................................................................. 12
+Da Direção de Administração.............................................................................................. 12
+Do Setor de Compras e Licitações......................................................................................12
+Da Coordenação de Execução Orçamentária e Financeira.............................................. 12
+Do Setor de Contabilidade................................................................................................... 13
+Do Setor de Gestão e Fiscalização de Contratos.............................................................. 14
+Da Coordenação de Infraestrutura......................................................................................14
+Do Setor de Almoxarifado....................................................................................................15
+Do Setor de Patrimônio........................................................................................................ 15
+Seção III................................................................................................................................. 16
+Da Coordenação de Desenvolvimento Institucional......................................................... 16
+Do Setor de Tecnologia da Informação.............................................................................. 16
+Do Auxiliar Institucional.......................................................................................................17
+Seção IV................................................................................................................................. 17
+Da Direção de Ensino........................................................................................................... 17
+Da Coordenação de Ensino................................................................................................. 18
+Do Setor Pedagógico............................................................................................................18
+Das Coordenações de Cursos.............................................................................................19
+Da Coordenação de Registros Acadêmicos...................................................................... 20
+Da Coordenação de Assistência Estudantil.......................................................................20
+Da Biblioteca......................................................................................................................... 22
+Dos Laboratórios.................................................................................................................. 22Do Núcleo de Educação a Distância (NEaD)...................................................................... 23
+Seção V.................................................................................................................................. 23
+Da Coordenação de Extensão............................................................................................. 23
+Dos Estágios......................................................................................................................... 24
+Seção VI................................................................................................................................. 24
+Da Coordenação de Pesquisa, Pós-graduação e Inovação..............................................24
+Da Secretaria de Pós-Graduação........................................................................................ 25
+CAPÍTULO III – DAS COMISSÕES E ÓRGÃOS SUPLEMENTARES....................... 26
+Seção I................................................................................................................................... 26
+Das Comissões..................................................................................................................... 26
+Da Comissão Própria de Pessoal Docente (CPPD)........................................................... 26
+Da Comissão Interna de Supervisão (CIS)......................................................................... 27
+Da Comissão Interna de Saúde, Segurança e Prevenção de Acidentes (CISSPA).........28
+Da Comissão de Organização e Acompanhamento (COA)...............................................28
+Da Comissão de Assistência Estudantil.............................................................................28
+Da Comissão Permanente de Processo Eleitoral (COPPE)..............................................29
+Da Comissão Permanente de Processo de Ingresso Discente........................................29
+Da Comissão Própria de Avaliação (CPA).......................................................................... 30
+Seção II.................................................................................................................................. 30
+Dos Núcleos.......................................................................................................................... 30
+Do Núcleo de Atendimento à Pessoas com Necessidades Específicas (NAPNE)......... 30
+Do Núcleo de Estudos Afro-Brasileiros e Indígenas (NEABI).......................................... 31
+Do Núcleo de Estudos e Pesquisas em Gênero e Sexualidades (NEPGS)..................... 32
+Do Núcleo de Arte e Cultura (NAC)..................................................................................... 33
+Do Núcleo de Estudos em Agroecologia, Segurança Alimentar e Nutricional e
+Educação Ambiental (NEA)..................................................................................................34
+Núcleo de Memória (NuMem)...............................................................................................34
+TÍTULO III DA COMUNIDADE ESCOLAR............................................................................ 35
+CAPÍTULO I - DO CORPO DISCENTE...................................................................... 36
+CAPÍTULO II - DO CORPO DOCENTE......................................................................36
+Seção I................................................................................................................................... 37
+Dos Encargos Docentes.......................................................................................................37
+CAPÍTULO III - DO CORPO TÉCNICO-ADMINISTRATIVO.......................................37
+TÍTULO VI – DAS DISPOSIÇÕES FINAIS............................................................................ 37TÍTULO I – DAS DISPOSIÇÕES PRELIMINARES
+CAPÍTULO I – DO REGIMENTO COMPLEMENTAR DO CAMPUS ERECHIM E
+SEUS OBJETIVOS
+Art. 1º O presente Regimento Complementar, em conjunto com o Regimento Geral
+e o Regimento dos Campi, disciplina a organização, as competências e o
+funcionamento das instâncias deliberativas, consultivas, administrativas e
+acadêmicas, complementando as disposições estatutárias e regimentais do IFRS.
+TÍTULO II - DA ESTRUTURA, COMPOSIÇÃO, COMPETÊNCIA, E
+FUNCIONAMENTO DOS ÓRGÃOS DO CAMPUS ERECHIM
+Art. 2º A estrutura organizacional do Campus Erechim compreende, além dos
+especificados no Regimento Geral e Regimento dos Campi, os seguintes itens:
+a) Órgãos colegiados;
+b) Órgãos executivos;
+c) Comissões e outros órgãos suplementares;
+d) Corpo docente;
+e) Corpo discente;
+f) Corpo técnico-administrativo.Figura 1 – Estrutura organizacional do Campus Erechim
+Fonte: Comissão de elaboração do Regimento ComplementarCAPÍTULO I – DOS ÓRGÃOS COLEGIADOS
+Seção I
+Do Conselho do Campus
+Art. 3º O Conselho do Campus será composto por:
+I. Diretor(a)-geral do Campus, como presidente e membro nato;
+II. Dois representantes titulares docentes e seus suplentes, eleitos por seus
+pares, com mandato de 2 (dois) anos;
+III. Dois representantes titulares técnico-administrativos e seus suplentes,
+eleitos por seus pares, com mandato de 2 (dois) anos;
+IV. Dois representantes titulares discentes e seus suplentes, eleitos por seus
+pares com mandato de 1 (um) ano;
+V. Dois representantes titulares da comunidade externa e seus respectivos
+suplentes, indicados por organizações a partir de edital próprio que o
+Conselho do Campus elaborará e fará publicar, e eleitos por maioria simples
+do Conselho do Campus.
+Art. 4º O Conselho de Campus terá seu funcionamento regulamentado por
+regimento próprio.
+Seção II
+Das Comissões Permanentes
+Da Comissão de Avaliação e Gestão de Ações do Ensino (CAGE)
+Art. 5º A CAGE é o órgão colegiado de assessoramento às atividades de Gestão de
+Ensino e do Conselho do Campus.
+Parágrafo único. As atribuições e competências da CAGE estão previstas no
+Regimento Geral dos Campi do IFRS. Os fluxos e funcionamentos da CAGE serão
+regulamentados através de regimento próprio.
+Art. 6º A CAGE será composta:
+I. Pelo(a) Diretor(a) da área de Ensino do Campus e pelo(a) Coordenador(a)
+de Ensino como membros natos;
+II. Por 3 (três) membros titulares e 2 (dois) suplentes representantes do
+segmento docente, eleitos(as) por seus pares para mandato de 2(dois) anos;
+III. Por 3 (três) membros titulares e 2 (dois) suplentes representantes do
+segmento técnico-administrativo, eleitos(as) por seus pares para mandato de
+2 (dois) anos;
+IV. Por 3 (três) membros titulares e 2 (dois) suplentes representantes do
+segmento discente, eleitos(as) por seus pares para mandato de 2 (dois) anos.Da Comissão de Avaliação e Gestão de Projetos de Pesquisa e Inovação
+(CAGPPI)
+Art. 7º A CAGPPI é o órgão colegiado de assessoramento às atividades de Gestão
+de Extensão e do Conselho do Campus.
+Parágrafo único. As atribuições e competências da CAGPPI estão previstas no
+regimento Geral dos Campi do IFRS. Os fluxos e funcionamentos da CAGPPI serão
+regulamentados através de regimento próprio.
+Art. 8º A CAGPPI será composta:
+I. Pelo(a) gestor(a) da área de Pesquisa, Pós-Graduação e Inovação do
+campus, como membro nato;
+II. Por 3 (três) membros titulares e 2 (dois) suplentes representantes do
+segmento docente, eleitos(as) por seus pares para mandato de 2(dois) anos;
+III. Por 3 (três) membros titulares e 2 (dois) suplentes representantes do
+segmento técnico-administrativo, eleitos(as) por seus pares para mandato de
+2 (dois) anos;
+IV. Por 3 (três) membros titulares e 2 (dois) suplentes representantes do
+segmento discente, eleitos(as) por seus pares para mandato de 2 (dois) anos.
+Da Comissão de Avaliação e Gerenciamento de Ações de Extensão (CGAE)
+Art. 9º A CGAE é o órgão colegiado de assessoramento às atividades de Gestão de
+Extensão e do Conselho do Campus.
+Parágrafo único. As atribuições e competências da CGAE estão previstas no
+Regimento Geral dos Campi do IFRS. Os fluxos e funcionamentos da CGAE serão
+regulamentados através de regimento próprio.
+Art. 10º A CGAE será composta:
+I. Pelo(a) gestor(a) da área de Extensão do Campus, como membro nato;
+II. Por 3 (três) membros titulares e 2 (dois) suplentes representantes do
+segmento docente, eleitos(as) por seus pares para mandato de 2(dois) anos;
+III. Por 3 (três) membros titulares e 2 (dois) suplentes representantes do
+segmento técnico-administrativo, eleitos(as) por seus pares para mandato de
+2 (dois) anos;
+IV. Por 3 (três) membros titulares e 2 (dois) suplentes representantes do
+segmento discente, eleitos(as) por seus pares para mandato de 2 (dois) anos.
+Dos Colegiados de Curso
+Art. 11º O Colegiado de Curso é responsável pela supervisão das atividades
+didáticas do curso, pela orientação aos acadêmicos, visando o desempenho de
+cada um deles, no cumprimento de suas obrigações.
+Art. 12º A composição, fluxos, funcionamentos e competências dos Colegiados deCurso serão regulamentados através de regimento próprio aprovado pelo Conselho
+de Campus.CAPÍTULO II – DOS ÓRGÃOS EXECUTIVOS
+Seção I
+Da Direção-Geral
+Art. 13º As competências e atribuições do Diretor-Geral do Campus estão definidas
+no Regimento Interno dos Campi, aprovado pelo Conselho Superior.
+Do Gabinete da Direção-Geral
+Art. 14º À Chefia de Gabinete, subordinada à Direção Geral, compete:
+I. Colaborar com o planejamento e constante aperfeiçoamento do Gabinete,
+visando atender as demandas de ensino, pesquisa, extensão e gestão
+existentes na Instituição, racionalizando o uso dos recursos e equipamentos;
+II. Prestar assistência direta e imediata à Direção Geral;
+III. Coordenar e organizar a expedição, arquivamento e publicação dos
+documentos emitidos pela Direção Geral;
+IV. Preparar correspondência oficial da Direção Geral;
+V. Coordenar contatos com os órgãos oficiais e demais instituições;
+VI. Acompanhar o processo de informações de diferentes órgãos, mantendo a
+Direção Geral constantemente informada;
+VII. Acompanhar o planejamento geral da Instituição;
+VIII. Secretariar reuniões da Direção Geral e do Conselho de Campus (Concamp);
+IX. Integrar a Comissão Permanente de Formatura do Campus Erechim;
+X. Desempenhar outras atividades correlatas à chefia de gabinete, ao cargo ou
+definidas pela legislação e, ou, atribuídas pelo superior hierárquico.
+Do Setor de Auditoria
+Art. 15º O Setor de Auditoria Interna do Campus Erechim integra a Unidade de
+Auditoria Interna do Instituto Federal de Educação, Ciência e Tecnologia do Rio
+Grande do Sul – UNAI/IFRS – que está vinculada ao Conselho Superior do IFRS e
+tem sua estrutura organizada conforme regimento específico.
+Art. 16º A Auditoria Interna do Campus Erechim possui subordinação hierárquica à
+UNAI/IFRS (Unidade de Auditoria Interna do Instituto Federal de Educação,
+Ciência e Tecnologia do Rio Grande do Sul), e está, administrativamente,
+vinculada à Direção Geral do Campus.
+Art. 17º As Competências do Auditor Interno estão dispostas no Regimento da
+Unidade de Auditoria Interna do Instituto Federal de Educação, Ciência e
+Tecnologia do Rio Grande do Sul.
+Do Setor de Comunicação
+Art. 18º O setor de comunicação, concebido como sistêmico dentro da unidade porcongregar ações que integram as áreas do ensino, da pesquisa e da extensão,
+está subordinado à direção-geral.
+Art. 19º Compete ao Setor de Comunicação desempenhar as seguintes ações:
+I. Promover a divulgação jornalística de eventos e atividades de cunho
+institucional por meio de diferentes veículos de comunicação, estabelecendo
+um canal permanente entre os veículos e o Campus;
+II. Estabelecer contato com os veículos de comunicação e promover a
+divulgação das ações da unidade, no que tange à parte jornalística, na
+modalidade de sugestão de pauta (releases);
+III. Trabalhar na criação e na constante manutenção de publicações de cunho
+jornalístico em nível de campus, que venham ao encontro das políticas de
+comunicação do IFRS;
+IV. Implementar, em nível de campus, as ações provenientes da política de
+comunicação, elaborada pela Diretoria de Comunicação do IFRS, em
+consonância com a realidade de cada unidade;
+V. Estabelecer critérios de fixação e controle de cartazes, faixas, murais e
+outras formas de divulgação no Campus;
+VI. Promover a manutenção dos diversos tipos de mídia criados pelo IFRS;
+VII. Promover o diálogo dos diversos veículos de comunicação com o campus, no
+que tange as divulgações de cunho jornalístico;
+VIII. Participar da Comissão Permanente de Formatura, como membro nato, de
+acordo com normativas estabelecidas pelo IFRS;
+IX. Participar da Comissão Permanente de Seleção do Processo Seletivo, de
+acordo com a Política de Ingresso Discente.
+Da Coordenação de Gestão de Pessoas
+Art. 20º À Coordenação de Gestão de Pessoas, subordinada à Direção Geral,
+compete:
+I. Acompanhar e aplicar programas de capacitação visando ao
+aperfeiçoamento funcional do servidor;
+II. Atualizar periodicamente o cadastro dos servidores;
+III. Acompanhar e formalizar a movimentação dos servidores;
+IV. Atualizar permanentemente o quadro de lotação;
+V. Organizar e acompanhar o processo de estágio probatório;
+VI. Gerenciar a distribuição dos benefícios sociais aos servidores;
+VII. Receber e encaminhar as demandas para provimento de cargos;
+VIII. Orientar e acompanhar as progressões funcionais dos servidores;
+IX. Desenvolver programas que facilitem a integração de novos servidores;
+X. Organizar, controlar e manter atualizados os arquivos de documentos e
+dados cadastrais dos servidores do Campus;
+XI. Interpretar e prestar esclarecimentos sobre a legislação, normas, fluxos e
+processos de pessoal;
+XII. Exercer atividades relacionadas à admissão, desligamento,
+aperfeiçoamento, lotação, pagamento e cadastro de servidores;
+XIII. Efetivar os devidos registros e operações do processamento da folha de
+pagamento dos servidores;
+XIV. Emitir documentos oficiais com base nos registros constantes no cadastrogeral dos servidores;
+XV. Orientar as chefias imediatas quanto ao controle de frequência, conforme
+legislação vigente;
+XVI. Prestar informações à comunidade sobre assuntos de sua competência;
+XVII. Promover o controle de lotação dos cargos de direção e funções
+gratificadas, bem como elaborar os atos próprios;
+XVIII. Oferecer subsídios para o planejamento orçamentário de recursos humanos;
+XIX. Elaborar e controlar processos de inatividade e pensões;
+XX. Preparar os atos de processamento e controle das alterações funcionais;
+XXI. Executar e avaliar projetos e ações que contribuam para a qualidade de vida
+dos servidores;
+XXII. Elaborar e realizar as publicações dos atos de pessoal no Diário Oficial da
+União e no Boletim de Serviço Interno.
+XXIII. Realizar em conjunto com a COA (Comissão de Organização e
+Acompanhamento) e a gestão, o relatório anual das ações de
+desenvolvimento de pessoas do Campus.
+XXIV. Receber as demandas para contratação de estagiários, realizar processos
+seletivos, inclusão na folha de pagamento, controle das avaliações
+semestrais, prazos de renovação, e rescisões.
+Seção II
+Da Direção de Administração
+Art. 21° A Direção de Administração do Campus Erechim é dirigida por um(a)
+Diretor(a) nomeado(a) pelo(a) Diretor(a)-Geral.
+Parágrafo único. As competências da Direção de Administração estão previstas no
+Regimento Geral dos Campi do IFRS.
+Art. 22° A Direção de Administração é composta por:
+I. Setor de Compras e Licitações;
+II. Coordenação de Execução Financeira e Orçamentária;
+III. Setor de Contabilidade;
+IV. Setor de Gestão e Fiscalização de Contratos;
+V. Coordenação de Infraestrutura;
+VI. Setor de Almoxarifado;
+VII. Setor de Patrimônio.
+Do Setor de Compras e Licitações
+Art. 23º À Coordenação de Compras e Licitações, subordinada à Direção de
+Administração e Planejamento, compete:
+I. Executar as atividades referentes ao processo de aquisição de bens e
+contratação de serviços/obras;
+II. Operacionalizar os processos licitatórios, de acordo com a legislação
+vigente;
+III. Proceder ao lançamento dos processos licitatórios nos Sistemas Federais de
+Administração;IV. Realizar os registros no sistema, acerca das IRPs (Intenção de Registro de
+Preços) e adesões (Carona);
+V. Assessorar as diversas áreas demandantes do Campus e fornecedores, em
+relação à aquisição de bens e contratações de serviços e obras;
+VI. Desempenhar outras atividades afins ou previstas na legislação vigente e/ou
+atribuídas pelo superior hierárquico.
+Da Coordenação de Execução Orçamentária e Financeira
+Art. 24º À Coordenação de Execução Orçamentária e Financeira, subordinada à
+Direção de Administração , compete:
+I. Efetuar as atividades referentes aos três estágios da execução de despesas:
+empenho, liquidação e pagamento;
+II. Analisar documentos, verificando os limites orçamentários disponíveis para
+empenho e pagamento, bem como os lançamentos junto aos Sistemas
+Federais de Administração Financeira conforme legislação e fluxos
+administrativos vigentes;
+III. Fazer a programação financeira e apropriações das notas fiscais para
+pagamento;
+IV. Executar as ações relativas a empenhos, considerando a legislação e fluxos
+administrativos vigente;
+V. Receber o documento fiscal de compra e/ou serviços, e os relatórios dos
+fiscais de contrato e, após, proceder à liquidação da despesa, realizando os
+cálculos necessários para desconto;
+VI. Consultar a situação fiscal dos fornecedores, através dos sistemas vigentes;
+VII. Analisar a situação fiscal dos fornecedores para posterior pagamento;
+VIII. Executar os procedimentos para pagamento e recolhimento de tributos,
+contribuições e encargos;
+IX. Efetuar o pagamento de despesas com diárias e passagens;
+X. Elaborar planilhas de controle e relatórios diversos;
+XI. Desempenhar outras atividades afins ou previstas na legislação vigente e/ou
+atribuídas pelo superior hierárquico;
+XII. Analisar, antes do encerramento do exercício, os empenhos em condições
+de serem inscritos em restos a pagar, procedendo ao cancelamento
+daqueles que estão em desacordo com a legislação vigente.
+Do Setor de Contabilidade
+Art. 25º Ao Setor de Contabilidade, subordinado à Direção de Administração,
+compete:
+I. Acompanhar e executar, no que lhe couber, a escrituração através dos
+lançamentos dos atos e fatos contábeis, inclusive os decorrentes da
+execução orçamentária;;
+II. Analisar e emitir relatórios e informações, balancetes e balanços
+relacionados aos registros contábeis lançados nos sistemas federais de
+administração;
+III. Prestar apoio técnico contábil às áreas de planejamento na elaboração de
+propostas e reformulações do orçamento;IV. Manter atualizado o rol de responsáveis e as informações a respeito dos
+ativos imobilizados, nos sistemas governamentais;
+V. Efetuar as conciliações de contas e instruir as regularizações
+VI. Registrar, mensalmente, a conformidade contábil dos atos e fatos da gestão
+orçamentária, financeira e patrimonial do Campus;
+VII. Orientar quanto a correta classificação contábil de receitas e despesas
+públicas;
+VIII. Instruir a escrituração de atos e fatos contábeis do Campus, zelando pelo
+cumprimento das Normas Brasileiras de Contabilidade Aplicadas ao Setor
+Público;
+IX. Assessorar quanto a aplicação da Legislação Contábil, Comercial e
+Tributária;
+X. Enviar declarações obrigatórias quanto ao aspecto contábil da Pessoa
+Jurídica, aos Órgãos competentes, no que lhe couber;
+XI. Desempenhar outras atividades afins ou previstas na legislação vigente e/ou
+atribuídas pelo superior hierárquico.
+Da Coordenação de Gestão e Fiscalização de Contratos
+Art. 26º À Coordenação de Gestão e Fiscalização de Contratos, subordinada à
+Direção de Administração e Planejamento, compete:
+I. Formalizar os procedimentos quanto aos aspectos que envolvam a
+contratação, prorrogação, alteração, reequilíbrio econômico-financeiro,
+eventual aplicação de sanções, extinção dos contratos, controle dos prazos
+de vigência, dentre outros;
+II. Realizar pesquisas mercadológicas para verificar a vantajosidade e
+economicidade dos preços vigentes;
+III. Prestar apoio técnico à equipe de fiscalização;
+IV. Administrar, junto à instituição bancária, conta depósito vinculada, aberta
+pela Administração em nome da contratada, referente a contratação de
+serviços com dedicação exclusiva de mão de obra;
+V. Abrir o processo de "empenho e pagamento", inserindo os documentos
+pertinentes e tramitar no SIPAC para a equipe de fiscalização
+VI. Incluir os termos aditivos e apostilamentos no processo de "empenho e
+pagamento"
+VII. Instaurar processos administrativos de penalização;
+VIII. Informar ao Setor Financeiro os dados necessários para que o mesmo possa
+realizar o registro e gerenciamento da conta de controle de contratos no
+SIAFI.
+Da Coordenação de Infraestrutura
+Art. 27º À Coordenação de Infraestrutura, subordinada à Direção de
+Administração, compete:
+I. Zelar, acompanhar e executar atividades relativas à infraestrutura e
+transportes;
+II. Receber das Direções, Coordenações e setores as solicitações e
+encaminhar para manutenção os equipamentos e mobiliários,acompanhando posteriormente a devolução do bem no respectivo setor;
+III. Gerenciar o uso, abastecimento, manutenção e guarda dos veículos
+institucionais do campus;
+IV. Registrar as manutenções e as despesas mensais de cada veículo,
+relacionando as peças, quilometragem e consumo de combustíveis e
+lubrificantes;
+V. Monitorar a ocorrência de infrações e sinistros dos veículos, identificando o
+responsável e comunicando a instância superior;
+VI. Supervisionar a execução dos serviços de manutenção e conservação dos
+bens imóveis.
+VII. Auxiliar no planejamento e na operacionalização dos serviços terceirizados,
+colaborando com a fiscalização e informando ocorrências quando existirem;
+VIII. Coordenar, supervisionar e fiscalizar as atividades dos setores de
+Almoxarifado e Patrimônio.
+Do Setor de Almoxarifado
+Art. 28º Ao setor de Almoxarifado, subordinado à Coordenação de Infraestrutura,
+compete:
+I. Registrar a entrada e saída de materiais nos sistemas administrativos
+vigentes;
+II. Comunicar ao Diretor de Administração e Planejamento as ocorrências
+extraordinárias com os materiais;
+III. Orientar os diversos departamentos e Coordenações da unidade no
+preenchimento dos formulários de previsão anual de materiais de consumo;
+IV. Executar o armazenamento, devidamente codificado e classificado, do
+material de consumo;
+V. Atender as requisições de materiais de consumo, controlando os estoques;
+VI. Aquisição de materiais através do almoxarifado virtual.
+VII. Levantar as necessidades de aquisição de material de consumo para fins de
+reposição de
+VIII. Acompanhar a elaboração do inventário anual de materiais do Campus;
+IX. Proceder o recebimento e a conferência, junto ao requerente, e receber
+novos materiais de consumo;
+X. Elaborar o relatório mensal da movimentação do almoxarifado (RMA) e
+encaminhar à Contabilidade do Campus;
+Do Setor de Patrimônio
+Art. 29º Ao setor de Patrimônio, subordinado à Coordenação de Infraestrutura,
+compete:
+I. Executar, avaliar e registrar as atividades relacionadas ao controle dos
+materiais e movimentação dos bens patrimoniais;
+II. Manter cadastro, identificação e termos de responsabilidade atualizados dos
+bens patrimoniais, bem como o inventário anual da unidade;
+III. Realizar vistorias periódicas dos bens patrimoniais com vistas à manutenção
+interna, externa e corretiva;IV. Comunicar ao Diretor de Administração as ocorrências extraordinárias com o
+patrimônio;
+V. Orientar os diversos departamentos e Coordenações da unidade no
+preenchimento dos formulários de previsão anual de materiais permanentes;
+VI. Instruir os processos de doação, alienação e baixa de material permanente;
+VII. Proceder o recebimento e a conferência, junto ao requerente, e receber
+novos materiais permanentes;
+VIII. Acompanhar o encaminhamento referente à manutenção externa de material
+permanente;
+IX. Realizar inventários periódicos para registro e controle dos bens patrimoniais
+da instituição, incluindo a identificação, descrição e localização de cada item.
+X. Elaborar o relatório mensal da movimentação de bens (RMB) e encaminhar
+à Contabilidade do Campus;
+XI. Promover a distribuição dos bens permanentes, após seu tombamento, de
+acordo com as solicitações proferidas;
+XII. Acompanhar o levantamento de inventário anual de bens móveis e materiais;
+Seção III
+Da Coordenação de Desenvolvimento Institucional
+Art. 30º Compete à Coordenação de Desenvolvimento Institucional, além das
+competências previstas no Regimento dos Campi do IFRS, na legislação
+vigente e do estabelecido em Estatuto, Regimentos e Regulamentos do IFRS,
+as seguintes atribuições:
+I. Obter e sistematizar dados a fim de gerar indicadores que, de acordo com
+normativas do MEC, resultam em um diagnóstico do Campus e da
+Instituição;
+II. Analisar e propor estratégias para o atendimento das demandas de oferta
+de cursos e vagas, de acordo com os indicadores existentes;
+III. Coordenar a construção e acompanhar o cumprimento e execução do
+Plano de Ação junto aos demais órgãos executivos, do Regimento
+Complementar e do Plano Diretor de Tecnologia da Informação do
+Campus Erechim;
+IV. Propor e/ou apoiar o desenvolvimento de ações de desenvolvimento
+institucional no âmbito do Campus Erechim;
+V. Desempenhar as demais atribuições inerentes a essa área de gestão não
+especificadas neste Regimento.
+Do Setor de Tecnologia da Informação
+Art. 31º Ao Setor de Tecnologia da Informação, subordinado à Coordenação de
+Desenvolvimento Institucional, compete:
+I. Efetuar planejamento com metas e objetivos de melhorias dos serviços de
+redes e sistemas de informação;
+II. Atuar junto da direção e das Coordenações na tomada de decisões
+estratégicas que interfiram ou necessitem recursos de Tecnologia da
+Informação;III. Executar, assessorar e supervisionar projetos em infraestrutura de rede a
+serem executados na instituição;
+IV. Promover adaptação dos equipamentos e sistemas de informação a fim de
+fornecer acessibilidade aos portadores de necessidades especiais.
+V. Auxiliar na especificação e orçamento dos materiais e ativos de rede
+observando as tendências tecnológicas e a relação custo-benefício;
+VI. Propor medidas apropriadas de segurança em relação aos recursos da rede
+e informações sob sua responsabilidade;
+VII. Desenvolver, implantar e atualizar sistemas de informação que estiverem
+alinhados com os objetivos e interesses do IFRS;
+VIII. Promover a utilização de Software Livre na Instituição;
+IX. Propor e monitorar políticas de segurança contra o uso de material ou
+programa que fira as leis de direitos autorais e propriedade intelectual;
+X. Identificar necessidades e oferecer soluções da Tecnologia da Informação,
+visando à otimização e à segurança dos processos da instituição;
+XI. Realizar o atendimento de suporte aos servidores do Campus em dúvidas
+existentes em seus trabalhos relacionados Setor de Tecnologia da
+Informação;
+XII. Promover a manutenção preventiva e corretiva dos serviços de rede e
+equipamentos do campus;
+XIII. XX. Realizar e manter cópias de segurança dos dados nos sistemas
+controlados pelo campus.
+XIV. Manter os servidores (equipamentos) do Campus em funcionamento;
+XV. CRUD de máquinas virtuais;
+XVI. Monitorar o link de internet;
+XVII. Efetuar o credenciamento e descredenciamento de usuários da rede do
+Campus;
+XVIII. Prestar apoio técnico em eventos institucionais.
+Seção IV
+Da Direção de Ensino
+Art. 32º As atividades de Direção de Ensino serão exercidas por um servidor efetivo
+do quadro de pessoal do IFRS, designado(a) pelo(a) Diretor(a)-geral do campus.
+Parágrafo único. As competências da Direção de Ensino estão previstas no
+Regimento Geral dos Campi do IFRS.
+Art. 33º A Direção de Ensino é composta por:
+I. Coordenação de Ensino;
+II. Setor Pedagógico;
+III. Coordenações de cursos;
+IV. Coordenação de Registros Acadêmicos;
+V. Coordenação de Assistência Estudantil;
+VI. Biblioteca;
+VII. Laboratórios
+VIII. Núcleo de Educação à Distância.Da Coordenação de Ensino
+Art. 34º À Coordenação de Ensino, subordinada à Direção de Ensino, compete:
+I. Organizar e divulgar informações referentes às atividades de ensino, em
+todos os níveis;
+II. Coordenar, acompanhar e avaliar o desenvolvimento do processo de ensino
+e de aprendizagem, bem como operacionalizar a política de
+desenvolvimento da área de ensino;
+III. Acompanhar a elaboração e atualização dos Projetos Pedagógicos dos
+Cursos, juntamente com o Coordenador de Curso;
+IV. Acompanhar a execução de projetos de ensino;
+V. Participar da elaboração dos horários dos cursos regulares ofertados no
+Campus juntamente com os Coordenadores de Curso;
+VI. Acompanhar o preenchimento e arquivamento dos diários de classe dos
+componentes curriculares, auxiliando os setores responsáveis;
+VII. Promover, apoiar e/ou desenvolver programas de incentivo à formação
+discente ou de iniciativas extracurriculares, juntamente com a Direção de
+Ensino;
+VIII. Acompanhar os Editais vinculados ao Ensino, juntamente à Direção de
+Ensino;
+IX. Acompanhar, em conjunto com a Direção de Ensino, o planejamento, o
+desenvolvimento e a execução das políticas, projetos, ações de ensino e
+inovação em todos os níveis e modalidades aprovadas pelo Conselho do
+Campus em consonância com as diretrizes do IFRS;
+X. Promover, juntamente com a Direção de Ensino, ações que garantam a
+articulação entre o ensino, a pesquisa e a extensão;
+XI. Planejar e acompanhar o desenvolvimento de ações de permanência e êxito
+dos estudantes de todos os cursos ofertados no Campus em conjunto com
+os coordenadores de curso e equipe pedagógica;
+XII. Promover, em conjunto com outros setores envolvidos, a análise dos
+resultados da ação pedagógica visando à construção coletiva de alternativas
+para o seu aperfeiçoamento, levando em consideração o Plano de
+Permanência e Êxito do campus e a promoção do desenvolvimento integral
+do educando;
+XIII. Analisar, em conjunto com as coordenações de curso e seus colegiados, os
+resultados das diferentes avaliações institucionais, detectando fragilidades e
+potencialidades, de modo a propor ações pedagógicas alinhadas aos
+princípios institucionais;
+XIV. Atuar, junto às Coordenações de Curso e Direção de Ensino, na proposição
+de atividades de formação continuada destinadas aos servidores da
+instituição.
+Do Setor Pedagógico
+Art. 35º Ao Setor Pedagógico, subordinado à Direção de Ensino, compete:
+I. Contribuir com a comunicação dos assuntos referentes ao Setor de forma
+eficiente e integrada com os demais setores do Campus;
+II. Contribuir para a efetivação do projeto pedagógico institucional;
+III. Colaborar para o conhecimento e aplicação da legislação voltada para oensino e das normas e políticas institucionais;
+IV. Qualificar os processos de ensino e de aprendizagem, atuando, de forma
+integrada, no acompanhamento, assessoria e mediação do trabalho
+pedagógico, evidenciando postura interdisciplinar e favorecendo a formação
+integral dos estudantes;
+V. Fomentar a reflexão sobre a prática pedagógica, com vistas a promover e
+consolidar ações voltadas às necessidades educativas dos estudantes.
+VI. Atuar, de forma colaborativa, na organização e acompanhamento do
+trabalho pedagógico no campus.
+VII. Assessorar as coordenações de curso e a Direção de Ensino em relação à
+legislação e normativas educacionais vigentes no país e no âmbito do IFRS.
+VIII. Contribuir na elaboração de documentos normativos relacionados ao ensino
+no Campus.
+IX. Participar, juntamente às coordenações de curso e Direção de Ensino, da
+elaboração, revisão, execução e avaliação dos Projetos Pedagógicos de
+Curso e documentos afins aos Projetos.
+X. Acolher e encaminhar as demandas cotidianas dos docentes, de todos os
+níveis de ensino, nas questões didático-pedagógicas.
+XI. Orientar a elaboração dos Planos de Ensino, juntamente com as
+coordenações de curso;
+XII. Desenvolver atividades de orientação pedagógica aos docentes,
+estimulando o intercâmbio de experiências didático-pedagógicas e o trabalho
+pedagógico integrado;
+XIII. Acompanhar a elaboração e o andamento das adaptações curriculares dos
+estudantes com necessidades educacionais específicas, juntamente com a
+Coordenação de Assistência Estudantil, as Coordenações de Curso e os
+Núcleos de Ações Afirmativas ou Napne;
+XIV. Participar da etapa de avaliação didática dos processos de seleção de
+professores substitutos e efetivos;
+XV. Atuar na acolhida de novos(as) docentes (efetivos/substitutos), a fim de
+contribuir na sua inserção profissional no campus e na organização
+pedagógica do seu trabalho docente;
+XVI. Assessorar a Direção de Ensino na elaboração das propostas de Calendário
+Acadêmico e, posteriormente, acompanhar e orientar a implementação da
+versão aprovada pelo Conselho de Campus;
+XVII. Assessorar, pedagogicamente, a Direção de Ensino e as coordenações de
+curso no planejamento e na elaboração dos horários das aulas dos cursos
+técnicos e superiores ofertados no campus, acompanhando a sua
+implementação e posteriores atualizações.
+Das Coordenações de Cursos
+Art. 36º As Coordenações de Cursos, subordinadas à Direção de Ensino, são
+órgãos responsáveis pela gestão didático-pedagógica do curso, exercida por
+docentes efetivos do Campus Erechim.
+Parágrafo único. As atribuições são estabelecidas por meio de Resolução do
+Conselho Superior do IFRS.Da Coordenação de Registros Acadêmicos
+Art. 37º À Coordenação de Registros Acadêmicos, subordinada à Direção de
+Ensino, compete:
+I. Auxiliar no processo de ingresso;
+II. Analisar a documentação dos estudantes ingressantes em conjunto com a
+COPPID.
+III. Efetivar matrículas e rematrículas, em todas as suas etapas, de alunos dos
+níveis técnico e de graduação, através do sistema acadêmico;
+IV. Efetuar o cadastro de alunos, professores, cursos e disciplinas no Sistema
+Acadêmico;
+V. Efetuar o controle de situação de matrícula, acompanhando o itinerário
+acadêmico do estudante, dando suporte às Coordenações de Cursos;
+VI. Manter atualizado o Sistema Acadêmico, garantindo a segurança e
+integridade dos registros e a preservação dos documentos;
+VII. Manter organizado arquivo passivo com a documentação referente à vida
+acadêmica dos estudantes com matrícula inativa, seja cancelada ou de
+egresso;
+VIII. Organizar e manter atualizada a pasta individual do estudante com todos os
+seus documentos que foram entregues à Instituição;
+IX. Emitir documentação referente à vida acadêmica do estudante;
+X. Elaborar e expedir certificados e diplomas, encaminhando para registro na
+Reitoria, quando necessário;
+XI. Elaborar e expedir Certificação do Enem/Encceja;
+XII. Receber e analisar documentação e requerimentos de formatura;
+XIII. Encaminhar a relação de formandos habilitados para os demais membros da
+Comissão Permanente de Formatura do Campus;
+XIV. Secretariar as solenidades de formatura e os atos de colação de grau;
+XV. Prestar informações aos demais setores e aos órgãos do governo quanto a
+dados de responsabilidade do Registro Escolar;
+XVI. Orientar os discentes quanto ao uso do Sistema Acadêmico;
+XVII. Auxiliar na elaboração do Calendário Letivo (matrículas, rematrículas,
+processos discentes);
+XVIII. Atuar na elaboração dos Editais pertinentes a processos discentes, realizar
+sua divulgação e acompanhar os processos (transferência, ingresso de
+diplomado, aproveitamento de estudos, certificação de conhecimentos e
+atividades curriculares complementares);
+XIX. Orientar os discentes quanto a prazos e documentos necessários para
+abertura de processos de competência do Setor de Registros;
+XX. Informar à Coordenação de Curso as alterações de situação de matrícula;
+XXI. Organizar e disponibilizar dados sobre matrícula e movimentação de alunos;
+XXII. Zelar pelo sigilo das informações da sua competência.
+XXIII. Orientar os docentes, em conjunto com os coordenadores de curso, quanto
+à consolidação dos diários de classe ao final de cada período letivo.
+Da Coordenação de Assistência Estudantil
+Art. 38º À Coordenação de Assistência Estudantil, é subordinada à Direção deEnsino, e possui em seu âmbito a função de planejar, executar e acompanhar a
+Política de Assistência Estudantil, trabalhando de forma integrada às demais
+coordenações e setores do seu campus, e à Comissão de Assistência Estudantil.
+Art. 39º Compete a Coordenação de Assistência Estudantil:
+I. Planejar, implementar e avaliar as ações de Assistência Estudantil;
+II. apoiar a Assessoria de Assistência Estudantil, a Direção Geral e a Direção
+de Ensino no que se refere às atribuições de sua área de atuação;
+III. Participar do Grupo de Trabalho Permanente em Assistência Estudantil do
+IFRS;
+IV. Integrar a Comissão de Assistência Estudantil;
+V. Implementar políticas relativas à Assistência Estudantil em consonância com
+a Política de Assistência Estudantil do IFRS;
+VI. Desenvolver iniciativas que visem à articulação entre educação e demais
+políticas públicas ou organizações do terceiro setor, buscando parcerias e
+facilitando o acesso da comunidade escolar aos seus direitos;
+VII. Contribuir para viabilizar a igualdade de oportunidades, contribuindo para a
+melhoria do desempenho acadêmico e agindo, preventivamente, nas
+situações de retenção e evasão escolar;
+VIII. Promover ações sociais, pedagógicas e de saúde que contribuam para
+permanência discente e para melhoria de sua qualidade de vida;
+IX. Pesquisar e difundir os dados sobre o Diagnóstico Sociodemográfico, com a
+finalidade de estabelecer estratégias para minimizar a evasão e a retenção
+dos estudantes;
+X. Manter atualizadas as informações referentes ao Diagnóstico
+Sociodemográfico dos estudantes;
+XI. Atuar no acompanhamento e na avaliação de programas, projetos e ações
+que envolvam a atenção educacional, social e de saúde dos estudantes;
+XII. Elaborar relatórios semestrais referentes aos programas, projetos e ações da
+Assistência Estudantil em execução e apresentá-los à Direção-Geral,
+Direção de Ensino e Assessoria de Assistência Estudantil do IFRS;
+XIII. Publicar editais de circulação interna para concessão de benefícios sociais e
+efetuar processos de inscrição, seleção e acompanhamento dos
+beneficiários;
+XIV. Deliberar, em conjunto com a Direção-geral e Direção de Ensino, sobre os
+critérios de utilização dos recursos destinados à Assistência Estudantil;
+XV. Executar outras funções que, por sua natureza, lhe estejam afetas ou lhe
+tenham sido atribuídas.
+XVI. Promover e colaborar com ações para o inter-relacionamento dos
+integrantes da comunidade do Campus, atuando como agentes da política
+social, cultural e comunitária;
+XVII. Estimular a organização das representações discentes e entidades
+estudantis;
+XVIII. Dialogar com a Comissão de Assistência Estudantil e com as entidades
+estudantis sobre questões relacionadas aos programas, projetos e ações de
+apoio aos estudantes;
+XIX. Acompanhar a vida escolar dos estudantes e, se necessário, propor e
+participar de ações que contribuam para o acesso e a permanência dos
+estudantes no IFRS;
+XX. Trabalhar em parceria com o corpo docente e técnico-administrativo para aconstituição de uma visão mais fundamentada da vida dos estudantes como
+um fator que interfere na dinâmica do processo educacional.
+XXI. Orientar os responsáveis pelos estudantes, no que diz respeito às questões
+relacionadas ao processo de ensino e aprendizagem, especialmente quando
+forem identificadas dificuldades nesse processo.
+XXII. Mediar, em conjunto com a Direção de Ensino e outros setores, nas relações
+entre professor - aluno, aluno-aluno, família/responsáveis e instituição, por
+meio de encontros individuais e coletivos.
+XXIII. Colaborar na construção da proposta de acolhida e recepção aos
+estudantes, no início do ano e/ou do semestre letivo.
+XXIV. Auxiliar os estudantes na gestão do tempo, organização de sua rotina de
+estudos.
+Da Biblioteca
+Art. 40º À Biblioteca, subordinada à Direção de Ensino, compete:
+I. Proporcionar à comunidade acadêmica o acesso organizado à informação
+registrada em seus diversos suportes e mídias que atendam às ações e
+atividades de ensino, pesquisa e extensão do campus;
+II. Auxiliar no processo de seleção e aquisição dos materiais informacionais,
+bem como mobiliário, sistemas e equipamentos para o setor;
+III. Zelar pelo patrimônio da Biblioteca, orientando os usuários quanto à
+utilização correta dos bens da Biblioteca;
+IV. Prover o acesso à produção técnico-científica produzida pela comunidade
+institucional, de acordo com as normas preestabelecidas;
+V. Apoiar aos usuários no uso e exploração dos recursos de informação
+impressos, eletrônicos ou virtuais, proporcionando meios de facilitar suas
+buscas e ajudar a construir sua autonomia na pesquisa;
+VI. Criar e manter canais informacionais de integração entre a biblioteca e
+comunidade acadêmica;
+VII. Efetuar o processamento técnico dos recursos informacionais, desde sua
+catalogação, classificação, e preparo para disponibilização no acervo;
+VIII. Coordenar os serviços de circulação dos livros, desde empréstimos,
+renovações, devoluções, e reservas;
+IX. Promover ações que explicitem à comunidade escolar o valor e a
+importância da Biblioteca para o campus, importância da Biblioteca para o
+Campus, como também o respeito pelo acervo como e pelo registro do
+conhecimento desenvolvido pela humanidade;
+X. Promover e/ou apoiar ações culturais, atividades de fomento à leitura e
+atividades aos usuários.
+Dos Laboratórios
+Art. 41º A Direção de Ensino é responsável pela gestão dos laboratórios de ensino
+do campus, que compreendem as áreas de Alimentos, Mecânica e Moda, e outras
+que possam ser criadas conforme a necessidade de atendimento aos cursos. Os
+laboratórios terão seu funcionamento regulamentado por regimento próprio,
+aprovado pelo Conselho de Campus.Parágrafo único - Todas as áreas devem, preferencialmente, contar com, no mínimo,
+um técnico de laboratório devidamente qualificado, conforme previsto no Projeto
+Pedagógico do Curso (PPC), com o objetivo de garantir o adequado funcionamento
+dos equipamentos, a segurança das operações e a qualidade dos resultados
+obtidos, conforme as normas técnicas e regulamentações vigentes.
+Art. 42º Os Laboratórios de Informática são vinculados ao Setor de Tecnologia da
+Informação, subordinado à Coordenação de Desenvolvimento Institucional do
+Campus, no entanto deverão cumprir as demandas didático-pedagógicas da Direção
+de Ensino, e terão o seu funcionamento regido por regulamentação própria,
+aprovado pelo Conselho de Campus.
+Do Núcleo de Educação a Distância (NEaD)
+Art. 43º O Núcleo de Educação a Distância (NEaD) é um órgão de apoio às
+atividades de ensino, pesquisa e extensão em Educação a Distância (EaD),
+vinculado à Direção de Ensino do Campus Erechim.
+Parágrafo único. A composição e organização do NEaD é regulamentada por
+instrução normativa específica, emitida pela Pró-Reitoria de Ensino, e por regimento
+próprio, aprovado pelo Conselho de Campus.
+Do Núcleo de Atendimento à Pessoas com Necessidades Específicas
+(NAPNE)
+Art. 73º O Núcleo de Atendimento às Pessoas com Necessidades Específicas
+(NAPNE) – é um órgão de natureza consultiva e executiva, de composição
+multidisciplinar, que media a educação inclusiva na instituição. O NAPNE é
+facilitador e disseminador de ações inclusivas, buscando não apenas a inclusão de
+alunos com necessidades educacionais específicas nos bancos escolares, mas,
+também, sua permanência e saída exitosa para o mundo do trabalho, atuando no
+ensino, na pesquisa e na extensão.
+Art. 74º O NAPNE está vinculado à Direção de Ensino, e poderá ser composto por
+servidores do campus, discentes e seus familiares, estagiários e representantes da
+comunidade externa, sob a coordenação de um servidor efetivo, designado pela
+Direção-Geral.
+Art. 75º Compete ao NAPNE:
+I. Incentivar, mediar e facilitar os processos de inclusão educacional e
+profissionalizante de pessoas com necessidades educacionais específicas
+na instituição;
+II. Contemplar e implementar as Políticas Nacionais de Educação Inclusiva;
+III. Incentivar, participar e colaborar no desenvolvimento de parcerias com
+instituições que atuem com interesse na educação/atuação/inclusão
+profissional para pessoas com necessidades educacionais específicas;
+IV. Participar do Ensino, Pesquisa e Extensão nas questões relacionadas àinclusão de pessoas com necessidades específicas nos âmbitos estudantil e
+social;
+V. Promover a divulgação de informações e resultados de estudos sobre a
+temática, no âmbito interno e externo dos campi, articulando ações de
+inclusão em consonância com a Rede Federal de Educação Profissional,
+Científica e Tecnológica;
+VI. Promover a cultura da educação para a convivência, aceitação e respeito à
+diversidade;
+VII. Integrar os diversos segmentos que compõem a comunidade, propiciando
+sentimento de co-responsabilidade na construção da ação educativa de
+inclusão na Instituição;
+VIII. Garantir a prática democrática e a inclusão como diretriz do campus;
+IX. Buscar a quebra de barreiras arquitetônicas, educacionais, comunicacionais
+e atitudinais na Instituição;
+X. Promover capacitações relacionadas à inclusão de pessoas com
+necessidades educacionais específicas.
+Art. 76º Outras especificidades estão definidas no Regulamento dos Núcleos de
+Atendimento às Pessoas com Necessidades Educacionais Específicas (Napnes) do
+IFRS;
+Seção V
+Da Coordenação de Extensão
+Art. 44º Compete à Coordenação de Extensão, além das competências
+previstas no Regimento dos Campi do IFRS, na legislação vigente e do
+estabelecido em Estatuto, Regimentos e Regulamentos do IFRS, as seguintes
+atribuições:
+I. Promover e expandir as ações de extensão, com estreita relação entre
+ensino e pesquisa, através do desenvolvimento de ações de relevância
+social, cultural e de base solidária.
+II. Viabilizar mecanismos de acesso da sociedade às atividades
+desenvolvidas pela Instituição.
+III. Fomentar a participação dos servidores da Instituição em Editais de forma
+a viabilizar recursos para o apoio às ações de extensão.
+IV. Apoiar o desenvolvimento de ações de integração entre a Instituição e o
+mundo do trabalho e empreendedorismo.
+V. Apoiar o desenvolvimento de ações inclusivas vinculadas ao Núcleo de
+Arte e Cultura (NAC); Núcleo de Estudos em Agroecologia, Segurança
+Alimentar e Nutricional e Educação Ambiental (NEA); Núcleo de Estudos
+e Pesquisas em Gênero e Sexualidades (NEPGS); Núcleo de Memória
+(NuMem); Núcleo de Estudos Afro-Brasileiros e Indígenas (NEABI);
+VI. Organizar, divulgar e estimular a participação dos extensionistas e
+bolsistas no evento anual que congrega as ações de ensino, pesquisa e
+extensão do Campus Erechim, em conjunto com as respectivas
+Coordenações do Campus Erechim, bem como outros setores envolvidos.
+VII. Desempenhar as demais atribuições inerentes a essa área de gestão não
+especificadas neste Regimento.Do Núcleo de Estudos Afro-Brasileiros e Indígenas (NEABI)
+Art. 77º O Núcleo de Estudos Afro-Brasileiros e Indígenas – NEABI – é um setor
+propositivo e consultivo que estimula e promove ações de Ensino, Pesquisa e
+Extensão orientadas à temática das identidades e relações étnico- raciais,
+especialmente quanto às populações afrodescendentes e indígenas, no âmbito do
+IFRS Campus Erechim e em suas relações com a comunidade externa.
+Art. 78º São algumas competências dos NEABIs:
+I. Promover encontros de reflexão e capacitação de servidores para o
+conhecimento e valorização da história dos povos africanos, da cultura afrobrasileira e da cultura indígena, na constituição histórica e cultural do país;
+II. Promover a realização de atividades de Ensino, Pesquisa e Extensão,
+relacionadas à temática;
+III. Propor ações que levem a conhecer o perfil da comunidade interna e externa
+dos campi nos aspectos étnico-raciais;
+IV. Auxiliar na implementação das leis que estabelecem a cultura afro- brasileira
+e indígena como pontos de estudo e atividades no currículo escolar;
+V. Buscar a implementação de projetos de valorização e reconhecimento dos
+sujeitos negros e indígenas no contexto do Campus;
+VI. Possibilitar o desenvolvimento de conteúdos curriculares, extracurriculares e
+pesquisas com abordagem multi e interdisciplinares sobre a temática de
+forma contínua;
+VII. Colaborar em ações que levem ao aumento do acervo bibliográfico
+relacionado a educação plurimétrica no Campus;
+VIII. Organizar espaços de conhecimento, reconhecimento e interação com
+grupos étnico-raciais;
+IX. Revisar documentos do Campus, sempre buscando a inserção e atualização
+dos mesmos no que compete às questões étnico-raciais;
+X. Propor e participar de eventos e atividades de outras instituições, como
+também de movimentos sociais, que envolvam questões relacionadas à
+cultura afro-brasileira e indígena.
+XI. Acompanhar registros acadêmicos, dados institucionais que possam auxiliar
+no acompanhamento do ingresso e permanência de sujeitos negros e
+indígenas no Campus Erechim.
+Art. 79º O NEABI está vinculado à Coordenação de Extensão, faz parte do grupo
+de Núcleos de Ações Afirmativas do Campus, com coordenação eleita pelos
+membros do núcleo, a qual será assegurada dedicação mínima de 8hs semanais
+ao planejamento e execução das propostas e atividades, e de 4hs para o secretário
+ou vice-coordenador.
+Art. 80º Outras especificidades poderão ser definidas em regimento específico do
+NEABI.
+Do Núcleo de Estudos e Pesquisas em Gênero e Sexualidades (NEPGS)Art. 81º O Núcleo de Estudos e Pesquisas em Gênero e Sexualidades – NEPGS –
+é um setor propositivo e consultivo que estimula e promove ações de Ensino,
+Pesquisa e Extensão orientadas à temática da educação para a diversidade de
+gênero e sexualidades.
+Art. 82º - São algumas competências dos NEPGS:
+I. Propor políticas, Programas, Ações e/ou Atividades que envolvam as
+temáticas relacionadas a Corpo, Gênero, Sexualidade e Diversidade nos
+Campus;
+II. Assessorar e prestar consultoria à Coordenação de Assistência Estudantil do
+Campus, em situações ou casos que envolvam essas temáticas; Estudar e
+produzir conhecimento científico sobre as temáticas do Núcleo a fim de
+contribuir para este campo de conhecimento e para os currículos dos cursos
+ofertados;
+III. Auxiliar na elaboração das normativas do Campus relacionadas à temática;
+IV. Articular os diversos setores da instituição nas atividades relativas às
+temáticas de atuação dos NEPGSs, definindo prioridades de ações,
+aquisição de equipamentos, materiais didático-pedagógicos a serem
+utilizados nas práticas educativas e ações de ensino, pesquisa e extensão;
+V. Participar das políticas de ensino, pesquisa, extensão e gestão para compor
+o planejamento da instituição no que se refere ao atendimento,
+aconselhamento e acompanhamento de pessoas que em função de gênero
+e/ou sexualidade que se encontram em vulnerabilidade social, cultural e/ou
+educacional;
+VI. Discutir a importância dos movimentos sociais na luta contra as
+desigualdades sociais, com ênfase nas desigualdades de gênero;
+VII. Conhecer e debater junto à comunidade escolar e local sobre as leis que
+tratam da união civil de pessoas de mesmo sexo, cirurgias de redesignação
+sexual e alterações no nome de travestis, transexuais e transgêneros;
+VIII. Fomentar discussões sobre Doenças Sexualmente Transmissíveis, sintomas
+e tratamentos, em parceria com Secretarias Municipais de Saúde e órgãos
+afins;
+IX. Opinar sobre questões pertinentes que lhe forem encaminhadas, e que
+envolvam a temática de estudo e pesquisa do núcleo.
+Art. 83º O NEPGS está vinculado à Coordenação de Extensão, faz parte do grupo
+de Núcleos de Ações Afirmativas do Campus, com coordenação eleita pelos
+membros do núcleo, a qual será assegurada dedicação mínima de 8hs semanais
+ao planejamento e execução das propostas e atividades, e de 4hs para o secretário
+ou vice-coordenador.
+Art. 84º Outras especificidades poderão ser definidas em regimento específico do
+NEPGS.
+Do Núcleo de Arte e Cultura (NAC)
+Art. 85º O Núcleo de Arte e Cultura – NAC – do IFRS Campus Erechim
+caracteriza-se como uma instância organizacional responsável por planejar,
+desenvolver, acompanhar e qualificar as propostas da Política de Arte e Cultura,conforme seus princípios e eixos de atuação.
+Art. 86º O Núcleo de Arte e Cultura está vinculado à Coordenação de Extensão e é
+constituído por servidores, estudantes e comunidade externa do campus, visando
+discutir possibilidades para desenvolver meios, instrumentos e estratégias de
+acompanhamento e avaliação das ações planejadas para o desenvolvimento e
+manutenção da Política de Arte e Cultura local e institucional.
+Do Núcleo de Estudos em Agroecologia, Segurança Alimentar e Nutricional e
+Educação Ambiental (NEA)
+Art. 88º O Núcleo de Agroecologia, Segurança Alimentar e Nutricional Sustentável
+e Educação Ambiental é um órgão colegiado propositivo e consultivo para o
+desenvolvimento de ações de ensino, pesquisa e extensão alinhado às diretrizes
+das políticas públicas para Agroecologia e Produção Orgânica, Segurança
+Alimentar e Nutricional e Educação Ambiental;
+Art. 89º São membros do NEA os servidores, estudantes e comunidade externa dos
+campi que se predispõe a integrá-lo.
+Art. 90º Compete ao NEA:
+I - Promover encontros de reflexão e capacitação da comunidade acadêmica para o
+conhecimento e a valorização da agroecologia, produção orgânica, segurança
+alimentar e nutricional sustentável, educação ambiental e temáticas afins;
+II - Promover a realização de atividades de Ensino, Pesquisa e Extensão
+relacionadas às temáticas;
+III - Auxiliar na implementação do Plano Nacional de Alimentação Escolar – PNAE;
+IV - Auxiliar na implementação do Plano Nacional de Educação Ambiental – PNEA;
+V - Propor e participar de atividades em outras instituições e/ou movimentos sociais
+que envolvam questões relativas às temáticas;
+VI - Auxiliar na execução da Política Institucional de Agroecologia, Segurança
+Alimentar e Nutricional Sustentável e Educação Ambiental – PIAS;
+VII - Propor o desenvolvimento de conteúdos curriculares, extracurriculares e
+pesquisas com abordagens multi e interdisciplinares sobre as temáticas.
+Núcleo de Memória (NuMem)
+Art. 91º O Núcleo de Memória do IFRS Campus Erechim tem por finalidade
+organizar, preservar, difundir, salvaguardar e permitir acesso ao patrimônio cultural
+de natureza imaterial e material do IFRS de forma sistemática e permanente.
+Art. 92º O Núcleo de Memória pode ter a seguinte composição, designada em
+portaria:
+I. Servidores ativos e aposentados do IFRS.
+II. Estudantes.
+III. Egressos.
+IV. Representantes da comunidade externa.Art. 93º As atribuições e competências do NuMem estão previstas no Regulamento
+Geral do Núcleo de Memória, aprovado por meio de Resolução do Conselho
+Superior do IFRS.
+Seção VI
+Da Coordenação de Pesquisa, Pós-graduação e Inovação
+Art. 45º Compete à Coordenação de Pesquisa, Pós-graduação e Inovação, além
+das competências previstas no Regimento dos Campi do IFRS, na legislação
+vigente e no estabelecido em Estatuto, Regimentos e Regulamentos do IFRS, as
+seguintes atribuições:
+I. Propor, coordenar, supervisionar, divulgar e avaliar as políticas, ações,
+diretrizes, normas e regulamentos, assim como a execução de planos e
+projetos nas áreas de pesquisa, pós-graduação e inovação, propiciando sua
+socialização no âmbito do campus;
+II. Estimular, desenvolver e coordenar as políticas de pesquisa, pós-graduação
+e inovação estabelecidas pelo IFRS;
+III. Estimular, desenvolver e apoiar as atividades de pesquisa e inovação, em
+todos os níveis e em todas as áreas do conhecimento;
+IV. Incentivar, colaborar e desenvolver programas de pós-graduação em
+diferentes áreas do conhecimento;
+V. Elaborar projetos, editais e relatórios relacionados à área de pesquisa,
+pós-graduação e inovação;
+VI. Organizar, estimular e divulgar a produção técnico-científica visando a
+disseminação da cultura da pesquisa e inovação;
+VII. Promover ações de difusão científica por meio dos grupos de pesquisa
+institucionais;
+VIII. Promover ações com vistas à captação de recursos para o financiamento de
+projetos junto às entidades e organizações públicas e privadas, bem como
+instituições e empresas na área de fomento à pesquisa e à inovação,
+garantindo políticas de equidade entre as diversas áreas de conhecimento;
+IX. Presidir (coordenador) e participar da CAGPPI, de acordo com a composição
+estabelecida neste regimento;
+X. Representar o campus junto ao Comitê de Pesquisa, Pós-graduação e
+Inovação (COPPI) e demais fóruns institucionais de pesquisa,
+pós-graduação e inovação;
+XI. Delegar competências nos limites de suas atribuições;
+XII. Apresentar relatório anual das atividades de pesquisa, pós-graduação e
+inovação desenvolvidas;
+XIII. Desempenhar as demais atribuições inerentes a essa área de gestão não
+especificadas neste Regimento.
+Da Secretaria de Pós-Graduação
+Art. 46º A Secretaria da Pós-graduação é o órgão de registro e assessoramento dos
+cursos de pós-graduação do Campus.
+Art. 47º Compete à Secretaria da Pós-graduação:
+I. Atender as coordenações de curso de pós-graduação, professores, alunos epúblico externo;
+II. Dar suporte e auxiliar no andamento dos fluxos das propostas/processos de
+pós-graduação em andamento no Campus;
+III. Realizar serviços administrativos da secretaria, tais como receber, arquivar e
+distribuir documentos relativos às atividades didáticas e administrativas;
+IV. Efetivar e coordenar as atividades administrativas referentes ao registro
+acadêmico, matrículas, ajustes de matrículas, trancamentos, ajustes de notas,
+frequência, registros de proficiência em língua estrangeira, diplomação e
+conclusão de cursos de pós-graduação;
+V. Organizar e manter atualizados as legislações, resoluções, instruções
+normativas, ofícios e demais documentos;
+VI. Organizar documentos de alunos egressos;
+VII. Dar suporte aos cursos de pós-graduação do Campus nos processos de
+lançamento de edital para alunos regulares e especiais, auxílio na proposição
+de cronogramas, controle de prazos, publicações e homologações;
+VIII. Organizar fluxos referentes às defesas de TCC e qualificações e defesas de
+dissertações;
+IX. Juntar documentação relativa à defesa, no processo de diplomação do
+pós-graduando, bem como tramitar o processo para registro na Reitoria do
+IFRS;
+X. Manter em dia os registros das atividades didáticas dos discentes, como
+disciplinas cursadas, seus respectivos conceitos e créditos, trancamento de
+matrículas, cancelamento de disciplinas e demais assuntos pertinentes.
+CAPÍTULO III – DAS COMISSÕES
+Da Comissão Própria de Pessoal Docente (CPPD)
+Art. 48º A Comissão Própria de Pessoal Docente (CPPD) é um órgão consultivo,
+colegiado, independente e competente de assessoramento do Conselho Superior
+do IFRS para formulação, acompanhamento e execução da política de pessoal
+docente, regulamentado por Regimento Geral aprovado em Resolução do
+Conselho Superior do IFRS.
+I. A CPPD é constituída por um Colegiado e por Representações Locais.
+II. A representação local da CPPD no Campus Erechim será constituída por
+sete docentes efetivos das carreiras do magistério federal, lotados no quadro
+de pessoal do Campus, eleitos pelos seus pares para mandatos de dois
+anos, sendo cinco membros titulares e dois suplentes.
+Art. 49º A Representação Local da CPPD no Campus Erechim prestará
+assessoramento ao Conselho de Campus, ao Diretor do Campus Erechim e à
+Coordenação de Gestão de Pessoas do Campus Erechim referente a:
+I. Dimensionamento da alocação de vagas docentes;
+II. Contratação e admissão de professores efetivos e substitutos;
+III. Alteração de regime de trabalho docente;
+IV. Analisar e emitir parecer para a progressão/promoção/aceleração funcional
+dos docentes;V. Solicitação de afastamento para aperfeiçoamento, especialização, mestrado,
+doutorado e pós-doutorado, inclusive quando se tratar de renovação ou
+suspensão do prazo concedido;
+VI. Liberação de professores para programas de cooperação ou outras
+atividades esporádicas em outras instituições, universitárias ou não;
+VII. Atuar na comissão de avaliação de estágio probatório dos docentes;
+VIII. Plano de trabalho docente;
+IX. Processo administrativo disciplinar interposto ao servidor docente;
+X. Remoção, redistribuição, readaptação, reversão, reintegração e recondução
+do servidor docente;
+XI. Licença para capacitação nos termos do art. 87 da lei 9.527 de 10 de
+dezembro de 1997;
+XII. Concessão de horário especial a servidor estudante;
+XIII. Desenvolvimento de estudos e análises que permitam fornecer subsídios
+para a fixação, aperfeiçoamento e modificação da política de pessoal
+docente e de seus instrumentos.
+Parágrafo único – Compete à Representação Local da CPPD no Campus Erechim
+analisar e emitir parecer acerca de todos os processos referidos neste Art., quando
+previsto ou demandado pelos fluxos institucionais.
+Art. 50º A Representação Local da CPPD no Campus Erechim será composta por:
+I. Um Presidente;
+II. Um Vice-presidente;
+III. Um Secretário;
+IV. Demais membros titulares e suplentes.
+§ 1º. A escolha do Presidente, Vice-Presidente e Secretário será mediante
+consenso entre os representantes titular e suplente da CPPD - Campus Erechim.
+§ 2º. Na primeira reunião da comissão, serão definidos os representantes titulares e
+suplentes do Campus Erechim no Colegiado da CPPD do IFRS.
+§ 3º. Na ausência do membro titular, o membro suplente assume automaticamente,
+gozando de todas as prerrogativas inerentes à função.
+§ 4º. A representação local da CPPD poderá, a seu critério, convidar outros
+docentes do quadro de pessoal do IFRS, lotados ou não no Campus Erechim, para
+avaliar, na condição de consultores ad hoc, processos de docentes que tenham
+maior antiguidade, titulação e/ou posição funcional (classe) que todos os seus
+membros.
+Da Comissão Interna de Supervisão (CIS)
+Art. 51º De acordo com o art. 5º da Portaria nº 2.519, de 15 de julho de 2005, a
+Comissão Interna de Supervisão da Carreira dos Cargos Técnico-administrativos
+em Educação (CIS) tem as seguintes atribuições:
+I. Acompanhar a implantação do plano de carreira em todas as suas etapas,
+bem como o trabalho da Comissão de Enquadramento;
+II. Orientar a área de pessoal, bem como os servidores, quanto ao plano de
+carreira dos cargos técnico-administrativos em educação;
+III. Fiscalizar e avaliar a implementação do plano de carreira no âmbito dorespectivo campus;
+IV. Propor à CIS Central do IFRS as alterações necessárias para o
+aprimoramento do plano;
+V. Apresentar propostas e fiscalizar a elaboração e a execução do plano de
+desenvolvimento de pessoal do Campus e seus programas de capacitação,
+de avaliação e de dimensionamento das necessidades de pessoal e modelo
+de alocação de vagas;
+VI. Avaliar, anualmente, as propostas de lotação do Campus, conforme o inciso I
+do § 1º do art. 24 da Lei nº 11.091, de 12 de janeiro de 2005;
+VII. Acompanhar o processo de identificação dos ambientes organizacionais do
+Campus proposto pela área de pessoal, bem como os cargos que os
+integram;
+VIII. Examinar os casos omissos referentes ao plano de carreira e encaminhá-los
+à CIS Central.
+Art. 52º Podem concorrer à representação na CIS todos os técnico-administrativos
+do quadro efetivo permanente, lotados no Campus.
+Art. 53º A comissão será composta por 3 (três) servidores técnico-administrativos
+titulares e 3 (três) servidores técnico-administrativos suplentes, eleitos por seus
+pares com voto direto e nominal.
+§1° Na ausência ou impedimento de um dos membros titulares, o suplente
+participará da reunião com direito a voto, devendo este ser notificado de seu
+compromisso até 48h antes da reunião na qual substituirá o membro titular;
+§2° O mandato de todos os membros é de 3 (três) anos, permitida uma recondução.
+Art. 54º A CIS deverá realizar reuniões ordinárias com os técnicos administrativos,
+no mínimo a cada 4 meses, para discutir questões inerentes e apresentar
+encaminhamentos, bem como acompanhar seu trabalho por um grupo indicado
+pelos setores, composto por até 10% do número de servidores, preferencialmente
+distribuídos por setor.
+Art. 55º Outras atribuições e aspectos da composição da Comissão Interna de
+Supervisão (CIS) poderão ser definidos em regimento interno próprio.
+Da Comissão Interna de Saúde, Segurança e Prevenção de Acidentes
+(CISSPA)
+Art. 56º A CISSPA é um órgão de natureza deliberativa sobre questões pertinentes
+à saúde, à segurança e à prevenção de acidentes. Possui caráter prevencionista
+sobre questões pertinentes ao meio ambiente, à saúde e à segurança do trabalho e
+tem como finalidade a melhoria das condições de trabalho e do meio ambiente,
+buscando soluções que promovam o bem-estar físico, psíquico e social do
+profissional em educação.
+Art. 57º A constituição da CISSPA é obrigatória nas unidades organizacionais com
+mais de 50(cinquenta) profissionais em educação em seu quadro.
+Art. 58º A CISSPA de cada unidade organizacional será constituída por servidoresefetivos ou nomeados em cargo em comissão, escolhidos pelos profissionais em
+educação da unidade por meio de eleição.
+Art. 59º Demais orientações estão previstas em Resolução própria.
+Da Comissão de Organização e Acompanhamento (COA)
+Art. 60º A COA será composta da seguinte forma:
+I. Por um representante da gestão de pessoas;
+II. Por um representante da CIS;
+III. Por um representante da CPPD.
+Art. 61º São atribuições da COA:
+I. Coordenar o levantamento das necessidades de capacitação;
+II. Sistematizar as demandas de capacitações;
+III. Elaborar o Plano Anual de Capacitação dos Servidores da unidade
+organizacional nos prazos estipulados pelo programa de capacitação dos
+servidores do IFRS;
+IV. Acompanhar a realização de todas as etapas das ações do Plano Anual de
+Capacitação da unidade organizacional;
+V. Promover, em articulação com a DGP, todas as ações necessárias para o
+cumprimento integral do Programa de Capacitação dos Servidores do IFRS.
+VI. Zelar pelo cumprimento dos princípios e objetivos do Programa de
+Capacitação dos Servidores do IFRS, buscando aprimorá-lo em conjunto
+com os servidores do IFRS e seus órgãos representativos.
+VII. Auxiliar a CGP, ou equivalente, na elaboração do relatório de capacitações
+realizadas.
+Da Comissão de Assistência Estudantil
+Art. 62º A composição, competências e funcionamento da Comissão de
+Assistência Estudantil do Campus Erechim, serão definidas em regimento
+específico, em conformidade com a Política de Assistência Estudantil do IFRS, por
+comissão presidida pela Coordenação de Assistência Estudantil e aprovado no
+Conselho de Campus.
+Da Comissão Permanente de Processo Eleitoral (COPPE)
+Art. 63º A Comissão Permanente de Processo Eleitoral é responsável pelos
+processos eleitorais de representação estudantil, de comissões permanentes ou
+específicas e outros cargos e funções eletivas que vierem a ser criadas por meio
+do Estatuto do IFRS, do Regimento Geral do IFRS ou por este Regimento e pela
+Direção Geral.
+Art. 64º Os membros desta comissão serão escolhidos através de um processo
+eleitoral e nomeados através de portaria específica e será formada por
+representação paritária entre corpo docente, corpo discente e técnicosadministrativos, eleitos por seus pares, em número de dois titulares e um suplente
+por segmento.
+Art. 65º Os membros da Comissão Permanente de Processo Eleitoral terão
+mandatos de dois anos, podendo ser reconduzidos uma vez por igual período,
+através de novo processo eleitoral.
+Art. 66º Compete à Comissão Permanente de Processo Eleitoral:
+I. Organizar todos os processos eleitorais no âmbito do Campus;
+II. informar à Direção Geral a falta de um de seus membros, visando à sua
+substituição pela não participação em duas chamadas para organizar
+processos eleitorais;
+III. Oleger entre seus membros um Presidente e um Vice-Presidente para esta
+comissão, para fins de representação;
+IV. Informar a comunidade do Campus sobre a abertura de processos eleitorais;
+V. Assegurar ampla participação para qualquer membro da comunidade do
+Campus, respeitando as normas deste Regimento;
+VI. Receber, registrar e publicar a inscrição de candidatos e chapas;
+VII. Conduzir os processos eleitorais de forma transparente e democrática;
+VIII. Organizar a votação de forma eletrônica;
+IX. Fazer as apurações dos processos eleitorais;
+X. Publicar amplamente os resultados dos processos eleitorais;
+XI. Respeitar e aplicar as legislações vigentes.
+Da Comissão Permanente de Processo de Ingresso Discente
+Art. 67º A Comissão Permanente de Processo de Ingresso Discente, possui em
+seu âmbito a função de planejar, executar e acompanhar o Processo de Ingresso
+Discente.
+Art. 68º A composição e as competências da Comissão Permanente de Processo
+de Ingresso discente estão definidas pelo Conselho Superior do IFRS, através da
+Política de Ingresso Discente.
+Da Comissão Própria de Avaliação (CPA)
+Art. 69º A CPA integra o Sistema Nacional de Avaliação da Educação Superior
+(SINAES) e atua com autonomia, no âmbito de sua competência legal, em relação
+aos conselhos e demais órgãos colegiados existentes na instituição. Seu
+regulamento consta em regimento próprio, aprovado pelo Conselho Superior do
+IFRS.
+Da Comissão Permanente de Divulgação (CPD)
+Art. 70º Compete à Comissão Permanente de Divulgação (CPD), vinculada à
+Coordenação de Extensão do Campus Erechim, coordenar estratégias para
+divulgação da Instituição, de modo que o campus, e o próprio IFRS, sejam
+conhecidos no ambiente local e regional onde está inserido.Art. 71º Constituem competências da CPD:
+I. Realizar o mapeamento de eventos que ocorrem na região, e a organização
+para participação da instituição nestes eventos e no processo de divulgação
+tanto do campus como dos seus cursos regulares;
+II. Constituir as equipes de trabalho necessárias para atender aos eventos, com
+a participação do corpo discente, docente e técnico administrativo do campus;
+III. Auxiliar o Setor de Comunicação na definição de demandas para obtenção de
+material de divulgação;
+IV. Elaborar um cronograma anual de visitas às escolas da região e a organizar a
+visitação ao campus.
+Art. 72º A CPD é composta pelas seguintes representações:
+I. um servidor da Coordenação da Extensão;
+II. um representante Direção de Administração;
+III. um representante do Departamento de Ensino;
+IV. um representante da Coordenação de Desenvolvimento Institucional;
+V. um servidor de cada área;
+VI. um discente de cada área;
+VII. um representante do Setor de Comunicação.
+TÍTULO III - DA COMUNIDADE ESCOLAR
+Art. 94º A comunidade escolar do IFRS é composta pelo corpo discente, docente e
+técnico-administrativo, com atribuições específicas, integradas em função dos
+objetivos institucionais.
+CAPÍTULO I - DO CORPO DISCENTE
+Art. 95º O corpo discente do Campus Erechim será constituído por alunos
+matriculados nos diversos cursos e programas oferecidos pelo Campus,
+classificados nos seguintes regimes:
+I. regular: alunos matriculados nos cursos técnicos de nível médio, nos cursos
+de graduação e pós-graduação;
+II. temporário: alunos matriculados em cursos de extensão e educação
+continuada.
+Parágrafo único: Os alunos do Campus que cumprirem integralmente o currículo
+dos cursos farão jus a diploma ou certificado, na forma e nas condições previstas
+na organização didática.
+Art. 96º Somente os alunos com matrícula regular ativa nos cursos técnicos de
+nível médio e nos cursos de graduação e de pós-graduação poderão votar e serem
+votados para as representações discentes dos órgãos colegiados e das comissões
+permanentes e específicas, bem como participar dos processos eletivos para
+escolha do Reitor e Diretores Gerais dos campi, de acordo com as regras
+estabelecidas pelo processo eleitoral.Art. 97º Os direitos, os deveres e as proibições dos discentes do Campus Erechim,
+bem como as sanções disciplinares estão previstos na Organização Didática.
+Art. 98º O ato de matrícula implicará compromisso formal de respeito ao Estatuto
+do IFRS, ao Regimento Geral do IFRS, Regimento dos Campi, ao presente
+Regimento Complementar e à Organização Didática, bem como às autoridades que
+deles emanam, constituindo falta punível o desatendimento ou transgressão a eles.
+CAPÍTULO II - DO CORPO DOCENTE
+Art. 99º O corpo docente é constituído pelos professores integrantes do quadro
+permanente de pessoal do IFRS, regidos pelo Regime Jurídico Único (RJU), e por
+demais professores admitidos na forma da lei.
+§ 1º Os docentes serão caracterizados como integrantes do quadro permanente
+quando admitidos através de concurso público, com base na legislação vigente.
+§ 2º O professor integrante do quadro permanente de pessoal terá como local de
+lotação e exercício no Campus para o qual foi nomeado em concurso público salvo
+interesse da instituição e em conformidade com a legislação vigente.
+§ 3º Para atender necessidades temporárias da programação acadêmica, poderão
+ser contratados professores substitutos, através de seleção pública.
+§ 4º O Campus terá constituída a Comissão Permanente de Pessoal Docente
+(CPPD) composta por docentes do quadro efetivo permanente, lotados no Campus,
+com regimento interno próprio.
+§ 5º O professor investido nas funções de reitor, pró-reitor, diretor geral ou outros
+cargos de direção na Reitoria ficará desobrigado do exercício das demais
+atividades docentes, sem prejuízo dos vencimentos, gratificações, vantagens e
+progressões funcionais.
+§ 6º Fica a critério das direções gerais estenderem o disposto no parágrafo 5º deste
+artigo a outros cargos de direção do Campus, conforme necessidade institucional.
+Seção I
+Dos Encargos Docentes
+Art. 100º Os encargos do servidor docente compreendem ensino, pesquisa e
+extensão, podendo também ser reservada carga horária para capacitação e, caso
+não comprometa as atividades de ensino, pesquisa e extensão, para realização de
+atividades administrativas.
+Parágrafo único. Os encargos docentes, sua conceituação e distribuição serão
+regulamentados pelo Conselho Superior em resolução única, observado o disposto
+neste capítulo, desde que não contradiga norma de hierarquia superior ao presenteregimento.
+CAPÍTULO III - DO CORPO TÉCNICO-ADMINISTRATIVO
+Art. 101º O corpo técnico-administrativo é constituído pelos integrantes do quadro
+permanente de pessoal do Campus, regidos pelo Regime Jurídico Único (RJU).
+§ 1º O ingresso na carreira de servidor técnico-administrativo será por concurso
+público, obedecendo às normas previstas na legislação pertinente.
+§ 2º O não cumprimento das normas institucionais implicará, ao corpo
+técnico-administrativo, a aplicação das sanções previstas na legislação pertinente.
+§ 3º O Campus terá constituída a Comissão Interna de Supervisão do Plano de
+Cargos (CIS) e Carreira dos Técnicos-administrativos em Educação (PCCTAE)
+composta por técnicos administrativos do quadro efetivo permanente, lotados no
+Campus Erechim, com regimento interno próprio.
+§ 4º Atividades administrativas próprias do exercício da direção, assessoria, chefia,
+coordenação e assistência no Campus, Reitoria ou outro Campus integrante do
+IFRS, além de outras previstas na legislação vigente, poderão ser exercidas pelos
+Técnicos-administrativos.
+TÍTULO VI – DAS DISPOSIÇÕES FINAIS
+Art. 102º O presente Regimento entra em vigor na data de sua aprovação pelo
+Conselho de Campus.
+Art. 103º Ficam revogadas automaticamente todas as disposições contrárias a
+este Regimento.
+Art. 104º Este Regimento deverá ser revisado, através de comissão específica
+para este tema, com representação do corpo docente, discente,
+técnicos-administrativos e da Direção Geral, no prazo de dois anos, contados a
+partir da data de sua publicação.
+Art. 105º Este Regimento somente poderá ser alterado por força de lei
+superveniente ou por iniciativa e aprovação em reunião extraordinária, com ampla
+publicação no âmbito do Campus, de maioria simples dos membros do Conselho
+de Campus.
+Art. 106º A descrição e regulamentação das atividades de ensino, pesquisa,
+extensão, representação, administração e qualificação realizadas no Campus ou
+sob alguma forma de parceria dar-se-á nos termos da legislação vigente, do
+Estatuto e do Regimento Geral do IFRS e deste Regimento Interno, assim como
+nas normativas do Conselho Superior e do Conselho de Campus, das respectivas
+pró-reitorias e comissões responsáveis.Art. 107º Em não havendo normas superiores, ao Conselho de Campus será
+facultado a aprovação de regulamentações específicas, através da designação de
+pessoa ou comissão específica.
+Art. 108º As comissões já existentes serão consideradas válidas por este
+regimento.
+Art. 109º No caso de não haver servidores candidatos à eleição nas comissões,
+facultará ao Diretor Geral a expressa nomeação para completar as vagas em
+aberto, observadas as cargas horárias e regulamentações existentes.
+Art. 110º Os setores, comissões e, ou outras instâncias previstas neste regimento
+que ainda não existem, deverão ser constituídas no prazo de até cento e oitenta
+dias, a partir de sua aprovação no Conselho de Campus.
+Parágrafo único. A existência de departamentos, setores, Coordenações,
+comissões ou outras instâncias não implica destinação de função gratificada ou
+cargo de direção, ficando a cargo do Diretor Geral nomeá-las de acordo com a
+necessidade e disponibilidade de recursos para melhor gestão do Campus.
+Art. 111º O Campus, conforme suas necessidades específicas, poderá constituir
+órgãos colegiados de natureza normativa e consultiva e comissões técnicas e/ou
+administrativas.
+Art. 112º Os casos omissos neste regimento interno serão dirimidos pelo Conselho
+de Campus.

@@ -1,0 +1,1354 @@
+Ministério da Educação
+Secretaria de Educação Profissional e Tecnológica
+Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul
+Campus Canoas
+REGIMENTO COMPLEMENTAR DO
+IFRS - CAMPUS CANOAS
+Aprovado pelo Conselho de Campus do IFRS – Campus Canoas, conforme 
+resolução nº 14, de outubro de 2018.Regimento Complementar do IFRS – Campus Canoas – Página 2 de 41
+Instituto Federal de Educação, Ciência e 
+Tecnologia do Rio Grande do Sul
+Reitor
+Júlio Xandro Heck
+Campus Canoas
+Diretor-Geral
+Mariano Nicolao
+Conselho de Campus
+Presidente do Conselho do Campus
+Mariano Nicolao 
+Discentes
+Fernanda da Silva França
+João Emílio Soares Michalski
+Ivan de Almeida Fiorotti (Suplente)
+João Lúcio de Lima Bitencourt Rossa (Suplente)
+Docentes
+Claudio Enrique Fernández Rodríguez
+Jaqueline Terezinha Martins Corrêa Rodrigues
+Carla Odete Balestro Silva (Suplente)
+Técnico-administrativos em educação
+Marcelo Gonçalves da Silva
+Jean Carlos Esperança
+Gabriela Godoy Corrêa (Suplente)
+Comissão de elaboração do Regimento Complementar
+Vitor Secretti Bertoncello – Coordenador de Desenvolvimento Institucional
+Aline Martins Mesquita
+Angélica Rodrigues Machado Costa
+Carla Odete Balestro Silva
+Claudio Enrique Fernández Rodríguez
+Cristiane Silva da Silva
+Jaqueline Terezinha Martins Corrêa Rodrigues
+Lisiane Celia Palma
+Paulo Roberto Faber Tavares Junior
+Simone Maffini CerezerRegimento Complementar do IFRS – Campus Canoas – Página 3 de 41
+Sumário
+TÍTULO I – DAS DISPOSIÇÕES PRELIMINARES ........................................... 5
+CAPÍTULO I – DO REGIMENTO COMPLEMENTAR DO CAMPUS CANOAS E 
+SEUS OBJETIVOS ............................................................................................ 5
+CAPÍTULO II – DA ESTRUTURA....................................................................... 5
+TÍTULO II - DA COMPOSIÇÃO, COMPETÊNCIAS, E DO FUNCIONAMENTO 
+DOS ÓRGÃOS DO CAMPUS CANOAS ........................................................... 7
+CAPÍTULO I – DOS ÓRGÃOS COLEGIADOS .................................................. 7
+Seção I – Do Conselho do Campus ................................................................... 7
+Seção II – Da Comissão de Avaliação e Gestão de Ações do Ensino (CAGE).. 7
+Seção III – Da Comissão de Avaliação e Gestão de Projetos de Pesquisa e 
+Inovação (CAGPPI) ................................................................................... 8
+CAPÍTULO II – DOS ÓRGÃOS EXECUTIVOS.................................................. 8
+Seção I – Do Gabinete da Direção-Geral........................................................... 8
+Seção II – Da Coordenadoria de Ensino ............................................................ 9
+Seção III – Da Coordenadoria de Pesquisa, Pós-graduação e Inovação......... 10
+Seção IV – Da Coordenadoria de Extensão..................................................... 10
+Seção V – Da Coordenadoria de Desenvolvimento Institucional ..................... 11
+Seção VI – Das Coordenadorias de Cursos..................................................... 11
+Seção VII – Da Coordenadoria de Registros Escolares................................... 12
+Seção VIII – Da Coordenadoria de Assistência Estudantil............................... 13
+Seção IX – Da Coordenadoria de Tecnologia da Informação .......................... 14
+Seção X – Da Coordenadoria de Gestão de Pessoas ..................................... 15
+Seção XI – Da Coordenadoria de Infraestrutura .............................................. 16
+Seção XII – Da Coordenadoria de Execução Financeira e Orçamentária........ 17
+Seção XIII – Da Coordenadoria de Compras e Licitações ............................... 18
+CAPÍTULO III – DOS ÓRGÃOS DE ASSESSORIA......................................... 18
+Seção I – Da Biblioteca .................................................................................... 18
+Seção II – Do Setor de Comunicação .............................................................. 19
+Seção III – Do Setor de Estágios ..................................................................... 20
+Seção IV – Do Setor de Laboratórios............................................................... 21
+Seção V – Do Setor de Auditoria...................................................................... 21
+Seção VI – Da Contabilidade ........................................................................... 22
+Seção VII – Do Setor Pedagógico.................................................................... 22Regimento Complementar do IFRS – Campus Canoas – Página 4 de 41
+Seção VIII – Do Setor de Apoio Integrado ao Ensino, Pesquisa e Extensão ... 23
+Seção IX – Do Setor de Contratos do Campus Canoas................................... 23
+CAPÍTULO III – DAS COMISSÕES E OUTROS ÓRGÃOS SUPLEMENTARES
+......................................................................................................................... 24
+Seção I – Da Comissão Própria de Pessoal Docente (CPPD)......................... 24
+Seção II – Da Comissão Interna de Supervisão (CIS) ..................................... 26
+Seção III - Da Comissão Interna de Saúde, Segurança e Prevenção de 
+Acidentes (CISSPA)................................................................................. 27
+Seção IV – Da Comissão de Organização e Acompanhamento (COA)........... 27
+Seção V – Da Comissão de Assistência Estudantil.......................................... 28
+Seção VI – Da Comissão Permanente de Processo Eleitoral (COPPE) .......... 28
+Seção VII – Da Comissão Permanente de Processo de Ingresso Discente .... 29
+Seção VIII – Da Comissão Própria de Avaliação (CPA)................................... 29
+Seção IX – Da Comissão de Elaboração e Publicação do Boletim Mensal de 
+Serviço..................................................................................................... 30
+Seção X – Do Núcleo de Atendimento à Pessoas com Necessidades 
+Específicas (NAPNE)............................................................................... 30
+Seção XI – Do Núcleo de Estudos Afro-Brasileiros e Indígenas (NEABI)........ 31
+Seção XII – Do Núcleo de Estudos e Pesquisas em Gênero e Sexualidades 
+(NEPGS).................................................................................................. 32
+Seção XIII – Do Núcleo de Acessibilidade ....................................................... 33
+Seção XIV – Do Núcleo de Educação a Distância (NEaD) .............................. 33
+Seção XV – Do Auxiliar Institucional ................................................................ 36
+TÍTULO III – DA COMUNIDADE ESCOLAR ................................................... 36
+CAPÍTULO I - DO CORPO DISCENTE............................................................ 37
+CAPÍTULO II - DO CORPO DOCENTE ........................................................... 37
+Seção I – Dos Encargos Docentes................................................................... 38
+CAPÍTULO III - DO CORPO TÉCNICO-ADMINISTRATIVO ............................ 39
+TÍTULO IV – DAS DISPOSIÇÕES FINAIS ...................................................... 40Regimento Complementar do IFRS – Campus Canoas – Página 5 de 41
+TÍTULO I – DAS DISPOSIÇÕES PRELIMINARES
+CAPÍTULO I – DO REGIMENTO COMPLEMENTAR DO CAMPUS CANOAS E 
+SEUS OBJETIVOS
+Art. 1º O presente Regimento Complementar, em conjunto com o 
+Regimento Geral e o Regimento dos Campi, disciplina a organização, as 
+competências e o funcionamento das instâncias deliberativas, consultivas, 
+administrativas e acadêmicas, complementando as disposições estatutárias e 
+regimentais do IFRS.
+CAPÍTULO II – DA ESTRUTURA
+Art. 2º A estrutura organizacional do Campus Canoas compreende, além 
+dos especificados no Regimento Geral e Regimento dos Campi, os seguintes 
+itens.
+a) Órgãos colegiados
+b) Órgãos executivos
+c) Órgãos de assessoria
+d) Comissões e outros órgãos suplementares
+e) Corpo docente
+f) Corpo discente
+g) Corpo técnico-administrativoRegimento Complementar do IFRS – Campus Canoas – Página 6 de 41
+Figura 1 – Estrutura organizacional do Campus Canoas
+Fonte: Comissão de elaboração do Regimento ComplementarRegimento Complementar do IFRS – Campus Canoas – Página 7 de 41
+TÍTULO II - DA COMPOSIÇÃO, COMPETÊNCIAS, E DO FUNCIONAMENTO 
+DOS ÓRGÃOS DO CAMPUS CANOAS
+CAPÍTULO I – DOS ÓRGÃOS COLEGIADOS
+Seção I – Do Conselho do Campus
+Art. 3º O Conselho do Campus será composto por:
+I – Diretor(a)-geral do Campus, como presidente e membro nato;
+II – 2 (dois) representantes titulares docentes e seus suplentes, eleitos 
+por seus pares, com mandato de 2 (dois) anos;
+III – 2 (dois) representantes titulares técnico-administrativos e seus 
+suplentes, eleitos por seus pares, com mandato de 2 (dois) anos;
+IV – 2 (dois) representantes titulares discentes e seus suplentes, eleitos 
+por seus pares com mandato de 1 (um) ano;
+V – 2 (dois) representantes titulares da comunidade externa e seu 
+respectivo suplente, indicados por organizações a partir de edital próprio que o 
+Conselho do Campus elaborará e fará publicar, e eleitos por maioria do
+Conselho do Campus.
+Art. 4º A complementação do Regimento Complementar referente ao 
+Conselho do Campus cabe ao seu regimento específico.
+Seção II – Da Comissão de Avaliação e Gestão de Ações do Ensino 
+(CAGE)
+Art. 5º A CAGE será composta:
+I – Pelo(a) gestor(a) da área de Ensino do Campus e pelo(a) 
+Coordenador(a) de Ensino como membros natos;
+II – Por 3 (três) representantes do segmento docente, eleitos(as) por 
+seus pares para mandato de 2 (dois) anos;
+III – Por 3 (três) representantes do segmento técnico-administrativo, 
+vinculados ao Ensino, eleitos(as) por seus pares para mandato de 2 (dois) 
+anos;
+IV – Por 2 (dois) representantes do segmento discente, eleitos(as) por 
+seus pares para mandato de 1 (um) ano.Regimento Complementar do IFRS – Campus Canoas – Página 8 de 41
+Seção III – Da Comissão de Avaliação e Gestão de Projetos de Pesquisa e 
+Inovação (CAGPPI)
+Art. 6º A CAGPPI será composta:
+I – Pelo(a) gestor(a) da área de Pesquisa, Pós-Graduação e Inovação do 
+Campus, como membro nato;
+II – Por 4 (quatro) representantes do segmento docente, eleitos(as) por 
+seus pares para mandato de 2 (dois) anos;
+III – Por 4 (quatro) representantes do segmento técnico-administrativo, 
+eleitos(as) por seus pares para mandato de 2 (dois) anos;
+IV – Por 4 (quatro) representantes do segmento discente, eleitos(as) por 
+seus pares para mandato de 1 (um) ano.
+Seção IV – Da Comissão de Avaliação e Gerenciamento de Ações de 
+Extensão (CGAE)
+Art. 7º A CGAE será composta:
+I – Pelo(a) gestor(a) da área de Extensão do Campus, como membro 
+nato;
+II – Por 4 (quatro) representantes do segmento docente, eleitos(as) por 
+seus pares para mandato de 2(dois) anos;
+III – Por 4 (quatro) representantes do segmento técnico-administrativo, 
+eleitos(as) por seus pares para mandato de 2(dois) anos;
+IV – Por 4 (quatro) representantes do segmento discente, eleitos(as) por 
+seus pares para mandato de 1 (um) ano.
+CAPÍTULO II – DOS ÓRGÃOS EXECUTIVOS
+Seção I – Do Gabinete da Direção-Geral
+Art. 8º À Chefia de Gabinete, subordinada à Direção Geral, compete:
+I – assessorar ao Diretor Geral no seu relacionamento institucional e 
+administrativo; 
+II – supervisionar os trabalhos da secretaria do Gabinete; 
+III – preparar a correspondência oficial do Gabinete; 
+IV – receber documentações submetidas ao Gabinete, preparando-as 
+para assinatura do Diretor Geral, ou diligenciando os encaminhamentos 
+necessários; 
+V – organizar a agenda do Diretor Geral; 
+VI – organizar o conjunto normativo do Gabinete; Regimento Complementar do IFRS – Campus Canoas – Página 9 de 41
+VII – assessorar os eventos do Gabinete; 
+VIII – recepcionar os visitantes do Gabinete. 
+Seção II – Da Coordenadoria de Ensino
+Art. 9º À Coordenadoria de Ensino, subordinada à Direção de Ensino, 
+compete:
+I. Organizar e divulgar informações referentes às atividades de 
+ensino, em todos os níveis;
+II. Coordenar, acompanhar e avaliar o desenvolvimento do processo 
+de ensino e de aprendizagem, bem como operacionalizar a política de 
+desenvolvimento da área de ensino;
+III. Acompanhar a elaboração e atualização dos Projetos 
+Pedagógicos dos Cursos, juntamente com o Coordenador de Curso;
+IV. Acompanhar a execução de projetos de ensino;
+V. Participar da elaboração dos horários dos cursos regulares 
+ofertados no Campus juntamente com os Coordenadores de Curso;
+VI. Acompanhar o preenchimento dos diários de classe e registros de 
+rendimento dos estudantes de todos os componentes curriculares, solicitando 
+aos docentes sua manutenção;
+VII. Promover, apoiar e/ou desenvolver programas de incentivo à 
+formação discente ou de iniciativas extracurriculares, tais como a Mostra de 
+Trabalhos Técnicos, Seminários, Congressos e demais eventos de caráter 
+pedagógico, juntamente com a Direção de Ensino.
+VIII. Acompanhar os Editais vinculados ao Ensino, juntamente à 
+Direção de Ensino.
+IX. Acompanhar, em conjunto com a Direção de Ensino, o 
+planejamento, o desenvolvimento e a execução das políticas, projetos, ações 
+de ensino e inovação em todos os níveis e modalidades aprovadas pelo 
+Conselho do Campus em consonância com as diretrizes do IFRS;
+X. Supervisionar o funcionamento das atividades, dos setores, 
+coordenadorias ou assessorias vinculados ao Ensino, dos ambientes e dos 
+recursos didáticos;
+XI. promover, juntamente com a Direção de Ensino, ações que 
+garantam a articulação entre o ensino, a pesquisa e a extensão;
+XII. Planejar e Acompanhar o desenvolvimento de ações de 
+permanência e êxito dos estudantes de todos os cursos ofertados no Campus 
+em conjunto com os coordenadores de curso e equipe pedagógica.Regimento Complementar do IFRS – Campus Canoas – Página 10 de 41
+Seção III – Da Coordenadoria de Pesquisa, Pós-graduação e Inovação
+Art. 10º Compete à Coordenadoria de Pesquisa, Pós-graduação e 
+Inovação, além das competências previstas no Regimento dos Campi do IFRS, 
+na legislação vigente e no estabelecido em Estatuto, Regimentos e 
+Regulamentos do IFRS, as seguintes atribuições: 
+I. presidir (coordenador) e participar da CAGPPI, de acordo com a 
+composição estabelecida neste regimento; 
+II. organizar, gerenciar e arquivar documentos referentes aos 
+projetos de pesquisa e seus bolsistas; 
+III. organizar, divulgar e estimular a participação dos pesquisadores e 
+bolsistas no evento anual que congrega as ações de ensino, pesquisa e 
+extensão do Campus Canoas, em conjunto com as respectivas Coordenadorias 
+do Campus Canoas,, bem como outros setores envolvidos;
+IV. emitir e controlar os certificados para pesquisadores e bolsistas, 
+quando necessário e pertinente, de atuação em projetos de pesquisa 
+desenvolvidos no Campus Canoas;
+V. desempenhar as demais atribuições inerentes a essa área de 
+gestão não especificadas neste Regimento.
+Seção IV – Da Coordenadoria de Extensão 
+Art. 11º Compete à Coordenadoria de Extensão, além das 
+competências previstas no Regimento dos Campi do IFRS, na legislação 
+vigente e do estabelecido em Estatuto, Regimentos e Regulamentos do 
+IFRS, as seguintes atribuições: 
+I – Promover e expandir as ações de extensão, com estreita relação 
+entre ensino e pesquisa, através do desenvolvimento de ações de relevância 
+social, cultural e de base solidária.
+II – Viabilizar mecanismos de acesso da sociedade às atividades 
+desenvolvidas pela Instituição.
+III – Fomentar a participação dos servidores da Instituição em Editais 
+de forma a viabilizar recursos para o apoio às ações de extensão.
+IV – Apoiar o desenvolvimento de ações de integração entre a 
+Instituição e o mundo do trabalho e empreendedorismo.
+V – Realizar os encaminhamentos das atividades de estágio 
+curricular.
+VI – Apoiar o desenvolvimento de ações inclusivas vinculadas ao 
+Núcleo de Atendimento às Pessoas com Necessidades Educacionais Regimento Complementar do IFRS – Campus Canoas – Página 11 de 41
+Específicas (NAPNE), ao Núcleo de Estudos Afro-Brasileiros e Indígenas 
+(NEABI) e ao Núcleo de Estudo e Pesquisa em Gênero e Sexualidade 
+(NEPGS).
+VII – Organizar, divulgar e estimular a participação dos extensionistas 
+e bolsistas no evento anual que congrega as ações de ensino, pesquisa e 
+extensão do Campus Canoas, em conjunto com as respectivas 
+Coordenadorias do Campus Canoas, bem como outros setores envolvidos.
+VIII – Desempenhar as demais atribuições inerentes a essa área de 
+gestão não especificadas neste Regimento.
+Seção V – Da Coordenadoria de Desenvolvimento Institucional
+Art. 12º Compete à Coordenadoria de Desenvolvimento Institucional, 
+além das competências previstas no Regimento dos Campi do IFRS, na 
+legislação vigente e do estabelecido em Estatuto, Regimentos e 
+Regulamentos do IFRS, as seguintes atribuições:
+I - Obter e sistematizar dados a fim de gerar indicadores que, de 
+acordo com normativas do MEC, resultam em um diagnóstico do Campus e 
+da Instituição;
+II - Analisar e propor estratégias para o atendimento das demandas 
+de oferta de cursos e vagas, de acordo com os indicadores existentes;
+III - Coordenar a construção e acompanhar o cumprimento e 
+execução do Plano de Ação junto aos demais órgãos executivos, do 
+Regimento Complementar e do Plano Diretor de Tecnologia da Informação 
+do Campus Canoas;
+IV - Propor e/ou apoiar o desenvolvimento de ações de 
+desenvolvimento institucional no âmbito do Campus Canoas;
+V - Desempenhar as demais atribuições inerentes a essa área de 
+gestão não especificadas neste Regimento.
+Seção VI – Das Coordenadorias de Cursos
+Art. 13º A Coordenação de Curso, subordinadas à Direção de Ensino, é 
+o órgão responsável pela gestão didático-pedagógica do curso, exercida por 
+um docente efetivo do Campus Canoas.
+Parágrafo único. As atribuições estão estabelecidas por meio de 
+Resolução do Conselho Superior do IFRS.Regimento Complementar do IFRS – Campus Canoas – Página 12 de 41
+Seção VII – Da Coordenadoria de Registros Escolares
+Art. 14º À Coordenadoria de Registros Escolares, subordinada à 
+Coordenadoria de Ensino, compete:
+I. Auxiliar o processo de ingresso;
+II. Analisar a documentação dos estudantes ingressantes em 
+conjunto com a COPERSE;
+III. Realizar as matrículas; 
+IV. Efetuar o cadastro de alunos, professores, cursos e disciplinas no 
+Sistema Acadêmico;
+V. Efetuar o controle de situação de matrícula;
+VI. Acompanhar o itinerário acadêmico do estudante, dando suporte 
+às Coordenações de Cursos;
+VII. Manter atualizado o Sistema Acadêmico;
+VIII. Garantir a segurança e integridade dos registros e a preservação 
+dos documentos
+IX. Manter organizado arquivo passivo com a documentação 
+referente à vida acadêmica dos estudantes com matrícula inativa, seja 
+cancelada ou de egresso;
+X. Organizar e manter atualizada a pasta individual do estudante 
+com todos os seus documentos que foram entregues à Instituição;
+XI. Receber protocolos acadêmicos referentes a solicitações dos 
+estudantes e realizar os procedimentos e encaminhamentos necessários para 
+solução das demandas;
+XII. Emitir documentação referente à vida acadêmica do estudante;
+XIII. Elaborar e expedir certificados e diplomas, encaminhando para 
+registro na Reitoria, quando necessário;
+XIV. Elaborar e expedir Certificação do Enem/Encceja;
+XV. Receber e analisar documentação e requerimentos de formatura;
+XVI. Encaminhar a relação de formandos habilitados para os demais 
+membros da Comissão Permanente de Formatura do Campus;
+XVII. Prestar informações aos demais setores e aos órgãos do governo 
+quanto a dados de responsabilidade do Registro Escolar;
+XVIII. Elaborar e expedir Atestados de Regência
+XIX. Orientar alunos e professores quanto ao uso do Sistema 
+Acadêmico;
+XX. Auxiliar na elaboração do Calendário Letivo (matrículas, 
+rematrículas, processos discentes);
+XXI. Manter atualizadas planilhas de dados não disponibilizadas pelo 
+Sistema Acadêmico;
+XXII. Atuar na elaboração dos Editais pertinentes a processos 
+discentes e realizar sua divulgação (transferência, ingresso de diplomado, 
+aproveitamento de estudos, certificação de conhecimentos);Regimento Complementar do IFRS – Campus Canoas – Página 13 de 41
+XXIII. Orientar os estudantes quanto a prazos e documentos 
+necessários para abertura de processos de competência do Setor de Registros;
+XXIV. Identificar, receber e encaminhar demandas ao suporte técnico de 
+adequação do Sistema Acadêmico;
+XXV. Informar à Coordenadoria de Ensino e de Curso as alterações de 
+situação de matrícula;
+XXVI. Organizar e disponibilizar dados sobre matrícula e movimentação 
+de alunos;
+XXVII. Zelar pelo sigilo das informações da sua competência.
+Seção VIII – Da Coordenadoria de Assistência Estudantil
+Art. 15º À Coordenadoria de Assistência Estudantil, subordinada à 
+Coordenadoria de Ensino, compete:
+I. Propor as políticas relativas à assistência estudantil;
+II. Promover e colaborar com ações para o inter-relacionamento dos 
+integrantes da comunidade do Campus, atuando como agentes da política 
+social, cultural e comunitária;
+III. Orientar, assessorar e acompanhar os programas e projetos da 
+assistência social; 
+IV. Estimular a organização das representações discentes e 
+entidades estudantis;
+V. Implementar programas e ações de assistência estudantil;
+VI. Propor normas e critérios para os programas de benefícios de 
+assistência estudantil;
+VII. Propor metodologias de avaliação dos programas e das ações de 
+assistência estudantil; 
+VIII. Dialogar com a Comissão de Assistência Estudantil e com as 
+entidades estudantis sobre questões relacionadas aos programas, projetos e 
+ações de apoio aos estudantes;
+IX. Acompanhar e apoiar o desenvolvimento dos projetos e das 
+ações de prestação de assistência estudantil junto aos Campus;
+X. Propor instrumentos que permitam pesquisar, sistematicamente, 
+a realidade socioeconômica e educacional dos alunos;
+XI. Descrever e divulgar o perfil socioeconômico e educacional da 
+população estudantil;
+XII. Organizar bancos de dados e arquivos dos programas de 
+assistência estudantil;
+XIII. Atuar para que o processo educacional se desenvolva de modo 
+crítico, dinâmico e articulado com outros setores e com o ensino, a pesquisa e 
+a extensão, não só contribuindo para o acesso e a permanência dos Regimento Complementar do IFRS – Campus Canoas – Página 14 de 41
+estudantes, mas buscando promover o desenvolvimento de uma educação 
+integral;
+XIV. Acompanhar a vida escolar dos estudantes e, se necessário, 
+propor e participar de ações que contribuam para o acesso e a permanência 
+dos estudantes no IFRS;
+XV. Trabalhar em parceria com o corpo docente e técnicoadministrativo para a constituição de uma visão mais fundamentada da vida 
+dos estudantes como um fator que interfere na dinâmica do processo 
+educacional.
+Seção IX – Da Coordenadoria de Tecnologia da Informação
+Art. 16º À Coordenadoria de Tecnologia da Informação, subordinada à 
+Coordenadoria de Desenvolvimento Institucional, compete:
+I. Efetuar planejamento com metas e objetivos de melhorias dos 
+serviços de redes e sistemas de informação;
+II. Atuar junto da direção e das coordenadorias na tomada de 
+decisões estratégicas que interfiram ou necessitem recursos de Tecnologia da 
+Informação;
+III. Executar, assessorar e supervisionar projetos em infraestrutura de 
+rede a serem executados na instituição;
+IV. Promover adaptação dos equipamentos e sistemas de informação 
+a fim de fornecer acessibilidade aos portadores de necessidades especiais.
+V. Auxiliar na especificação e orçamento dos materiais e ativos de 
+rede observando as tendências tecnológicas e a relação custo-benefício;
+VI. Propor medidas apropriadas de segurança em relação aos 
+recursos da rede e informações sob sua responsabilidade;
+VII. Desenvolver, implantar e atualizar sistemas de informação que 
+estiverem alinhados com os objetivos e interesses do IFRS;
+VIII. Promover a utilização de Software Livre na Instituição;
+IX. Propor e monitorar políticas de segurança contra o uso de material 
+ou programa que fira as leis de direitos autorais e propriedade intelectual;
+X. Identificar necessidades e oferecer soluções da Tecnologia da 
+Informação, visando à otimização e à segurança dos processos da instituição;
+XI. Realizar o atendimento de suporte aos usuários nos sistemas 
+desenvolvidos pelo IFRS;
+XII. Realizar o atendimento de suporte aos servidores do Campus em 
+dúvidas existentes em seus trabalhos relacionados ao Ensino, Pesquisa e 
+Extensão;
+XIII. Promover a manutenção preventiva e corretiva dos serviços de 
+rede e equipamentos de sua responsabilidade;Regimento Complementar do IFRS – Campus Canoas – Página 15 de 41
+XIV. Monitorar e auxiliar usuários em sistemas corporativos nos setores 
+de Registros Escolares, Biblioteca, Gestão de Pessoas, Compras, 
+Almoxarifado e Patrimônio;
+XX. Realizar e manter cópias de segurança dos dados, nos sistemas 
+controlados pelo IFRS.
+Seção X – Da Coordenadoria de Gestão de Pessoas
+Art. 17º À Coordenadoria de Gestão de Pessoas, subordinada à Direção 
+Geral, compete:
+I. Acompanhar e aplicar programas de capacitação visando ao 
+aperfeiçoamento funcional do servidor;
+II. Atualizar periodicamente o cadastro dos servidores;
+III. Acompanhar e formalizar a movimentação dos servidores;
+IV. Atualizar permanentemente o quadro de lotação;
+V. Acompanhar o processo de estágio probatório;
+VI. Gerenciar a distribuição dos benefícios sociais aos servidores;
+VII. Receber e encaminhar as demandas para provimento de cargos;
+VIII. Orientar e acompanhar as progressões funcionais dos servidores;
+IX. Desenvolver programas que facilitem a integração de novos 
+servidores;
+X. Organizar, controlar e manter atualizados os arquivos de 
+documentos e dados cadastrais dos servidores do Campus;
+XI. Interpretar e prestar esclarecimentos sobre a legislação e normas 
+de pessoal;
+XII. Exercer atividades relacionadas à admissão, desligamento, 
+aperfeiçoamento, lotação, pagamento e cadastro de servidores;
+XIII. Efetivar os devidos registros e operações do processamento da 
+folha de pagamento dos servidores; 
+XIV. Emitir documentos oficiais com base nos registros constantes no 
+cadastro geral dos servidores;
+XV. Orientar as chefias imediatas quanto ao controle de frequência, 
+conforme legislação vigente;
+XVI. Orientar os servidores quanto ao registro de ausência no sistema 
+de controle de frequência;
+XVII. Prestar informações à comunidade sobre assuntos de sua 
+competência;
+XVIII. Promover o controle de lotação dos cargos de direção e funções 
+gratificadas, bem como elaborar os atos próprios;
+XIX. Oferecer subsídios para o planejamento orçamentário de recursos 
+humanos;
+XX. Elaborar e controlar processos de inatividade e pensões;Regimento Complementar do IFRS – Campus Canoas – Página 16 de 41
+XXI. Preparar os atos de processamento e controle das alterações 
+funcionais;
+XXII. Executar e avaliar projetos e ações que contribuam para a 
+qualidade de vida dos servidores;
+XXIII. Elaborar e realizar as publicações dos atos de pessoal no Diário 
+Oficial da União e no Boletim de Serviço Interno.
+Seção XI – Da Coordenadoria de Infraestrutura
+Art. 18º À Coordenadoria de Infraestrutura, subordinada à Direção de 
+Administração e Planejamento, compete:
+I. Executar, avaliar e registrar as atividades relacionadas ao 
+controle dos materiais e movimentação dos bens patrimoniais;
+II. Manter cadastro, identificação e termos de responsabilidade 
+atualizados dos bens patrimoniais, bem como o inventário anual da unidade;
+III. Realizar vistorias periódicas dos bens patrimoniais com vistas à 
+manutenção interna, externa e corretiva;
+IV. Comunicar ao Diretor de Administração e Planejamento as 
+ocorrências extraordinárias com o patrimônio e materiais;
+V. Orientar os diversos departamentos e coordenadorias da unidade 
+no preenchimento dos formulários de previsão anual de materiais (consumo e 
+permanente);
+VI. Executar o armazenamento, devidamente codificado e 
+classificado, do material de consumo;
+VII. Atender as requisições de materiais de consumo, controlando os 
+estoques;
+VIII. Elaborar inventário anual de materiais de consumo da unidade;
+IX. Providenciar e acompanhar o encaminhamento referente à 
+manutenção externa de material permanente;
+X. Instruir os processos de doação, alienação e baixa de material 
+permanente;
+XI. Proceder o recebimento a conferência, junto ao requerente, e 
+receber novos materiais de consumo e permanentes;
+XII. Receber das diretorias, coordenadorias e setores as solicitações e 
+encaminhar para manutenção os equipamentos e mobiliários, acompanhando 
+posteriormente a devolução do bem no respectivo setor.Regimento Complementar do IFRS – Campus Canoas – Página 17 de 41
+Seção XII – Da Coordenadoria de Execução Financeira e Orçamentária
+Art. 19º À Coordenadoria de Execução Orçamentária, subordinada à 
+Direção de Administração e Planejamento, compete:
+I. Efetuar as atividades referentes a Empenhos e Pagamentos;
+II. Fazer a abertura de processos e cadastro nos sistemas 
+utilizados, do Setor de Compras, analisar documentos e orçamentos, 
+verificando os limites orçamentários disponíveis para empenho e pagamento, 
+bem como os lançamentos junto aos Sistemas Federais de Administração 
+Financeira;
+III. Fazer a programação financeira e apropriações das notas fiscais 
+para pagamento;
+IV. Executar a emissão de pré-empenho e empenho, considerando a 
+legislação vigente;
+V. Receber o documento fiscal de compra e/ou serviços, verificar 
+junto aos setores competentes se o mesmo foi executado ou se atende as 
+demandas pré-estabelecidas através dos relatórios dos fiscais de contrato e, 
+após, proceder à liquidação da despesa, realizando os cálculos necessários 
+para desconto;
+VI. Acompanhar as medições efetuadas pelos fiscais de cronograma 
+de entrega de materiais e/ou serviços;
+VII. Consultar a situação fiscal dos fornecedores, através dos 
+sistemas Simples Nacional e Compras.Net;
+VIII. Analisar a situação fiscal dos fornecedores para posterior 
+pagamento;
+IX. Controlar a dotação orçamentária diariamente para efetuar 
+pagamentos;
+X. Executar os procedimentos para pagamento e recolhimento de 
+taxas e impostos;
+XI. Executar os lançamentos de apropriação e pagamento de 
+servidores e serviços terceirizados, bem como o recolhimento dos encargos 
+sociais;
+XII. Efetuar o pagamento de despesas com diárias e passagens;
+XIII. Autorizar os pagamentos através do Sistema Integrado de 
+Administração Financeira do Governo Federal;
+XIV. Providenciar a prestação de contas referentes a suprimento de 
+fundos;
+XV. Elaborar planilhas de Controle de Processos, fluxo de pessoas no 
+Campus e relatórios diversos;
+XVI. Desempenhar outras atividades afins ou previstas na legislação 
+vigente e/ou atribuídas pelo superior hierárquico.Regimento Complementar do IFRS – Campus Canoas – Página 18 de 41
+Seção XIII – Da Coordenadoria de Compras e Licitações
+Art. 20º À Coordenadoria de Compras e Licitações, subordinada à 
+Direção de Administração e Planejamento, compete:
+I. Executar as atividades referentes ao processo de compras de materiais 
+e contratação de serviços;
+II. Atender e manter um cadastro atualizado de fornecedores, segundo as 
+normas vigentes;
+III. Operacionalizar os processos licitatórios, convênios que impliquem em 
+movimentação de recursos financeiros, contratos de compras e leilões da 
+Instituição;
+IV. Proceder o lançamento dos itens de compras e/ou serviços, dos 
+contratos e convênios e dos cronogramas nos Sistemas Federais de 
+Administração;
+V. Executar procedimentos administrativos junto ao fornecedor, visando 
+estabelecer prazos e procedimentos de entrega dos materiais e serviços;
+VI. Desempenhar outras atividades afins ou previstas na legislação vigente 
+e/ou atribuídas pelo superior hierárquico.
+CAPÍTULO III – DOS ÓRGÃOS DE ASSESSORIA
+Seção I – Da Biblioteca
+Art. 21º À Biblioteca, subordinada à Coordenadoria de Ensino, compete:
+I. Proporcionar à comunidade acadêmica o acesso organizado à 
+informação registrada em seus diversos suportes e mídias que atendam às 
+ações e atividades de ensino, pesquisa e extensão dos campi;
+II. Auxiliar no processo de seleção e aquisição dos materiais 
+informacionais, bem como mobiliário, sistemas e equipamentos para o setor;
+III. Disponibilizar as fontes de informação referenciadas nos Projetos 
+Pedagógicos de Cursos (PPCs);
+IV. Desenvolver ações que contribuam na formação de hábitos e 
+atitudes de manuseio do livro e outros materiais informacionais, visando a 
+preservação, manutenção e conservação do acervo;
+V. Prover o acesso à produção técnico-científica produzida pela 
+comunidade institucional, de acordo com as normas pré-estabelecidas;
+VI. Prestar serviços que contribuam para o fomento do acesso e do 
+uso da informação disponibilizada na instituição e outras fontes, podendo ser 
+na forma de capacitação a grupos ou personalizada;Regimento Complementar do IFRS – Campus Canoas – Página 19 de 41
+VII. Criar e manter canais informacionais de integração entre a 
+biblioteca e seus usuários;
+VIII. Elaborar o regulamento da biblioteca bem como propor 
+alterações, encaminhando-as à Coordenação de Ensino;
+IX. Compartilhar processos e serviços com todas as bibliotecas 
+integrantes do SiBIFRS- Sistema de Bibliotecas do IFRS;
+X. Contribuir na produção e na disponibilização de tutoriais relativos 
+aos serviços ofertados pelas bibliotecas que compõem o SiBIFRS, 
+dinamizando o uso dos recursos informacionais nos padrões preestabelecidos;
+XI. Promover e/ou apoiar ações culturais, atividades de fomento à leitura 
+e atividades aos usuários.
+Seção II – Do Setor de Comunicação
+Art. 22º O setor de comunicação, concebido como sistêmico dentro da 
+unidade por congregar ações que integram as áreas do ensino, da pesquisa e 
+da extensão, está subordinado à direção-geral, e congrega, minimamente os 
+cargos de jornalista e de técnico em audiovisual.
+Art. 23º Compete ao jornalista desempenhar as seguintes ações:
+I. Promover a divulgação jornalística de eventos e atividades de 
+cunho institucional por meio de diferentes veículos de comunicação, 
+estabelecendo um canal permanente entre os veículos e o Campus;
+II. Estabelecer contato com os veículos de comunicação e promover 
+a divulgação das ações da unidade, no que tange à parte jornalística, na 
+modalidade de sugestão de pauta (releases);
+III. Trabalhar na criação e na constante manutenção de publicações 
+de cunho jornalístico em nível de campus, que venham ao encontro das 
+políticas de comunicação do IFRS;
+IV. Implementar, em nível de campus, as ações provenientes da 
+política de comunicação, elaborada pela Diretoria de Comunicação do IFRS, 
+em consonância com a realidade de cada unidade;
+V. Estabelecer critérios de fixação e controle de cartazes, faixas, 
+murais e outras formas de divulgação no Campus;
+VI. Promover a manutenção dos diversos tipos de mídia criados pelo 
+IFRS;
+VII. Promover o diálogo dos diversos veículos de comunicação com o 
+Campus, no que tange as divulgações de cunho jornalístico;
+VIII. Participar da Comissão Permanente de Formatura, como membro 
+nato, de acordo com normativas estabelecidas pelo IFRS;
+IX. Participar da Comissão Permanente de Seleção do Processo 
+Seletivo, de acordo com a Política de Ingresso Discente;Regimento Complementar do IFRS – Campus Canoas – Página 20 de 41
+X. Participar da Comissão de elaboração e formatação do Boletim 
+de Serviço da unidade.
+Art. 24º Compete ao Técnico em Audiovisual desempenhar as seguintes 
+ações:
+I. Produzir e editar filmes institucionais e matérias jornalísticas em 
+áudio e vídeo, em conjunto com o jornalista ou outros profissionais da 
+Comunicação;
+II. Atuar com equipamentos audiovisuais (alto-falantes, microfones, 
+amplificadores, projetores e similares);
+III. Manejar equipamentos audiovisuais, registrando som, foto e 
+vídeo nas atividades institucionais, didáticas, de pesquisa e extensão;
+IV. Utilizar recursos multimídia na edição de imagens e sons;
+V. Testar a instalação, fazendo as conexões e os ajustes 
+convenientes;
+VI. Manter-se atualizado sobre as tecnologias audiovisuais e outras, 
+sugerindo e coordenando a aquisição de novos equipamentos e recursos;
+VII. Zelar pelo cumprimento das normas e legislações de uso de 
+imagem;
+VIII. Manter e conservar os equipamentos;
+IX. Encaminhar, quando necessário, os equipamentos para 
+manutenção, auxiliando na obtenção de orçamentos;
+X. Controlar a circulação dos equipamentos, registrando a 
+movimentação em fichário apropriado;
+XI. Manter organizado e atualizado os arquivos de imagens 
+fotográficas e cinematográficas, bem como os de áudio;
+XII. Executar outras tarefas de mesma natureza e nível de 
+complexidade, associadas ao ambiente organizacional;
+XIII. Desempenhar outras atividades afins ou previstas na legislação 
+vigente.
+Seção III – Do Setor de Estágios
+Art. 25º Ao Setor de Estágios, vinculado a Coordenadoria de Extensão, 
+compete:
+I – Entregar aos alunos os formulários necessários para o planejamento, 
+execução e acompanhamento do Estágio.
+II – Exigir do Supervisor, Orientador do Estágio e do Estagiário a entrega 
+dos documentos necessários nos prazos estipulados.Regimento Complementar do IFRS – Campus Canoas – Página 21 de 41
+III – Manter arquivo atualizado com a documentação referente aos 
+estágios e encaminhar para o setor de registros escolares para anexar a pasta 
+do aluno.
+IV – Acompanhar a frequência dos estudantes em estágio curricular.
+V – Divulgar as oportunidades de estágios encaminhadas à instituição 
+pelas concedentes conveniadas e pelos agentes de integração.
+Seção IV – Do Setor de Laboratórios
+Art. 26º Ao Setor de Laboratórios, subordinado à Coordenação de 
+Ensino, compete:
+I. Efetuar planejamento com metas e objetivos de melhorias dos 
+serviços de laboratórios;
+II. Executar, assessorar e supervisionar projetos em infraestrutura a 
+serem executados nos laboratórios da instituição;
+III. Promover adaptação dos equipamentos e sistemas de informação 
+a fim de fornecer ao público docente e discente, incluindo as pessoas com 
+deficiências;
+IV. Auxiliar na especificação e orçamento dos materiais e ativos, 
+observando as tendências e a relação custo-benefício;
+V. Propor medidas apropriadas de segurança e cuidados em relação 
+aos recursos e informações do contexto dos laboratórios;
+VI. Desenvolver, implantar e atualizar sistemas de informação que 
+estiverem alinhados com os objetivos e interesses do IFRS;
+VII. Propor e monitorar políticas de segurança contra o uso de material 
+ou programa que fira as leis de direitos autorais e propriedade intelectual;
+VIII. Realizar o atendimento de suporte aos usuários dos laboratórios;
+IX. Promover a manutenção preventiva e corretiva dos laboratórios;
+Seção V – Do Setor de Auditoria
+Art. 27º O Setor de Auditoria Interna do Campus Canoas integra a 
+Unidade de Auditoria Interna do Instituto Federal de Educação, Ciência e 
+Tecnologia do Rio Grande do Sul – UNAI/IFRS – que está vinculada ao 
+Conselho Superior do IFRS e tem sua estrutura organizada conforme 
+regimento específico.
+Art. 28º A Auditoria Interna do Campus Canoas possui subordinação 
+hierárquica à UNAI/IFRS (Unidade de Auditoria Interna do Instituto Federal de Regimento Complementar do IFRS – Campus Canoas – Página 22 de 41
+Educação, Ciência e Tecnologia do Rio Grande do Sul), administrativamente 
+está vinculada à Direção Geral do Campus.
+Art. 29º As Competências do Auditor Interno estão dispostas no 
+Regimento da Unidade de Auditoria Interna do Instituto Federal de Educação, 
+Ciência e Tecnologia do Rio Grande do Sul.
+Seção VI – Da Contabilidade
+Art. 30º Ao Setor de Contabilidade, subordinado à Diretoria de 
+Administração e Planejamento, compete:
+I. Efetuar os registros contábeis, zelando pelo cumprimento das normas 
+em vigor;
+II. Analisar e emitir relatórios e informações, balancetes e balanços 
+relacionados aos registros contábeis lançados nos sistemas federais de 
+administração;
+III. Prestar apoio técnico contábil às áreas de planejamento na 
+elaboração de propostas, reformulações do orçamento e créditos solicitados;
+IV. Manter atualizado o rol de responsáveis e as informações a respeito 
+dos ativos imobilizados, nos sistemas governamentais;
+V. Realizar conciliações mensais, antes do encerramento do mês, para 
+fechamento das contas contábeis;
+VI. Registrar, mensalmente, a conformidade contábil dos atos e fatos da 
+gestão orçamentária, financeira e patrimonial do Campus;
+VII. Responsável pela classificação e orientação orçamentária e contábil 
+de Receitas e Despesas Públicas;
+VIII. Assessorar quanto a aplicação da Legislação Contábil, Comercial e 
+Tributária;
+IX. Enviar declarações obrigatórias quanto ao aspecto contábil da 
+Pessoa Jurídica, aos Órgãos competentes, no que lhe couber;
+X. Desempenhar outras atividades afins ou previstas na legislação 
+vigente e/ou atribuídas pelo superior hierárquico.
+Seção VII – Do Setor Pedagógico
+Art. 31º Ao Setor de Pedagógico, subordinado à Coordenadoria de 
+Ensino, compete:
+I. Orientar e acompanhar ocorrências relativas ao andamento das aulas, 
+à preservação do patrimônio, ao cumprimento das normas, aos aspectos 
+disciplinares e ao bem-estar dos alunos;Regimento Complementar do IFRS – Campus Canoas – Página 23 de 41
+II. Acompanhar e supervisionar a entrada, permanência e saída e 
+demais atividades do corpo discente;
+III. Encaminhar o aluno, em caso de emergência, ao serviço médico ou 
+odontológico, informando os familiares;
+IV. Contribuir com a comunicação dos assuntos referentes ao Setor de forma 
+eficiente e integrada com os demais setores do Campus;
+V. Participar na elaboração e publicizar as normas internas do Campus à 
+toda comunidade institucional;
+VI. Orientar docentes e discentes sobre as atividades e atribuições 
+pertinentes ao Setor Pedagógico;
+Seção VIII – Do Setor de Apoio Integrado ao Ensino, Pesquisa e Extensão
+Art. 32º Ao Setor de Apoio Integrado ao Ensino, Pesquisa e Extensão, 
+vinculados às respectivas coordenadorias compete: 
+I. Acompanhar e assessorar, de forma integrada, os projetos e 
+atividades das coordenadorias de Ensino, Pesquisa e Extensão. 
+II. Organizar, gerenciar e arquivar documentos referentes aos 
+projetos de fomento interno e das bolsas, buscando a padronização e 
+otimização do processo.
+III. Organizar e gerenciar o uso dos armários, bem como outros 
+recursos permanentes da instituição, por parte dos bolsistas de ensino, 
+pesquisa ou extensão.
+IV. Gerenciar o processo editorial de submissão de trabalhos ao
+evento anual que congrega as ações de ensino, pesquisa e extensão do 
+Campus Canoas, bem como viabilizar a publicação anual do caderno de 
+resumos do evento. 
+V. Auxiliar nas estratégias para divulgação das atividades de Ensino, 
+Pesquisa e Extensão do campus, assim como na publicação de livros 
+relacionados a projetos do campus
+VI. Receber, organizar e encaminhar documentação referente aos 
+editais das três coordenadorias.
+VII. Emitir e controlar os certificados, quando necessário e pertinente, 
+de atuação em projetos de ensino, pesquisa ou extensão, desenvolvidos no 
+Campus Canoas.
+Seção IX – Do Setor de Contratos do Campus Canoas
+Art. 33º Ao Setor de Contratos, subordinado à Diretoria de Administração 
+e Planejamento, compete:Regimento Complementar do IFRS – Campus Canoas – Página 24 de 41
+I. Formalização de contratos observando edital e termo de 
+referência;
+II. Realizar Termo Aditivo: prorrogação de prazos, supressão e 
+acréscimo;
+III. Realizar Termo de Apostilamento: repactuação, reajuste, 
+reequilíbrio econômico;
+IV. Manter registros e anotações relacionados com a execução dos 
+contratos, controlando prazos, garantias contratuais e documentação dos 
+funcionários terceirizados;
+V. Realizar pesquisas mercadológicas para verificar a vantajosidade 
+e economicidade dos preços vigentes;
+VI. Gestão dos contratos e apoio técnico à equipe de fiscalização;
+VII. Emitir nota técnica sobre contratos e seus aditamentos, encaminh
+ando-as para análise e parecer da Procuradoria Jurídica Federal;
+VIII. Administrar, junto à instituição bancária, conta depósito vinculada, 
+aberta pela Administração em nome da contratada, referente a contratação de 
+serviços com dedicação exclusiva de mão de obra;
+IX. Realizar as publicações oficiais;
+X. Organização e controle dos processos de fiscalização; 
+XI. Informar ao setor de Compras e Licitações a proximidade do 
+término de vigência contratual, para elaboração de novo processo licitatório;
+XII. Instaurar processos administrativos de penalização;
+CAPÍTULO III – DAS COMISSÕES E OUTROS ÓRGÃOS SUPLEMENTARES
+Seção I – Da Comissão Própria de Pessoal Docente (CPPD)
+Art. 34º A Comissão Permanente de Pessoal Docente (CPPD) é um 
+órgão consultivo, colegiado, independente e competente de assessoramento 
+do Conselho Superior do IFRS para formulação, acompanhamento e execução 
+da política de pessoal docente, regulamentado por Regimento Geral aprovado 
+em Resolução do Conselho Superior do IFRS.
+I - A CPPD é constituída por um Colegiado e por Representações Locais
+II - A Representação Local da CPPD no Campus Canoas será 
+constituída por sete docentes efetivos das carreiras do magistério federal, 
+lotados no quadro de pessoal do Campus, eleitos pelos seus pares para 
+mandatos de dois anos, sendo cinco membros titulares e dois suplentes.
+Art. 35º A Representação Local da CPPD no Campus Canoas prestará 
+assessoramento ao Conselho de Campus, ao Diretor do Campus Canoas e à 
+Coordenadoria de Gestão de Pessoas do Campus Canoas referente a: Regimento Complementar do IFRS – Campus Canoas – Página 25 de 41
+I – dimensionamento da alocação de vagas docentes; 
+II – contratação e admissão de professores efetivos e substitutos; 
+III – alteração de regime de trabalho docente; 
+IV – avaliação de desempenho para a progressão funcional dos 
+docentes; 
+V – solicitação de afastamento para aperfeiçoamento, especialização, 
+mestrado, doutorado e pós-doutorado, inclusive quando se tratar de renovação 
+ou suspensão do prazo concedido; 
+VI – liberação de professores para programas de cooperação ou outras 
+atividades esporádicas em outras instituições, universitárias ou não; 
+VII – avaliação de desempenho em estágio probatório dos docentes; 
+VIII – plano de trabalho docente; 
+IX – processo administrativo disciplinar interposto ao servidor docente; 
+X – remoção, redistribuição, readaptação, reversão, reintegração e 
+recondução do servidor docente; 
+XI – licença para capacitação nos termos do art. 87 da lei 9.527 de 10 de 
+dezembro de 1997; 
+XII – concessão de horário especial a servidor estudante; 
+XIII – desenvolvimento de estudos e análises que permitam fornecer 
+subsídios para a fixação, aperfeiçoamento e modificação da política de pessoal 
+docente e de seus instrumentos. 
+Parágrafo único – Compete à Representação Local da CPPD no 
+Campus Canoas operacionalizar os trâmites e emitir parecer acerca de todos 
+os processos referidos neste Art.
+Art. 36º A Representação Local da CPPD no Campus Canoas será 
+composta por: 
+I – um Presidente;
+II – um Vice-presidente; 
+III – um Secretário; 
+IV – demais membros titulares e suplentes.
+§ 1º. A escolha do Presidente, Vice-Presidente e Secretário será
+mediante consenso interno ou, na sua ausência, de acordo com o resultado da 
+eleição dos seus membros, sendo nomeado Presidente o membro que obteve 
+mais votos, Vice-presidente o segundo colocado no pleito eleitoral e Secretário 
+o terceiro mais votado.
+§ 2º. O Presidente e o Vice-presidente serão os representantes titular e 
+suplente, respectivamente, do Campus Canoas no Colegiado da CPPD do 
+IFRS. 
+§ 3º. Na ausência do membro titular, o membro suplente assume 
+automaticamente, gozando de todas as prerrogativas inerentes à função.
+§ 4º. A representação local da CPPD poderá, a seu critério, convidar 
+outros docentes do quadro de pessoal do IFRS, lotados ou não no Campus 
+Canoas, para avaliar, na condição de consultores ad hoc, processos de Regimento Complementar do IFRS – Campus Canoas – Página 26 de 41
+docentes que tenham maior antiguidade, titulação e/ou posição funcional 
+(classe) que todos os seus membros.
+Seção II – Da Comissão Interna de Supervisão (CIS)
+Art. 37º De acordo com o art. 5º da Portaria nº 2.519, de 15 de julho de 
+2005, a Comissão Interna de Supervisão da Carreira dos Cargos Técnicoadministrativos em Educação (CIS) tem as seguintes atribuições:
+I - acompanhar a implantação do plano de carreira em todas as suas 
+etapas, bem como o trabalho da Comissão de Enquadramento;
+II - orientar a área de pessoal, bem como os servidores, quanto ao plano 
+de carreira dos cargos técnico-administrativos em educação;
+III - fiscalizar e avaliar a implementação do plano de carreira no âmbito 
+do respectivo campus;
+IV - propor à CIS Central do IFRS as alterações necessárias para o 
+aprimoramento do plano;
+V - apresentar propostas e fiscalizar a elaboração e a execução do plano 
+de desenvolvimento de pessoal do Campus e seus programas de capacitação, 
+de avaliação e de dimensionamento das necessidades de pessoal e modelo de 
+alocação de vagas;
+VI - avaliar, anualmente, as propostas de lotação do Campus, conforme 
+o inciso I do § 1º do art. 24 da Lei nº 11.091, de 12 de janeiro de 2005;
+VII - acompanhar o processo de identificação dos ambientes 
+organizacionais do Campus proposto pela área de pessoal, bem como os 
+cargos que os integram;
+VIII - examinar os casos omissos referentes ao plano de carreira e 
+encaminhá-los à CIS Central.
+Art. 38º Podem concorrer à representação na CIS todos os técnicoadministrativos do quadro efetivo permanente, lotados no Campus.
+Art. 39º A comissão será composta por 3 (três) técnico-administrativos 
+titulares e 3 (três) técnico administrativos suplentes, eleitos por seus pares com 
+voto direto e nominal.
+§1° Na ausência ou impedimento de um dos membros titulares, o 
+suplente participará da reunião com direito a voto, devendo este ser notificado 
+de seu compromisso até 48h antes da reunião na qual substituirá o membro 
+titular;
+§2° O mandato de todos os membros é de 3 (três) anos, permitida uma 
+recondução.Regimento Complementar do IFRS – Campus Canoas – Página 27 de 41
+Art. 40º A CIS deverá realizar reuniões ordinárias com os técnicos
+administrativos, no mínimo a cada 4 meses, para discutir questões inerentes e 
+apresentar encaminhamentos, bem como acompanhar seu trabalho por um 
+grupo indicado pelos setores, composto por até 10% do número de servidores, 
+preferencialmente distribuídos por setor.
+Art. 41º Outras atribuições e aspectos da composição da Comissão 
+Interna de Supervisão (CIS) poderão ser definidos em regimento interno 
+próprio.
+Seção III - Da Comissão Interna de Saúde, Segurança e Prevenção de 
+Acidentes (CISSPA)
+Art. 42º A CISSPA é um órgão de natureza deliberativa sobre questões 
+pertinentes à saúde, à segurança e prevenção de acidentes. Possui caráter 
+prevencionista sobre questões pertinentes ao meio ambiente, à saúde e à 
+segurança do trabalho e tem como finalidade a melhoria das condições de 
+trabalho e do meio ambiente, buscando soluções que promovam o bem-estar 
+físico, psíquico e social do profissional em educação.
+Art. 43º A constituição da CISSPA é obrigatória nas unidades 
+organizacionais com mais de 50(cinquenta) profissionais em educação em seu 
+quadro.
+Art. 44º A CISSPA de cada unidade organizacional será constituída por 
+servidores efetivos ou nomeados em cargo em comissão, escolhidos pelos 
+profissionais em educação da unidade por meio de eleição.
+Art. 45º Demais orientações estão previstas em Resolução própria.
+Seção IV – Da Comissão de Organização e Acompanhamento (COA)
+Art. 46º A COA será composta da seguinte forma:
+I - por um representante da gestão de pessoas do Campus;
+II - por um representante da CIS do Campus;
+III - por um representante da CPPD do Campus.
+Art. 47º São atribuições da COA:
+I - Coordenar o levantamento das necessidades de capacitação;
+II - Sistematizar as demandas de capacitações;Regimento Complementar do IFRS – Campus Canoas – Página 28 de 41
+III - Elaborar o Plano Anual de Capacitação dos Servidores da unidade 
+organizacional nos prazos estipulados pelo programa de capacitação dos 
+servidores do IFRS; 
+IV - Acompanhar a realização de todas as etapas das ações do Plano 
+Anual de Capacitação da unidade organizacional; 
+V - Promover, em articulação com a DGP, todas as ações necessárias 
+para o cumprimento integral do Programa de Capacitação dos Servidores do 
+IFRS. 
+VI - Zelar pelo cumprimento dos princípios e objetivos do Programa de 
+Capacitação dos Servidores do IFRS, buscando aprimorá-lo em conjunto com 
+os servidores do IFRS e seus órgãos representativos. 
+VII - Auxiliar a CGP, ou equivalente, na elaboração do relatório de 
+capacitações realizadas.
+Seção V – Da Comissão de Assistência Estudantil
+Art. 48º A composição, competências e funcionamento da Comissão de 
+Assistência Estudantil do Campus Canoas, serão definidas em regimento 
+específico, em conformidade com a Política de Assistência Estudantil do IFRS, 
+por comissão presidida pela Coordenadoria de Assistência Estudantil e 
+aprovado no Conselho de Campus.
+Seção VI – Da Comissão Permanente de Processo Eleitoral (COPPE)
+Art. 49º A Comissão Permanente de Processo Eleitoral é responsável 
+pelos processos eleitorais de representação estudantil, de comissões 
+permanentes ou específicas e outros cargos e funções eletivas que vierem a 
+ser criadas por meio do Estatuto do IFRS, do Regimento Geral do IFRS ou por 
+este Regimento e pela Direção Geral.
+Art. 50º Os membros desta comissão serão escolhidos através de um 
+processo eleitoral e nomeados através de portaria específica e será formada 
+por representação paritária entre corpo docente, corpo discente e técnicos 
+administrativos, eleitos por seus pares, em número de dois titulares e um 
+suplente por segmento.
+Art. 51º Os membros da Comissão Permanente de Processo Eleitoral 
+terão mandatos de dois anos, podendo ser reconduzidos uma vez por igual 
+período, através de novo processo eleitoral.Regimento Complementar do IFRS – Campus Canoas – Página 29 de 41
+Art. 52º Compete à Comissão Permanente de Processo Eleitoral:
+I. organizar todos os processos eleitorais no âmbito do Campus;
+II. informar à Direção Geral a falta de um de seus membros, visando 
+à sua substituição pela não participação em duas chamadas para organizar 
+processos eleitorais;
+III. eleger entre seus membros um Presidente e um Vice-Presidente 
+para esta comissão, para fins de representação;
+IV. informar a comunidade do Campus sobre a abertura de 
+processos eleitorais;
+V. assegurar ampla participação para qualquer membro da 
+comunidade do Campus, respeitando as normas deste Regimento;
+VI. receber, registrar e publicar a inscrição de candidatos e chapas;
+VII. conduzir os processos eleitorais de forma transparente e 
+democrática;
+VIII. confeccionar e auditar as cédulas eleitorais;
+IX. fazer as apurações dos processos eleitorais;
+X. publicar amplamente os resultados dos processos eleitorais;
+XI. respeitar e aplicar as legislações vigentes.
+Seção VII – Da Comissão Permanente de Processo de Ingresso Discente
+Art. 53º A Comissão Permanente de Processo de Ingresso Discente, 
+subordinado à Coordenação de Desenvolvimento Institucional, ou equivalente, 
+possui em seu âmbito a função de planejar, executar e acompanhar o Processo 
+de Ingresso Discente.
+Art. 54º A composição e as competências da Comissão Permanente de 
+Processo de Ingresso discente estão definidas pelo Conselho Superior do 
+IFRS, através da Política de Ingresso Discente.
+Seção VIII – Da Comissão Própria de Avaliação (CPA)
+Art. 55º A CPA integra o Sistema Nacional de Avaliação da Educação 
+Superior (SINAES) e atua com autonomia, no âmbito de sua competência legal, 
+em relação aos conselhos e demais órgãos colegiados existentes na 
+instituição. Seu regulamento consta em regimento próprio, aprovado pelo 
+Conselho Superior do IFRS.Regimento Complementar do IFRS – Campus Canoas – Página 30 de 41
+Seção IX – Da Comissão de Elaboração e Publicação do Boletim Mensal 
+de Serviço
+Art. 56º A Comissão de Elaboração do Boletim Mensal de Serviço é 
+responsável pela edição e publicação dos atos relativos aos servidores 
+públicos e demais documentos oficiais do Campus. As publicações têm 
+validade jurídica na forma da legislação vigente, ressalvados aqueles de 
+publicação obrigatória no Diário Oficial da União (D.O.U.).
+Art. 57º A Comissão de Elaboração do Boletim Mensal de Serviço será 
+composta por um servidor ou equipe de servidores, designada por portaria pelo 
+Diretor Geral do Campus.
+Art. 58º Demais orientações estão previstas em Instrução Normativa 
+específica.
+Seção X – Do Núcleo de Atendimento à Pessoas com Necessidades 
+Específicas (NAPNE)
+Art. 59º O Núcleo de Atendimento às Pessoas com Necessidades 
+Específicas (NAPNE) – é um setor propositivo e consultivo que media a 
+educação inclusiva na instituição. O NAPNE é facilitador e disseminador de 
+ações inclusivas, buscando não apenas a inclusão de alunos com 
+necessidades educacionais específicas nos bancos escolares, mas, também, 
+sua permanência e saída exitosa para o mundo do trabalho, atuando no 
+ensino, na pesquisa e na extensão.
+Art. 60º Compete ao NAPNE:
+I - Implantar estratégias de inclusão, permanência e saída exitosa para o 
+mundo do trabalho de Pessoas com Necessidades Educacionais Específicas 
+(PNEEs);
+II - Articular os diversos setores da instituição nas atividades relativas à 
+inclusão, definindo prioridades;
+III - Buscar parcerias com entidades de atendimento de PNEEs;
+IV - Incentivar e/ou realizar pesquisa e inovação no que tange à inclusão 
+de PNEEs;
+V - Promover quebra de barreiras arquitetônicas, comunicacionais, 
+metodológicas, instrumentais, programáticas e atitudinais nos Campus.
+Art. 61º O NAPNE está vinculado à Coordenadoria de Extensão, faz 
+parte do grupo de Núcleos de Ações Afirmativas do Campus, com coordenação 
+eleita pelos membros do núcleo, a qual será assegurada dedicação mínima de Regimento Complementar do IFRS – Campus Canoas – Página 31 de 41
+8hs semanais ao planejamento e execução das propostas e atividades, e de 
+4hs para o secretário ou vice-coordenador.
+Art. 62º Outras especificidades poderão ser definidas em regimento 
+específico do NAPNE.
+Seção XI – Do Núcleo de Estudos Afro-Brasileiros e Indígenas (NEABI)
+Art. 63º O Núcleo de Estudos Afro-Brasileiros e Indígenas – NEABI – é 
+um setor propositivo e consultivo que estimula e promove ações de Ensino, 
+Pesquisa e Extensão orientadas à temática das identidades e relações étnicoraciais, especialmente quanto às populações afrodescendentes e indígenas, no 
+âmbito do IFRS Campus Canoas e em suas relações com a comunidade 
+externa.
+Art. 64º São algumas competências dos NEABIs:
+I - Promover encontros de reflexão e capacitação de servidores para o 
+conhecimento e valorização da história dos povos africanos, da cultura afrobrasileira e da cultura indígena, na constituição histórica e cultural do país;
+II - Promover a realização de atividades de Ensino, Pesquisa e 
+Extensão, relacionadas à temática;
+III - Propor ações que levem a conhecer o perfil da comunidade interna e 
+externa dos campi nos aspectos étnico-raciais;
+IV - Auxiliar na implementação das leis que estabelecem a cultura afrobrasileira e indígena como pontos de estudo e atividades no currículo escolar;
+V - Buscar a implementação de projetos de valorização e 
+reconhecimento dos sujeitos negros e indígenas no contexto do Campus;
+VI - Possibilitar o desenvolvimento de conteúdos curriculares, 
+extracurriculares e pesquisas com abordagem multi e interdisciplinares sobre a 
+temática de forma contínua;
+VII - Colaborar em ações que levem ao aumento do acervo bibliográfico 
+relacionado a educação plurimétrica no Campus;
+VIII - Organizar espaços de conhecimento, reconhecimento e interação 
+com grupos étnico-raciais;
+IX - Revisar documentos do Campus, sempre buscando a inserção e 
+atualização dos mesmos no que compete às questões étnico-raciais;
+X - Propor e participar de eventos e atividades de outras instituições, 
+como também de movimentos sociais, que envolvam questões relacionadas a 
+cultura afro-brasileira e indígena.Regimento Complementar do IFRS – Campus Canoas – Página 32 de 41
+XI - Acompanhar registros acadêmicos, dados institucionais que possam 
+auxiliar no acompanhamento do ingresso e permanência de sujeitos negros e 
+indígenas no Campus Canoas. 
+Art. 65º O NEABI está vinculado à Coordenadoria de Extensão, faz parte 
+do grupo de Núcleos de Ações Afirmativas do Campus, com coordenação 
+eleita pelos membros do núcleo, a qual será assegurada dedicação mínima de 
+8hs semanais ao planejamento e execução das propostas e atividades, e de 
+4hs para o secretário ou vice-coordenador.
+Art. 66º Outras especificidades poderão ser definidas em regimento 
+específico do NEABI.
+Seção XII – Do Núcleo de Estudos e Pesquisas em Gênero e Sexualidades 
+(NEPGS)
+Art. 67º O Núcleo de Estudos e Pesquisas em Gênero e Sexualidades –
+NEPGS – é um setor propositivo e consultivo que estimula e promove ações de 
+Ensino, Pesquisa e Extensão orientadas à temática da educação para a 
+diversidade de gênero e sexualidades.
+Art. 68º - São algumas competências dos NEPGS:
+I - Propor políticas, Programas, Ações e/ou Atividades que envolvam as 
+temáticas relacionadas a Corpo, Gênero, Sexualidade e Diversidade nos 
+Campus;
+II - Assessorar e prestar consultoria à Coordenadoria de Assistência 
+Estudantil do Campus, em situações ou casos que envolvam essas temáticas;
+Estudar e produzir conhecimento científico sobre as temáticas do Núcleo a fim 
+de contribuir para este campo de conhecimento e para os currículos dos cursos 
+ofertados;
+III - Auxiliar na elaboração das normativas do Campus relacionadas à 
+temática;
+IV - Articular os diversos setores da instituição nas atividades relativas 
+às temáticas de atuação dos NEPGSs, definindo prioridades de ações, 
+aquisição de equipamentos, materiais didático-pedagógicos a serem utilizados 
+nas práticas educativas e ações de ensino, pesquisa e extensão;
+V - Participar das políticas de ensino, pesquisa, extensão e gestão para 
+compor o planejamento da instituição no que se refere ao atendimento, 
+aconselhamento e acompanhamento de pessoas que em função de gênero 
+e/ou sexualidade que se encontram em vulnerabilidade social, cultural e/ou 
+educacional;Regimento Complementar do IFRS – Campus Canoas – Página 33 de 41
+VI - Discutir a importância dos movimentos sociais na luta contra as 
+desigualdades sociais, com ênfase nas desigualdades de gênero;
+VII - Conhecer e debater junto à comunidade escolar e local sobre as 
+leis que tratam da união civil de pessoas de mesmo sexo, cirurgias de 
+redesignação sexual e alterações no nome de travestis, transexuais e 
+transgêneros;
+VIII - Fomentar discussões sobre Doenças Sexualmente Transmissíveis, 
+sintomas e tratamentos, em parceria com Secretarias Municipais de Saúde e 
+órgãos afins;
+IX - Opinar sobre questões pertinentes que lhe forem encaminhadas, e 
+que envolvam a temática de estudo e pesquisa do núcleo.
+Art. 69º O NEPGS está vinculado à Coordenadoria de Extensão, faz 
+parte do grupo de Núcleos de Ações Afirmativas do Campus, com coordenação 
+eleita pelos membros do núcleo, a qual será assegurada dedicação mínima de 
+8hs semanais ao planejamento e execução das propostas e atividades, e de 
+4hs para o secretário ou vice-coordenador.
+Art. 70º Outras especificidades poderão ser definidas em regimento 
+específico do NEPGS.
+Seção XIII – Do Núcleo de Acessibilidade
+Art. 71º Criado em 2015 no Campus Canoas, através da portaria 
+048/2015, é correlato dos Núcleos Tecnológicos de Acessibilidade do IFRS. 
+Tem como finalidade promover ações que visem o desenvolvimento de 
+Tecnologias Assistivas em geral, e dar suporte ao Núcleo de Atendimento às 
+Pessoas com Deficiência (NAPNE) na busca de soluções de acessibilidade, em 
+especial. Outras competências, atribuições e composição, serão definidas em 
+regimento específico.
+Seção XIV – Do Núcleo de Educação a Distância (NEaD)
+Art. 72º O Núcleo de Educação a Distância (NEaD) é um órgão de apoio
+acadêmico e vincula-se à Direção de Ensino no desenvolvimento das 
+atividades de Educação a Distância, expressas no Projeto Pedagógico 
+Institucional (PPI), que é parte integrante do Plano de Desenvolvimento 
+Institucional (PDI), vigente, do IFRS, em consonância com a Lei de Diretrizes e 
+Bases (LDB) da educação e as recomendações estabelecidas pela Secretaria 
+de Educação Superior do Ministério da Educação (Sesu/MEC). Regimento Complementar do IFRS – Campus Canoas – Página 34 de 41
+Parágrafo único. O NEaD é constituído por uma equipe de professores, 
+técnico administrativos e estagiários, presidida por um servidor do IFRS -
+Campus Canoas, indicado pela Direção de Ensino.
+Art. 73º O NEaD tem por finalidade apoiar os docentes e discentes do 
+Campus Canoas no desenvolvimento de disciplinas presenciais ou 
+semipresenciais, quando houver, de todos os níveis e modalidades adotados 
+no Campus. 
+§ 1º – O NEaD também oferece apoio aos docentes e alunos de 
+disciplinas presenciais que utilizam as ferramentas da Educação a Distância 
+(EaD) disponibilizadas pelo Campus apenas como recurso pedagógico. 
+§ 2º – As disciplinas semipresenciais utilizam a modalidade de Educação 
+a Distância (EaD) e seus recursos na parte não presencial de sua carga 
+horária. 
+Art. 74º O NEaD é responsável pelo Sistema Institucional Virtual de 
+Educação a Distância que disponibiliza suporte para essa modalidade de 
+educação e que é de uso obrigatório tanto para docentes como para discentes 
+das disciplinas semipresenciais. 
+Art. 75º O apoio docente e discente desenvolvido pelo NEaD visa 
+complementar e aprofundar os conhecimentos em Educação a Distância (EaD), 
+capacitando professores e alunos, em suas respectivas funções, para um 
+melhor desempenho nas disciplinas.
+Art. 76º Para atender às suas finalidades, o NEaD tem os seguintes 
+objetivos: 
+I. oferecer suporte em educação a distância em todos os seus cursos, 
+independentemente do nível, através de disciplinas presenciais e 
+semipresenciais, em consonância com o Projeto Pedagógico do Curso (PPC); 
+II. envolver, necessariamente e de forma adequada, os recursos 
+tecnológicos de informação e comunicação disponibilizados pelo Sistema 
+Institucional Virtual de Educação a Distância, que permitam a interatividade 
+(em rede), a fim de que os alunos possam interagir com os professores, 
+mantendo uma adequada relação interpessoal; 
+III. oferecer uma equipe de apoio permanente para professores e alunos, 
+visando à solução de dificuldades técnicas e pedagógicas no uso das 
+ferramentas de educação a distância, nas disciplinas semipresenciais ou nas 
+disciplinas presenciais que utilizam essas ferramentas como apoio pedagógico.
+Art. 77º Para o alcance dos seus objetivos, são atribuições do NEaD, 
+através de sua presidência e da equipe que o compõe: Regimento Complementar do IFRS – Campus Canoas – Página 35 de 41
+I. analisar os resultados obtidos pela SPA no processo de Avaliação 
+realizado para os cursos com carga horária a distância. Esta análise deve levar 
+em consideração a Avaliação do Desempenho Docente e das Disciplinas e a 
+Autoavaliação do Aluno, detectando fragilidades a serem corrigidas e 
+potencialidades a serem reforçadas; 
+II. promover o estudo permanente das disposições legais acerca da 
+EaD, tendo em vista à adoção de medidas para as adequações que se fizerem 
+necessárias; 
+III. elaborar o Plano de Ação Anual do NEaD, com base no diagnóstico 
+resultante das análises referidas anteriormente, e submetê-lo à aprovação da 
+Direção de Ensino; 
+IV. realizar reuniões com a Coordenação Ensino tendo em vista a 
+análise dos resultados obtidos pelas disciplinas por ele apoiadas na avaliação 
+dos cursos, e propor soluções para as fragilidades detectadas e as 
+possibilidades de apoio do NEaD; 
+V. desenvolver as ações previstas no Plano de Ação Anual do NEaD 
+para desenvolvimento junto aos docentes e aos discentes; 
+VI. estimular os docentes para a realização de projetos de pesquisa 
+científica relacionados com a utilização da modalidade de Educação a 
+Distância (EaD) a serem apresentados e selecionados através dos Editais 
+Públicos internos e/ou externos, como uma das formas de qualificação do 
+ensino; 
+VII. manter articulação com a comissão de avaliação, responsável pela 
+avaliação interna do Campus, com a finalidade de integrar ações; 
+VIII. elaborar relatório anual das ações desenvolvidas pelo NEaD.
+Art. 78º O apoio docente do NEaD é desenvolvido extensivamente ao 
+longo dos períodos letivos, através de diferentes atividades, tais como: 
+promoção de cursos, oficinas, seminários permanentes, dentre outras. 
+Art. 79º São consideradas de caráter permanente as seguintes 
+atividades do NEaD junto aos docentes: 
+I. apoio pedagógico aos professores do Campus quanto ao 
+planejamento e desenvolvimento da ação docente na Educação a Distância; 
+II. oficinas pedagógicas ou cursos de curta duração, de acordo com as 
+necessidades e interesses dos docentes; 
+III. apoio para utilização do espaço virtual de acesso a material de apoio 
+sobre Educação a Distância para docentes e discentes e suporte virtual; 
+IV. desenvolvimento de projetos de pesquisa científica em EaD como 
+forma de qualificação da prestação de serviços aos usuários 
+(docentes/discentes). 
+Art. 80º São consideradas de caráter permanente as seguintes 
+atividades do NEaD junto aos discentes: Regimento Complementar do IFRS – Campus Canoas – Página 36 de 41
+I. apoio pedagógico aos discentes, quanto à utilização das ferramentas 
+do Sistema Institucional Virtual de Educação a Distância; 
+II. oficinas pedagógicas ou cursos de curta duração, de acordo com as 
+necessidades e interesses dos discentes, organizadas em parceria com o 
+Núcleo de Apoio aos Discentes (NAD) e válidas como atividade complementar 
+de integralização curricular; 
+III. participação em aulas demonstrativas do Sistema Institucional Virtual 
+de Educação a Distância, organizadas em parceria com os docentes das 
+disciplinas semipresenciais; 
+IV. apoio para utilização do espaço virtual de acesso a material de 
+suporte sobre Educação a Distância para docentes e discentes e suporte 
+virtual. 
+Art. 81º A avaliação da ação de apoio docente desenvolvida pelo NEaD 
+será realizada em conjunto com a comissão de avaliação do Campus, tendo 
+em vista avaliar o nível de satisfação dos usuários, propor ações de melhoria 
+da EaD nos cursos do Campus Canoas e no NEaD.
+Seção XV – Do Auxiliar Institucional
+Art. 82º Ao Auxiliar Institucional, subordinado à Direção-Geral, 
+compreende as seguintes atividades:
+I – Preencher anualmente o Censo da Educação Básica (Educacenso) 
+do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira 
+(INEP);
+II – Preencher anualmente o Censo da Educação Superior (Censup) do 
+Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP);
+III - Preencher anualmente a Plataforma Nilo Peçanha (PNP);
+IV – Subsidiar no planejamento da área de Ensino no Campus.
+Parágrafo Único. O Auxiliar Institucional será indicado pelo Diretor-Geral 
+do Campus;
+TÍTULO III – DA COMUNIDADE ESCOLAR
+Art. 83º A comunidade escolar do IFRS é composta pelo corpo discente, 
+docente e técnico-administrativo, com atribuições específicas, integradas em 
+função dos objetivos institucionais.Regimento Complementar do IFRS – Campus Canoas – Página 37 de 41
+CAPÍTULO I - DO CORPO DISCENTE
+Art. 84º O corpo discente do Campus Canoas será constituído por 
+alunos matriculados nos diversos cursos e programas oferecidos pelo Campus, 
+classificados nos seguintes regimes:
+I. regular – alunos matriculados nos cursos técnicos de nível médio, 
+nos cursos de graduação e pós-graduação;
+II. temporário – alunos matriculados em cursos de extensão e 
+educação continuada.
+Parágrafo único: Os alunos do Campus que cumprirem integralmente o 
+currículo dos cursos farão jus a diploma ou certificado, na forma e nas 
+condições previstas na organização didática.
+Art. 85º Somente os alunos com matrícula regular ativa nos cursos 
+técnicos de nível médio e nos cursos de graduação e de pós-graduação 
+poderão votar e serem votados para as representações discentes dos órgãos 
+colegiados e das comissões permanentes e específicas, bem como participar 
+dos processos eletivos para escolha do Reitor e Diretores Gerais dos campi, de 
+acordo com as regras estabelecidas pelo processo eleitoral.
+Art. 86º Os direitos, os deveres e as proibições dos discentes do 
+Campus Canoas, bem como as sanções disciplinares estão previstos na 
+Organização Didática.
+Art. 87º O ato de matrícula implicará compromisso formal de respeito ao 
+Estatuto do IFRS, ao Regimento Geral do IFRS, Regimento dos Campi, ao 
+presente Regimento Complementar e à Organização Didática, bem como às 
+autoridades que deles emanem, constituindo falta punível o desatendimento ou 
+transgressão a eles.
+CAPÍTULO II - DO CORPO DOCENTE
+Art. 88º O corpo docente é constituído pelos professores integrantes do 
+quadro permanente de pessoal do IFRS, regidos pelo Regime Jurídico Único 
+(RJU), e por demais professores admitidos na forma da lei.
+§ 1º Os docentes serão caracterizados como integrantes do quadro 
+permanente quando admitidos através de concurso público, com base na 
+legislação vigente.
+§ 2º O professor integrante do quadro permanente de pessoal terá como 
+local de lotação e exercício no Campus para o qual foi nomeado em concurso 
+público salvo interesse da instituição e em conformidade com a legislação 
+vigente.Regimento Complementar do IFRS – Campus Canoas – Página 38 de 41
+§ 3º Para atender necessidades temporárias da programação 
+acadêmica, poderão ser contratados professores substitutos, através de 
+seleção pública.
+§ 4º O Campus terá constituída a Comissão Permanente de Pessoal 
+Docente (CPPD) composta por docentes do quadro efetivo permanente, 
+lotados no Campus, com regimento interno próprio.
+§ 5º O professor investido nas funções de reitor, pró-reitor, diretor geral 
+ou outros cargos de direção na Reitoria ficará desobrigado do exercício das 
+demais atividades docentes, sem prejuízo dos vencimentos, gratificações, 
+vantagens e progressões funcionais.
+§ 6º Fica a critério das direções gerais estenderem o disposto no 
+parágrafo 5º deste artigo a outros cargos de direção do Campus, conforme 
+necessidade institucional.
+Seção I – Dos Encargos Docentes
+Art. 89º Os encargos do servidor docente compreendem ensino, 
+pesquisa e extensão, podendo também ser reservada carga horária para 
+capacitação e, caso não comprometa as atividades de ensino, pesquisa e 
+extensão, para realização de atividades administrativas.
+Art. 90º A distribuição e a efetivação da carga horária do docente, 
+regulamentada por normativa específica, em suas diferentes atividades são de 
+responsabilidade e orientação da Direção de Ensino, e o controle da carga 
+horária semanal do professor é de responsabilidade das estruturas internas 
+encarregadas de cada atividade, seja ensino, pesquisa ou extensão.
+Art. 91º Consideram-se atividades de ensino integrantes da jornada 
+pedagógica do servidor docente todas e somente aquelas exercidas no âmbito 
+dos cursos regulares e de pós-graduação, quer sejam presenciais ou à 
+distância, compreendendo as seguintes, sem prejuízo de outras, desde que 
+não enquadradas como pesquisa ou extensão:
+I - Ministrar aulas, inclusive de recuperação;
+II - Corrigir e elaborar provas, trabalhos e exercícios;
+III - Elaborar materiais didáticos;
+IV - Planejar e elaborar aulas e tarefas vinculadas;
+V - Elaborar objetos de aprendizagem para ensino presencial e a 
+distância;
+VI - Atender e orientar os alunos, inclusive quanto aos estágios e 
+trabalhos de conclusão de cursos;
+VII - Participar de reuniões de cursos e de áreas acadêmicas, bem como 
+de reuniões de planejamento pedagógico.Regimento Complementar do IFRS – Campus Canoas – Página 39 de 41
+Art. 92º Cabe aos professores o exercício das seguintes atividades 
+inerentes ao Magistério do Ensino Básico, Técnico e Tecnológico:
+I - A responsabilidade de ministrar as disciplinas dos diferentes cursos, 
+sendo-lhes vedado recusar-se a ministrar disciplinas em sua área de concurso 
+e até o limite de carga horária estabelecida na legislação vigente e demais 
+regulamentos sobre o assunto:
+II - Atividades acadêmicas, que compreendem ensino, pesquisa e 
+extensão, enfocando o pleno desenvolvimento do discente e seu 
+aperfeiçoamento, a partir da sua preparação para compreender e exercer sua 
+cidadania no mundo do trabalho, participação política, bem como a valorização 
+e a promoção da vida;
+III - Atividades administrativas próprias do exercício da direção, 
+assessoria, chefia, coordenação e assistência no Campus, Reitoria ou outro 
+Campus integrante do IFRS, além de outras previstas na legislação vigente, 
+desde que não comprometam a realização de atividades de ensino, pesquisa e 
+extensão.
+Parágrafo único. Os encargos docentes, sua conceituação e distribuição 
+serão regulamentados pelo Conselho de Campus em resolução única, 
+observado o disposto neste capítulo, desde que não contradiga norma de 
+hierarquia superior ao presente regimento.
+CAPÍTULO III - DO CORPO TÉCNICO-ADMINISTRATIVO
+Art. 93º O corpo técnico-administrativo é constituído pelos integrantes do 
+quadro permanente de pessoal do Campus, regidos pelo Regime Jurídico 
+Único (RJU).
+§ 1º O ingresso na carreira de servidor técnico-administrativo será por 
+concurso público, obedecendo às normas previstas na legislação pertinente.
+§ 2º O não cumprimento das normas institucionais implicará, ao corpo 
+técnico-administrativo, a aplicação das sanções previstas na legislação 
+pertinente.
+§ 3º O Campus terá constituída a Comissão Interna de Supervisão do 
+Plano de Cargos (CIS) e Carreira dos Técnicos-administrativos em Educação 
+(PCCTAE) composta por técnicos administrativos do quadro efetivo 
+permanente, lotados no Campus Canoas, com regimento interno próprio.
+§ 4º Atividades administrativas próprias do exercício da direção, assessoria, 
+chefia, coordenação e assistência no Campus, Reitoria ou outro Campus 
+integrante do IFRS, além de outras previstas na legislação vigente, poderão ser 
+exercidas pelos Técnicos-administrativos.Regimento Complementar do IFRS – Campus Canoas – Página 40 de 41
+TÍTULO IV – DAS DISPOSIÇÕES FINAIS
+Art. 94º O presente Regimento entra em vigor na data de sua aprovação 
+pelo Conselho Superior do IFRS.
+Art. 95º Ficam revogadas automaticamente todas as disposições 
+contrárias a este Regimento.
+Art. 96º Este Regimento deverá ser revisado, através de comissão 
+específica para este tema, com representação do corpo docente, discente, 
+técnicos-administrativos e da Direção Geral, no prazo de dois anos, contados a 
+partir da data de sua publicação.
+Art. 97º Este Regimento somente poderá ser alterado por força de lei 
+superveniente ou por iniciativa e aprovação em reunião extraordinária, com 
+ampla publicação no âmbito do Campus, de no mínimo dois terços dos 
+membros do Conselho de Campus.
+Art. 98º A descrição e regulamentação das atividades de ensino, 
+pesquisa, extensão, representação, administração e qualificação realizadas no 
+Campus ou sob alguma forma de parceria dar-se-á nos termos da legislação 
+vigente, do Estatuto e do Regimento Geral do IFRS e deste Regimento Interno, 
+assim como nas normativas do Conselho Superior e do Conselho de Campus, 
+das respectivas pró-reitorias e comissões responsáveis. 
+Art. 99º Em não havendo normas superiores, ao Conselho de Campus
+será facultado a aprovação de regulamentações específicas, através da 
+designação de pessoa ou comissão específica.
+Art. 100º As comissões já existentes serão consideradas válidas por 
+este regimento.
+Art. 101º No caso de não haver servidores candidatos à eleição nas 
+comissões, facultará ao Diretor Geral a expressa nomeação para completar as 
+vagas em aberto, observadas as cargas horárias e regulamentações 
+existentes.
+Art. 102º Os setores, comissões e, ou outras instâncias previstas neste 
+regimento que ainda não existem, deverão ser constituídas no prazo de até 
+cento e oitenta dias, a partir de sua aprovação no Conselho Superior. 
+Parágrafo único. A existência de departamentos, setores, 
+coordenadorias, comissões ou outras instâncias não implica destinação de 
+função gratificada ou cargo de direção, ficando a cargo do Diretor Geral Regimento Complementar do IFRS – Campus Canoas – Página 41 de 41
+nomeá-las de acordo com a necessidade e disponibilidade de recursos para 
+melhor gestão do Campus. 
+Art. 103º O Campus, conforme suas necessidades específicas, poderá 
+constituir órgãos colegiados de natureza normativa e consultiva e comissões 
+técnicas e/ou administrativas. 
+Art. 104º Os casos omissos neste regimento interno serão dirimidos pelo 
+Conselho de Campus. 
+Art. 105º O presente regimento entra em vigor na data de sua aprovação 
+pelo Conselho de Campus do Campus Canoas. 
