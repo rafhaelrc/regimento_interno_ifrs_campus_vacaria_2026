@@ -3,1615 +3,466 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Análise Comparativa de Regimentos — IFRS Campus Vacaria</title>
+<title>Sugestão de novo regimento complementar — IFRS Campus Vacaria</title>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
 
   :root {
-    --verde: #1a5c38;
-    --verde-claro: #2d7a4f;
-    --verde-menta: #e8f5ed;
-    --dourado: #c8973a;
-    --dourado-claro: #f9efd5;
-    --azul: #1c3d6e;
-    --azul-claro: #e8eef8;
-    --cinza-bg: #f5f4f0;
-    --cinza-borda: #d8d5cc;
-    --texto: #2a2724;
-    --texto-leve: #6b6560;
-    --vermelho: #8b2a2a;
-    --vermelho-claro: #fdf0f0;
+    --verde: #1a5c38; --verde-claro: #2d7a4f; --verde-menta: #e8f5ed;
+    --dourado: #c8973a; --dourado-claro: #f9efd5;
+    --azul: #1c3d6e; --azul-claro: #e8eef8;
+    --cinza-bg: #f5f4f0; --cinza-borda: #d8d5cc;
+    --texto: #2a2724; --texto-leve: #6b6560;
+    --vermelho: #8b2a2a; --vermelho-claro: #fdf0f0;
+    --laranja: #b05a00;
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Source Sans 3', sans-serif; background: var(--cinza-bg); color: var(--texto); line-height: 1.65; }
 
-  body { font-family: 'Source Sans 3', sans-serif; font-weight: 400; background: var(--cinza-bg); color: var(--texto); line-height: 1.65; }
-
-  /* HEADER */
   header { background: var(--verde); color: #fff; padding: 3rem 2rem 2.5rem; position: relative; overflow: hidden; }
   header::before { content: ''; position: absolute; top: -60px; right: -80px; width: 320px; height: 320px; border-radius: 50%; background: rgba(255,255,255,0.05); }
-  header::after { content: ''; position: absolute; bottom: -40px; left: 20%; width: 200px; height: 200px; border-radius: 50%; background: rgba(255,255,255,0.04); }
   .header-inner { max-width: 1400px; margin: 0 auto; position: relative; z-index: 1; }
   .header-badge { display: inline-block; background: var(--dourado); color: #fff; font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; padding: 0.3rem 0.85rem; border-radius: 2px; margin-bottom: 1rem; }
-  header h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 4vw, 3rem); font-weight: 900; line-height: 1.15; color: #fff; margin-bottom: 0.7rem; }
-  header p { font-size: 1.05rem; color: rgba(255,255,255,0.78); max-width: 680px; font-weight: 300; }
-  .header-meta { display: flex; gap: 2rem; margin-top: 1.8rem; flex-wrap: wrap; }
-  .meta-item { display: flex; flex-direction: column; }
-  .meta-label { font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 0.2rem; }
-  .meta-value { font-size: 0.95rem; font-weight: 600; color: rgba(255,255,255,0.9); }
+  header h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 4vw, 3rem); font-weight: 900; color: #fff; margin-bottom: 0.7rem; }
+  header p { color: rgba(255,255,255,0.75); font-size: 1rem; }
 
-  /* NAVIGATION */
   nav { background: #fff; border-bottom: 2px solid var(--verde); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
-  .nav-inner { max-width: 1400px; margin: 0 auto; padding: 0 2rem; display: flex; align-items: center; gap: 0; overflow-x: auto; }
-  .nav-btn { display: inline-block; padding: 0.85rem 1.2rem; font-family: 'Source Sans 3', sans-serif; font-size: 0.85rem; font-weight: 600; color: var(--texto-leve); cursor: pointer; border: none; background: none; border-bottom: 3px solid transparent; white-space: nowrap; transition: all 0.2s; }
+  .nav-inner { max-width: 1400px; margin: 0 auto; padding: 0 2rem; display: flex; align-items: center; overflow-x: auto; }
+  .nav-btn { padding: 0.85rem 1.2rem; font-family: 'Source Sans 3', sans-serif; font-size: 0.85rem; font-weight: 600; color: var(--texto-leve); cursor: pointer; border: none; background: none; border-bottom: 3px solid transparent; white-space: nowrap; transition: 0.2s; }
   .nav-btn:hover, .nav-btn.active { color: var(--verde); border-bottom-color: var(--verde); }
 
-  /* MAIN LAYOUT */
-  .page { max-width: 1400px; margin: 0 auto; padding: 2rem 2rem 4rem; }
+  .page { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
 
-  /* ALERT BOXES */
-  .alert-box { border-radius: 6px; padding: 1.2rem 1.5rem; margin-bottom: 2rem; display: flex; gap: 1rem; align-items: flex-start; }
-  .alert-box.novos { background: var(--azul-claro); border-left: 4px solid var(--azul); }
-  .alert-box .alert-icon { font-size: 1.4rem; margin-top: 0.1rem; flex-shrink: 0; }
-  .alert-box strong { display: block; margin-bottom: 0.4rem; font-weight: 700; color: var(--azul); }
-  .alert-box.novos p { font-size: 0.92rem; color: #2a3b5e; line-height: 1.6; }
-  .tag-list { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 0.7rem; }
-  .tag { font-family: 'JetBrains Mono', monospace; font-size: 0.73rem; font-weight: 600; padding: 0.25rem 0.6rem; border-radius: 3px; }
-  .tag.azul { background: var(--azul); color: #fff; }
-  .tag.verde { background: var(--verde); color: #fff; }
-  .tag.dourado { background: var(--dourado); color: #fff; }
-
-  /* SECTION HEADERS */
-  .section-header { margin: 2.5rem 0 1.2rem; padding-bottom: 0.6rem; border-bottom: 2px solid var(--cinza-borda); display: flex; align-items: center; gap: 0.8rem; }
-  .section-header h2 { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 700; color: var(--verde); }
-  .section-header .num-badge { background: var(--verde); color: #fff; font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; font-weight: 700; padding: 0.2rem 0.5rem; border-radius: 3px; }
-
-  /* SECTOR CARDS */
-  .sector-grid { display: flex; flex-direction: column; gap: 1.5rem; }
-  .sector-card { background: #fff; border: 1px solid var(--cinza-borda); border-radius: 8px; overflow: hidden; box-shadow: 0 1px 6px rgba(0,0,0,0.05); }
-  .sector-card-header { background: var(--verde); color: #fff; padding: 0.85rem 1.3rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; cursor: pointer; user-select: none; }
-  .sector-card-header:hover { background: var(--verde-claro); }
+  .sector-card { background: #fff; border: 1px solid var(--cinza-borda); border-radius: 8px; overflow: hidden; box-shadow: 0 1px 6px rgba(0,0,0,0.05); margin-bottom: 1.5rem; }
+  .sector-card-header { color: #fff; padding: 0.85rem 1.3rem; display: flex; align-items: center; justify-content: space-between; cursor: pointer; user-select: none; }
   .sector-title { font-family: 'Playfair Display', serif; font-size: 1.05rem; font-weight: 700; }
-  .sector-badge { font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; background: rgba(255,255,255,0.2); padding: 0.2rem 0.6rem; border-radius: 3px; white-space: nowrap; }
-  .toggle-icon { font-size: 0.9rem; transition: transform 0.25s; margin-left: auto; }
-  .sector-body { display: none; }
-  .sector-body.open { display: grid; grid-template-columns: 1fr 1fr 1fr; }
+  .sector-badge { font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; font-weight: 600; background: rgba(255,255,255,0.2); padding: 0.2rem 0.6rem; border-radius: 3px; }
+  .sector-toggle { margin-left: 1rem; font-size: 0.8rem; transition: 0.2s; }
+  .sector-body { display: none; grid-template-columns: 1fr 1fr 1fr; }
+  .sector-body.open { display: grid; }
   @media (max-width: 900px) { .sector-body.open { grid-template-columns: 1fr; } }
   .col { padding: 1.3rem 1.4rem; border-right: 1px solid var(--cinza-borda); }
   .col:last-child { border-right: none; }
-  .col-label { font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.7rem; padding-bottom: 0.4rem; border-bottom: 2px solid; display: flex; align-items: center; gap: 0.5rem; }
-  .col.col-vacaria .col-label { color: var(--verde); border-color: var(--verde); }
-  .col.col-compilado .col-label { color: var(--dourado); border-color: var(--dourado); }
-  .col.col-proposta .col-label { color: var(--azul); border-color: var(--azul); }
-  .col-vacaria { background: #fff; }
-  .col-compilado { background: #fafaf7; }
-  .col-proposta { background: var(--azul-claro); }
-  .col-content { font-size: 0.875rem; line-height: 1.7; color: var(--texto); }
-  .col-content p { margin-bottom: 0.7rem; }
-  .col-content ul { padding-left: 1.2rem; margin-bottom: 0.7rem; }
-  .col-content li { margin-bottom: 0.3rem; }
-  .col-content .art-num { font-weight: 700; color: var(--verde); font-size: 0.8rem; font-family: 'JetBrains Mono', monospace; display: block; margin-bottom: 0.3rem;}
-  .col-content .art-num.dourado { color: var(--dourado); }
-  .col-content .art-num.azul { color: var(--azul); }
-  .no-text { font-style: italic; color: var(--texto-leve); font-size: 0.85rem; background: #f5f5f5; padding: 0.8rem; border-radius: 4px; border: 1px dashed var(--cinza-borda); }
-  .campuses-badge { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.6rem; margin-bottom: 0.6rem; }
-  .campus-pill { font-size: 0.68rem; font-family: 'JetBrains Mono', monospace; background: var(--cinza-bg); border: 1px solid var(--cinza-borda); padding: 0.15rem 0.45rem; border-radius: 20px; color: var(--texto-leve); }
-  .highlight-new { background: var(--dourado-claro); border-left: 3px solid var(--dourado); padding: 0.5rem 0.7rem; margin-bottom: 0.5rem; border-radius: 0 4px 4px 0; font-size: 0.83rem; }
+  .col-label { font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; font-weight: 700; text-transform: uppercase; margin-bottom: 0.7rem; padding-bottom: 0.4rem; border-bottom: 2px solid; display: flex; gap: 0.5rem; align-items: center; }
+  .col-vacaria .col-label { color: var(--verde); border-color: var(--verde); }
+  .col-outros .col-label { color: var(--dourado); border-color: var(--dourado); }
+  .col-sugestao .col-label { color: var(--azul); border-color: var(--azul); }
+  .regtext { font-size: 0.875rem; line-height: 1.7; white-space: pre-wrap; }
+  .origem-label { display: block; margin-top: 12px; font-weight: bold; color: var(--azul); font-size: 0.72rem; border-top: 1px solid #ddd; padding-top: 5px; }
 
-  /* TABLE of contents / mapeamento */
-  .mapping-table { width: 100%; border-collapse: collapse; font-size: 0.875rem; margin-bottom: 2rem; }
-  .mapping-table th { background: var(--verde); color: #fff; text-align: left; padding: 0.75rem 1rem; font-weight: 600; font-size: 0.82rem; letter-spacing: 0.03em; }
-  .mapping-table td { padding: 0.6rem 1rem; border-bottom: 1px solid var(--cinza-borda); vertical-align: top; }
-  .mapping-table tr:hover td { background: var(--verde-menta); }
-  .check { color: var(--verde); font-weight: 700; }
-  .cross { color: #aaa; }
-  .new-item { color: var(--azul); font-weight: 600; }
+  /* ===== ORGANOGRAMA ===== */
+  #org-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    background: #f0efe9;
+    border: 1px solid var(--cinza-borda);
+    border-radius: 10px;
+    cursor: grab;
+  }
+  #org-wrapper:active { cursor: grabbing; }
+  #org-canvas {
+    position: relative;
+    transform-origin: 0 0;
+  }
+  #org-svg {
+    position: absolute;
+    top: 0; left: 0;
+    pointer-events: none;
+    overflow: visible;
+  }
+  .onode {
+    position: absolute;
+    border-radius: 6px;
+    padding: 7px 10px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #fff;
+    text-align: center;
+    line-height: 1.3;
+    width: 148px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.22);
+    transition: box-shadow 0.15s, transform 0.15s;
+    word-break: break-word;
+    hyphens: auto;
+    user-select: none;
+  }
+  .onode:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.35);
+    transform: translateY(-2px);
+    z-index: 10;
+  }
+  .onode.tipo-raiz     { background: #1a5c38; border: 2px solid #0d3320; font-size: 12px; font-weight: 700; }
+  .onode.tipo-dir      { background: #1c3d6e; border: 2px solid #102444; }
+  .onode.tipo-coord    { background: #2d7a4f; border: 2px solid #1a5c38; }
+  .onode.tipo-setor    { background: #9b2335; border: 2px solid #6e1624; font-size: 10.5px; }
+  .onode.tipo-inedito  { background: #b05a00; border: 2px solid #7a3e00; }
+  .onode.tipo-secao    { background: #c0392b; border: 2px solid #922b21; font-size: 10.5px; }
 
-  /* TABS */
-  .tab-content { display: none; }
-  .tab-content.active { display: block; }
-  .intro-panel { background: #fff; border: 1px solid var(--cinza-borda); border-radius: 8px; padding: 1.8rem 2rem; margin-bottom: 2rem; }
-  .intro-panel h3 { font-family: 'Playfair Display', serif; font-size: 1.25rem; color: var(--verde); margin-bottom: 0.8rem; }
-  .intro-panel p { font-size: 0.92rem; margin-bottom: 0.6rem; color: #3a3530; }
-  html { scroll-behavior: smooth; }
-  .regtext { font-size: 0.82rem; line-height: 1.75; color: var(--texto); font-family: 'Source Sans 3', sans-serif; white-space: pre-wrap; }
+  .org-legend {
+    display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; align-items: center;
+    font-size: 0.8rem;
+  }
+  .leg-item { display: flex; align-items: center; gap: 6px; }
+  .leg-dot { width: 14px; height: 14px; border-radius: 3px; flex-shrink: 0; }
 
-  /* ── Organograma Modal ── */
-  #orgModal { display:none; position:fixed; z-index:9999; inset:0; background:rgba(0,0,0,.55); align-items:center; justify-content:center; }
-  #orgModal.open { display:flex; }
-  #orgModalBox { background:#fff; border-radius:10px; width:min(720px,92vw); max-height:85vh; display:flex; flex-direction:column; box-shadow:0 20px 60px rgba(0,0,0,.35); overflow:hidden; }
-  #orgModalHead { background:var(--verde); color:#fff; padding:1.1rem 1.5rem; display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-shrink:0; }
-  #orgModalHead h3 { font-family:'Playfair Display',serif; font-size:1.15rem; font-weight:700; margin:0; }
-  #orgModalClose { background:rgba(255,255,255,.2); border:none; color:#fff; font-size:1.1rem; width:30px; height:30px; border-radius:50%; cursor:pointer; display:flex; align-items:center; justify-content:center; flex-shrink:0; transition:background .15s; }
-  #orgModalClose:hover { background:rgba(255,255,255,.35); }
-  #orgModalBody { padding:1.5rem; overflow-y:auto; font-size:0.9rem; line-height:1.7; color:var(--texto); font-family:'Source Sans 3',sans-serif; white-space:pre-wrap; }
-  
-  /* Organograma Node Destaque */
-  .onode.highlight-parent { background-color: var(--vermelho) !important; box-shadow: 0 0 16px rgba(139, 42, 42, 0.8) !important; transform: scale(1.05); transition: all 0.2s ease-in-out; z-index: 1000; }
-  .onode { transition: background-color 0.2s, box-shadow 0.2s, transform 0.2s; position:absolute;border-radius:7px;padding:8px 11px;cursor:grab;user-select:none;box-shadow:0 2px 8px rgba(0,0,0,.2);font-family:sans-serif;font-size:11px;font-weight:600;color:#fff;text-align:center;line-height:1.35;display:flex;flex-direction:column;align-items:center;justify-content:center;}
-  .onode:hover { filter:brightness(1.12); box-shadow:0 4px 16px rgba(0,0,0,.3); }
-  .onode:active{cursor:grabbing;box-shadow:0 6px 20px rgba(0,0,0,.3);}
-  .onode .osub{font-size:8.5px;font-weight:400;opacity:.78;margin-top:2px;}
-  .nd-dg{background:#1a5c38;min-width:175px;font-size:12.5px;}
-  .nd-dir{background:#1a5c38;min-width:145px;}
-  .nd-coord{background:#2d7a4f;min-width:120px;}
-  .nd-setor{background:#4a8a5f;min-width:105px;font-size:10px;font-weight:500;}
-  .nd-coleg{background:#5a7a3a;min-width:140px;}
-  .nd-comiss{background:#8a9a6a;min-width:130px;font-size:10px;}
-  .nd-novo{background:#1c3d6e;min-width:115px;}
+  .org-controls {
+    display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; align-items: center;
+  }
+  .org-btn {
+    padding: 6px 14px; border-radius: 5px; border: 1px solid var(--cinza-borda);
+    background: #fff; font-size: 0.82rem; font-weight: 600; cursor: pointer;
+    font-family: 'Source Sans 3', sans-serif; color: var(--texto);
+    transition: 0.15s;
+  }
+  .org-btn:hover { background: var(--verde-menta); border-color: var(--verde); color: var(--verde); }
+
+  /* ===== MODAL ===== */
+  #orgModal {
+    display: none; position: fixed; z-index: 9999; inset: 0;
+    background: rgba(0,0,0,0.58); align-items: center; justify-content: center;
+  }
+  #orgModal.open { display: flex; }
+  #orgModalBox {
+    background: #fff; border-radius: 10px;
+    width: min(780px, 94vw); max-height: 88vh;
+    display: flex; flex-direction: column; overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+  }
+  #orgModalHead {
+    background: var(--verde); color: #fff; padding: 1.1rem 1.5rem;
+    display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+  }
+  #orgModalTitle {
+    font-family: 'Playfair Display', serif; font-size: 1.15rem; font-weight: 700;
+    flex: 1; line-height: 1.3;
+  }
+  #orgModalType {
+    font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; font-weight: 600;
+    background: rgba(255,255,255,0.2); padding: 0.2rem 0.7rem; border-radius: 3px;
+    white-space: nowrap;
+  }
+  .modal-close-btn {
+    background: none; border: none; color: #fff; cursor: pointer; font-size: 1.3rem;
+    line-height: 1; padding: 0 0 0 0.5rem; opacity: 0.8; flex-shrink: 0;
+  }
+  .modal-close-btn:hover { opacity: 1; }
+  #orgModalSubtitle {
+    padding: 0.6rem 1.5rem; background: var(--verde-menta);
+    font-size: 0.78rem; color: var(--verde); font-weight: 600;
+    font-family: 'JetBrains Mono', monospace; border-bottom: 1px solid #c5dcc9;
+  }
+  #orgModalBody {
+    padding: 1.5rem; overflow-y: auto; white-space: pre-wrap;
+    font-size: 0.9rem; line-height: 1.75; color: var(--texto);
+    flex: 1;
+  }
+  .modal-empty { color: var(--texto-leve); font-style: italic; font-size: 0.88rem; }
 </style>
 </head>
 <body>
 
+<!-- MODAL -->
 <div id="orgModal" onclick="if(event.target===this)closeModal()">
   <div id="orgModalBox">
     <div id="orgModalHead">
       <h3 id="orgModalTitle">Setor</h3>
-      <button id="orgModalClose" onclick="closeModal()">✕</button>
+      <span id="orgModalType">—</span>
+      <button class="modal-close-btn" onclick="closeModal()">✕</button>
     </div>
+    <div id="orgModalSubtitle"></div>
     <div id="orgModalBody"></div>
   </div>
 </div>
 
 <header>
   <div class="header-inner">
-    <div class="header-badge">IFRS — Análise Institucional</div>
-    <h1>Análise Comparativa de Regimentos<br>Campus Vacaria</h1>
-    <p>Mapeamento completo da estrutura organizacional, compilação das melhores práticas dos campi do IFRS e proposta de texto atualizado para o Regimento Complementar do Campus Vacaria.</p>
-    <div class="header-meta">
-      <div class="meta-item"><span class="meta-label">Campi analisados</span><span class="meta-value">6 campi</span></div>
-      <div class="meta-item"><span class="meta-label">Setores mapeados (Vacaria)</span><span class="meta-value">28 setores/órgãos</span></div>
-      <div class="meta-item"><span class="meta-label">Novos órgãos sugeridos</span><span class="meta-value">8 itens</span></div>
-      <div class="meta-item"><span class="meta-label">Regimento base</span><span class="meta-value">Resolução Nº 10 / 2023</span></div>
-    </div>
+    <h1>Sugestão de novo regimento complementar do IFRS Campus Vacaria</h1>
+    <p style="color:rgba(255,255,255,0.88); font-size:0.97rem; max-width:860px; line-height:1.8; margin-top:0.8rem;">
+      Este documento foi elaborado a partir da análise comparativa dos regimentos complementares vigentes de outros campi do IFRS — incluindo as resoluções dos campi de Bento Gonçalves (2024), Erechim (2024), Ibirubá (2025), Canoas (2018) e Rio Grande (2018). Com base na leitura sistemática desses textos, na identificação de estruturas em comum, de diferenças relevantes e de inovações institucionais presentes em cada campus, foi elaborada uma <strong style="color:#f9efd5">sugestão de texto</strong> para cada setor e coordenadoria do Campus Vacaria — considerando sua realidade específica e o objetivo de atualizar e fortalecer sua estrutura organizacional.
+    </p>
   </div>
 </header>
 
+
 <nav>
   <div class="nav-inner">
-    <button class="nav-btn active" onclick="showTab('mapeamento')">📊 Mapeamento Geral</button>
-    <button class="nav-btn" onclick="showTab('orgaos-exec')">🏛️ Órgãos Executivos</button>
-    <button class="nav-btn" onclick="showTab('comissoes')">📋 Comissões e Núcleos</button>
-    <button class="nav-btn" onclick="showTab('excluidos')">🗑️ Setores Excluídos</button>
-    <button class="nav-btn" onclick="showTab('novos-setores')">✨ Estruturas Novas Sugeridas</button>
-    <button class="nav-btn" onclick="showTab('organograma')">🗂️ Organograma</button>
+    <button class="nav-btn active" onclick="showTab('executivos',this)">🏛️ Órgãos Executivos</button>
+    <button class="nav-btn" onclick="showTab('comissoes',this)">📋 Comissões e Núcleos</button>
+    <button class="nav-btn" onclick="showTab('novos',this)">✨ Estruturas Inéditas</button>
+    <button class="nav-btn" onclick="showTab('excluidos',this)">🗑️ Setores Excluídos</button>
+    <button class="nav-btn" onclick="showTab('organograma',this)">🗂️ Organograma</button>
   </div>
 </nav>
 
 <div class="page">
-
-<div id="tab-mapeamento" class="tab-content active">
-  <div class="intro-panel">
-    <h3>Como usar este documento</h3>
-    <p>Este documento apresenta, para cada setor/órgão do Campus Vacaria, <strong>três colunas lado a lado</strong>: (1) o <span style="color:var(--verde);font-weight:700">texto atual do Vacaria</span>, (2) um <span style="color:var(--dourado);font-weight:700">compilado das melhores práticas</span> dos outros campi, e (3) uma <span style="color:var(--azul);font-weight:700">proposta de texto atualizado</span> para o Vacaria. Clique em qualquer setor para expandir o comparativo.</p>
-  </div>
-
-  <div class="alert-box novos">
-    <span class="alert-icon">🔵</span>
-    <div>
-      <strong>Estruturas existentes em outros campi que NÃO existem no Campus Vacaria</strong>
-      <p>Os itens abaixo aparecem nos regimentos de outros campi mas estão ausentes no regimento atual do Campus Vacaria. São candidatos a inclusão na próxima revisão.</p>
-      <div class="tag-list">
-        <span class="tag azul">Auditoria Interna</span>
-        <span class="tag azul">Setor Pedagógico</span>
-        <span class="tag azul">NEABI</span>
-        <span class="tag azul">NEPGS</span>
-        <span class="tag azul">NAC — Núcleo de Arte e Cultura</span>
-        <span class="tag azul">Coord. Gestão e Fiscalização de Contratos</span>
-        <span class="tag azul">Técnicos de Laboratório</span>
-        <span class="tag azul">Comissão Eleitoral Provisória</span>
-      </div>
+  <div id="tab-executivos" class="tab-content active"><div id="render-executivos"></div></div>
+  <div id="tab-comissoes" class="tab-content"><div id="render-comissoes"></div></div>
+  <div id="tab-novos" class="tab-content"><div id="render-novos"></div></div>
+  <div id="tab-excluidos" class="tab-content"><div id="render-excluidos"></div></div>
+  <div id="tab-organograma" class="tab-content">
+    <div class="org-legend">
+      <strong style="font-size:0.82rem;margin-right:4px">Legenda:</strong>
+      <div class="leg-item"><div class="leg-dot" style="background:#1a5c38"></div>Direção Geral</div>
+      <div class="leg-item"><div class="leg-dot" style="background:#1c3d6e"></div>Diretorias</div>
+      <div class="leg-item"><div class="leg-dot" style="background:#2d7a4f"></div>Coordenadorias</div>
+      <div class="leg-item"><div class="leg-dot" style="background:#9b2335"></div>Setores</div>
+      <div class="leg-item"><div class="leg-dot" style="background:#b05a00"></div>Inéditos</div>
+      <div class="leg-item"><div class="leg-dot" style="background:#c0392b"></div>Seções</div>
+      <span style="margin-left:auto;font-size:0.78rem;color:var(--texto-leve)">💡 Clique num retângulo para ver o texto sugerido</span>
     </div>
-  </div>
-
-  <div class="section-header">
-    <h2>Tabela de Mapeamento</h2>
-    <span class="num-badge">6 campi</span>
-  </div>
-
-  <table class="mapping-table">
-    <thead>
-      <tr>
-        <th>Setor / Órgão / Comissão</th>
-        <th>Vacaria</th>
-        <th>Bento G.</th>
-        <th>Erechim</th>
-        <th>Feliz</th>
-        <th>Ibirubá</th>
-        <th>Canoas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td><strong>Gabinete da Direção Geral</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Setor de Comunicação</strong></td><td class="check">✓</td><td class="cross">—</td><td class="check">✓</td><td class="cross">—</td><td class="cross">—</td><td class="check">✓</td></tr>
-      <tr><td><strong>Coord. Gestão de Pessoas</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="cross">—</td><td class="cross">—</td></tr>
-      <tr><td class="new-item"><strong>Auditoria Interna ★</strong></td><td class="cross">—</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Coord. Licitações e Contratos</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Setor de Licitações</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Setor de Contratos</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Coord. Execução Orç. e Financeira</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Setor Financeiro</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Coord. de Infraestrutura</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Setor de Infraestrutura e Transportes</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Setor de Almoxarifado</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Setor de Patrimônio</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Coord. Assistência Estudantil (CAE)</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Coord. Registros Escolares (CRE)</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Coord. de Ensino</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td class="new-item"><strong>Setor Pedagógico ★</strong></td><td class="cross">—</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="cross">—</td><td class="check">✓</td></tr>
-      <tr><td><strong>Setor de Biblioteca</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>NEAD</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>NAPNE</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Setor de Laboratórios</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Setor Agropecuário</strong></td><td class="check">✓</td><td class="check">✓</td><td class="cross">—</td><td class="cross">—</td><td class="check">✓</td><td class="cross">—</td></tr>
-      <tr><td><strong>Coord. Pesquisa, Pós-grad. e Inovação</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Incubadora Tecnológica</strong></td><td class="check">✓</td><td class="cross">—</td><td class="cross">—</td><td class="cross">—</td><td class="cross">—</td><td class="cross">—</td></tr>
-      <tr><td><strong>Coord. de Extensão</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Setor de Estágios e Egressos</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>NAAf — Núcleo de Ações Afirmativas</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Núcleo de Memória (NuMem)</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="cross">—</td><td class="cross">—</td></tr>
-      <tr><td><strong>Coord. Desenvolvimento Institucional</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td><strong>Coord. Tecnologia da Informação</strong></td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-      <tr><td class="new-item"><strong>NEABI ★</strong></td><td class="cross">—</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="cross">—</td></tr>
-      <tr><td class="new-item"><strong>NEPGS ★</strong></td><td class="cross">—</td><td class="cross">—</td><td class="check">✓</td><td class="check">✓</td><td class="cross">—</td><td class="cross">—</td></tr>
-      <tr><td class="new-item"><strong>NAC — Núcleo Arte e Cultura ★</strong></td><td class="cross">—</td><td class="cross">—</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="cross">—</td></tr>
-      <tr><td class="new-item"><strong>Coord. Gestão e Fiscalização Contratos ★</strong></td><td class="cross">—</td><td class="cross">—</td><td class="check">✓</td><td class="cross">—</td><td class="check">✓</td><td class="cross">—</td></tr>
-      <tr><td class="new-item"><strong>Técnicos de Laboratório ★</strong></td><td class="cross">—</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
-    </tbody>
-  </table>
-</div>
-
-<div id="tab-orgaos-exec" class="tab-content">
-  <div class="intro-panel">
-    <h3>Órgãos Executivos do Campus Vacaria</h3>
-    <p>Esta seção consolida as funções executivas, de coordenação e operacionais, englobando a Direção Geral, as Diretorias de Ensino e Administração, além das coordenações de Extensão, Pesquisa e Desenvolvimento Institucional.</p>
-  </div>
-<div class="sector-grid">
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Gabinete da Direção Geral</span>
-        <span class="sector-badge">Direção Geral</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">O Gabinete da Direção Geral é um órgão executivo gerido por um(a) Chefe de Gabinete, nomeado(a) pela Direção-Geral e tem por finalidade prestar assistência técnica administrativa à Direção-Geral.
-Compete à Chefia de Gabinete prestar assistência direta; preparar correspondências oficiais; organizar agendas; convocar reuniões; redigir e publicar o Boletim de Serviço do Campus; secretariar reuniões da Direção-Geral e do Conselho de Campus.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Bento Gonçalves prevê explicitamente a figura da "Secretaria de Gabinete" e "Setor de Telefonia" como estruturas subordinadas ao Gabinete da Direção-Geral, dividindo as competências entre a Chefia (política/administrativa) e a Secretaria (operacional/atendimento).</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> O Gabinete da Direção Geral é um órgão executivo do Campus, gerido por um(a) Chefe de Gabinete, nomeado(a) pela Direção-Geral, e tem por finalidade prestar assistência técnica e administrativa à Direção-Geral, coordenando as atividades de representação institucional.
-<span class="art-num azul">Art. X+1.</span> O Gabinete é composto pela Chefia de Gabinete e pela Secretaria de Gabinete.
-<span class="art-num azul">Art. X+2.</span> Compete à Chefia de Gabinete:
-I – prestar assistência direta e imediata à Direção-Geral em sua representação política, social e administrativa;
-II – redigir e publicar o Boletim de Serviço do Campus;
-III – secretariar reuniões da Direção-Geral e do Conselho de Campus;
-IV – coordenar contatos com os órgãos oficiais e demais instituições.
-<span class="art-num azul">Art. X+3.</span> Compete à Secretaria de Gabinete:
-I – preparar e classificar a correspondência oficial do Gabinete;
-II – recepcionar visitantes e atender ao público;
-III – organizar e controlar agendas de entrevistas e audiências.</div>
-        </div>
-      </div>
+    <div class="org-controls">
+      <button class="org-btn" onclick="orgZoom(0.15)">＋ Zoom</button>
+      <button class="org-btn" onclick="orgZoom(-0.15)">－ Zoom</button>
+      <button class="org-btn" onclick="orgReset()">↺ Centralizar</button>
     </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Setor de Comunicação</span>
-        <span class="sector-badge">Direção Geral</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">O Setor de Comunicação é responsável pela comunicação do IFRS Campus Vacaria com seus públicos. As atividades serão exercidas por equipe composta por jornalista, técnico audiovisual e demais cargos.
-Compete ao setor zelar pela identidade visual; gerenciar redes sociais e sítio eletrônico; prestar apoio técnico em audiovisual; produzir informativos para a imprensa.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Erechim detalha que o setor age de forma sistêmica, congregando ações de ensino, pesquisa e extensão. Adiciona competência de trabalhar na criação de publicações jornalísticas em nível de campus.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> O Setor de Comunicação é o órgão responsável pela comunicação institucional do IFRS Campus Vacaria com seus diferentes públicos — internos e externos — atuando de forma sistêmica e integrada às áreas de ensino, pesquisa e extensão. Subordinado à Direção Geral.
-<span class="art-num azul">Art. X+1.</span> Compete ao Setor de Comunicação:
-I – planejar, executar e controlar ações de divulgação publicitária;
-II – zelar pela preservação e aplicação correta da identidade visual da Instituição;
-III – criar e manter publicações jornalísticas digitais e impressas de interesse institucional;
-IV – gerenciar a alimentação de informações no sítio eletrônico e nas páginas nas redes sociais do Campus;
-V – instalar, ligar, testar e gerenciar equipamentos de audiovisual do Campus.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Coordenadoria de Gestão de Pessoas</span>
-        <span class="sector-badge">Direção Geral</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">A Coordenadoria de Gestão de Pessoas (CGP) é o órgão responsável por planejar, coordenar, gerir e supervisionar a execução de atividades relacionadas às políticas de gestão de pessoas.
-Compete à CGP coordenar (junto com CPPD e CIS) os programas de progressão funcional; administrar admissão, desligamento, lotação e pagamento; acompanhar estágio probatório.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Canoas e Bento Gonçalves acrescentam funções de: aplicar programas de capacitação visando ao aperfeiçoamento funcional dos servidores; gerenciar senhas e acessos aos sistemas federais corporativos (SIGAC/SIAPE).</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> A Coordenadoria de Gestão de Pessoas (CGP) é o órgão responsável por planejar, coordenar, gerir e supervisionar a execução de atividades relacionadas às políticas de gestão de pessoas do Campus Vacaria, subordinada à Direção Geral.
-<span class="art-num azul">Art. X+1.</span> Compete à CGP:
-I – coordenar, em articulação com a CPPD e CIS, os programas de progressão funcional e por capacitação;
-II – acompanhar e aplicar programas de capacitação visando ao aperfeiçoamento funcional dos servidores;
-III – administrar todas as ações previstas para cadastro, pagamento, benefícios e aposentadoria;
-IV – administrar senhas e perfis de acesso a sistemas institucionais (SIAPE, SIGAC e similares);
-V – acompanhar o processo de estágio probatório.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Diretoria de Administração</span>
-        <span class="sector-badge">Diretoria</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">Art. 14. As atividades da Diretoria de Administração do Campus Vacaria serão exercidas por um servidor efetivo.
-Art. 15. A Diretoria de Administração é composta pela Coordenadoria de Licitações e Contratos, Coordenadoria de Execução Orçamentária e Financeira e Coordenadoria de Infraestrutura.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">A adequação reflete a centralização de compras/financeiro exigida pela Reitoria, unindo Licitações a uma Coordenação de Gestão de Contratos, conforme visto em campi maiores.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> As atividades da Diretoria de Administração do Campus Vacaria serão exercidas por um servidor efetivo do quadro de pessoal do IFRS designado pelo(a) Diretor(a) Geral do Campus.
-<span class="art-num azul">Art. X+1.</span> A Diretoria de Administração do Campus Vacaria é composta por:
-I – Coordenadoria de Gestão e Fiscalização de Contratos;
-II – Coordenadoria de Infraestrutura.
-
-<span style="font-size:0.8rem; color:var(--vermelho);">(Nota: Coord. de Licitações e Setor Financeiro foram excluídos do escopo local)</span></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Coordenadoria de Infraestrutura</span>
-        <span class="sector-badge">Dir. Administração</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">A Coordenadoria de Infraestrutura é o órgão responsável por planejar e executar atividades relacionadas ao controle do patrimônio, transporte, almoxarifado, vigilância, limpeza e manutenção geral.
-Possui como setores subordinados: Setor de Infraestrutura e Transportes, Setor de Almoxarifado e Setor de Patrimônio.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Bento Gonçalves acrescenta a menção clara de "desenvolver atividades adequadas de manejo e destinação dos resíduos" e "supervisionar segurança patrimonial".</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> À Coordenadoria de Infraestrutura, subordinada à Diretoria de Administração, compete:
-I – acompanhar a execução de obras e gerenciar a conservação dos bens imóveis;
-II – supervisionar os serviços de vigilância e segurança patrimonial do Campus;
-III – supervisionar a aquisição e distribuição de material necessários ao bom funcionamento;
-IV – coordenar, através de relatórios, as atividades executadas por empresas terceirizadas (limpeza, portaria);
-V – desenvolver atividades adequadas de manejo e de destinação dos resíduos, promovendo a gestão ambiental sustentável.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Setor de Infraestrutura e Transportes</span>
-        <span class="sector-badge">Dir. Administração</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">Compete vistoriar sistematicamente todas as instalações físicas, identificar falhas e acompanhar eventuais serviços terceirizados.
-Na área de transportes, disponibilizar veículos, zelar pela limpeza, executar manutenções preventivas dos bens móveis veiculares e controlar relatórios.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Ibirubá acrescenta: registrar e monitorar ocorrência de infrações de trânsito e sinistros dos veículos, identificando o condutor responsável.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> Ao Setor de Infraestrutura e Transportes compete:
-I – vistoriar sistematicamente as instalações físicas e identificar necessidade de manutenção;
-II – acompanhar serviços terceirizados de expansão e consertos da infraestrutura;
-III – manter os veículos em condições de atender às obrigações legais de trafegabilidade;
-IV – registrar as manutenções e as despesas mensais de cada veículo (peças, combustível);
-V – monitorar a ocorrência de infrações e sinistros dos veículos, identificando o responsável e comunicando a instância superior.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Setores de Almoxarifado e Patrimônio</span>
-        <span class="sector-badge">Dir. Administração</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">Almoxarifado: solicitar, receber, conferir, armazenar e distribuir suprimentos. Entregar e retirar malotes.
-Patrimônio: efetuar tombamento, promover vistorias, manter cadastro de bens móveis e imóveis, emitir relatórios de movimentação.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Erechim exige expressamente que os setores de Almoxarifado e Patrimônio façam o registro formal e controle de roubos, furtos ou sinistros (danos climáticos) que afetem os materiais estocados ou os bens patrimoniais.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> Ao Setor de Almoxarifado compete receber e conferir suprimentos; assessorar a comissão de inventário; elaborar previsão anual de compras de consumo; fazer entrega/retirada de correspondências; registrar e controlar sinistros e ocorrências que afetem os materiais armazenados.
-<span class="art-num azul">Art. X+1.</span> Ao Setor de Patrimônio compete efetuar cadastramento e tombamento; lançar alienações, permutas ou baixas; emitir relatórios financeiros de movimentação de bens; registrar e controlar sinistros e ocorrências que afetem os bens patrimoniais.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Diretoria de Ensino</span>
-        <span class="sector-badge">Diretoria</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">A Diretoria de Ensino é composta por diversas coordenadorias e setores voltados ao funcionamento acadêmico (CAE, CRE, Ensino, Biblioteca, Laboratórios, Agropecuário, Setor de Professores).</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Organização padronizada, porém outros campi sugerem a inclusão de um Setor Pedagógico específico e a regulamentação formal dos Técnicos de Laboratório. Os Núcleos de Inclusão são categorizados muitas vezes como Comissões/Núcleos.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> A Diretoria de Ensino do Campus Vacaria é composta por:
-I – Coordenadoria de Assistência Estudantil (CAE);
-II – Coordenadoria de Registros Escolares (CRE);
-III – Coordenadoria de Ensino (composta por Coord. de Cursos e Setor Pedagógico);
-IV – Setor de Biblioteca;
-V – Setor de Laboratórios (incluindo Técnicos de Laboratório);
-VI – Setor Agropecuário.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Coordenadoria de Assistência Estudantil (CAE)</span>
-        <span class="sector-badge">Dir. Ensino</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">A CAE implementa a Política de Assistência Estudantil (PAE), sendo composta por equipe multiprofissional.
-Aplica PNAES, acompanha os alunos, oferece orientação profissional, organiza distribuição de merenda, orienta professores sobre dificuldades escolares.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Bento Gonçalves acrescenta o "mapeamento dos serviços públicos da região". Múltiplos campi colocam a CAE como agente de articulação essencial com a CIAAPE para tratar da evasão escolar.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> À Coordenadoria de Assistência Estudantil compete:
-I – aplicar a PNAES e estabelecer requisitos para percepção de benefícios;
-II – implementar e acompanhar, em articulação com a CIAAPE, o Plano de Permanência e Êxito dos discentes;
-III – mapear e divulgar para os estudantes os serviços públicos de apoio disponíveis na região (SUS, CRAS, CREAS e similares);
-IV – indicar ao aluno atendimento clínico;
-V – acompanhar a elaboração das adaptações curriculares de discentes junto ao NAPNE;
-VI – organizar a distribuição da merenda escolar.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Coordenadoria de Registros Escolares (CRE)</span>
-        <span class="sector-badge">Dir. Ensino</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">A CRE é responsável pelo controle das informações acadêmicas e guarda da documentação. Efetiva matrículas, emite atestados, históricos e diplomas. Sistematiza dados para o MEC.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Canoas adiciona textualmente a responsabilidade de "garantir a segurança dos registros e atuar com a digitalização / documentos eletrônicos" que é uma demanda recente do MEC.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> À Coordenadoria de Registros Escolares compete:
-I – organizar os serviços de secretaria e responsabilizar-se pelo sigilo;
-II – efetivar matrículas e rematrículas via sistema acadêmico;
-III – sistematizar informações para o banco de dados do MEC;
-IV – assinar, juntamente com o(a) Diretor(a) Geral, certificados e diplomas;
-V – gerir, expedir e atualizar as documentações do setor em meio digital e físico, garantindo a integridade dos registros acadêmicos.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Coordenadoria de Ensino e Cursos</span>
-        <span class="sector-badge">Dir. Ensino</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">Responsável por planejar e avaliar diretrizes de ensino. Acompanha processos de aprendizagem, projetos pedagógicos (PPC), diários de classe, editais de monitoria e conselhos de classe.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Erechim e Bento G. detalham a função dos Coordenadores de Cursos (subordinados à Coord de Ensino) e sugerem acompanhar os indicadores de retenção/evasão.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> À Coordenadoria de Ensino compete:
-I – planejar, acompanhar e avaliar a proposta pedagógica institucional;
-II – supervisionar os diários de classe junto aos professores;
-III – elaborar quadro de horários e organizar conselhos de classe;
-IV – acompanhar indicadores de evasão e retenção em articulação com a CIAAPE e a CAE;
-V – coordenar a implementação de metodologias ativas.
-<span class="art-num azul">Art. X+1.</span> As Coordenadorias de Cursos são subordinadas à Coord. de Ensino e gerem didático-pedagogicamente os cursos, com atribuições regulamentadas por Regimento próprio.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Setor de Biblioteca</span>
-        <span class="sector-badge">Dir. Ensino</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">Gerencia empréstimos, pesquisa e catalogação. Elabora normas, capacita usuários em bases de dados, solicita acervos e divulga o material.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Rio Grande adiciona a elaboração do "Guia Interno de Serviços" e a função explícita de "orientar discentes e servidores nas normas da ABNT".</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> Ao Setor de Biblioteca compete:
-I – elaborar e manter atualizado o Guia Interno de Serviços da Biblioteca;
-II – gerenciar empréstimo, reserva, renovação e catalogação informatizada;
-III – orientar discentes e servidores na elaboração de trabalhos acadêmicos quanto às normas técnicas vigentes (ABNT);
-IV – solicitar a aquisição de acervos e organizar as demandas de ampliação;
-V – promover e/ou apoiar ações culturais e atividades de fomento à leitura.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Setor de Laboratórios</span>
-        <span class="sector-badge">Dir. Ensino</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">Executa trabalhos técnicos de laboratório, prepara reagentes e experimentos, zela pela limpeza, controla o estoque de consumíveis.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Erechim estabelece textualmente a obrigatoriedade/recomendação de ter Técnicos de Laboratório qualificados em cada área (Química, Informática, etc) para a segurança e validade dos experimentos.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> Os laboratórios de ensino terão seu funcionamento regulamentado por regimento próprio. Devem, preferencialmente, contar com no mínimo um Técnico de Laboratório qualificado por área.
-<span class="art-num azul">Art. X+1.</span> Compete ao Setor de Laboratórios:
-I – preparar reagentes, peças, circuitos e outros materiais para experimentos;
-II – orientar e supervisionar o uso correto e seguro dos equipamentos pelos discentes;
-III – controlar o estoque de material de consumo dos laboratórios;
-IV – articular com a Coordenadoria de Infraestrutura a manutenção dos equipamentos.
-<span style="font-size:0.8rem; color:#888;">*Laboratórios de Informática ficam sob a CTI mas atendem demanda da Ensino.</span></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Setor Agropecuário</span>
-        <span class="sector-badge">Dir. Ensino</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">Planeja e realiza atividades agropecuárias, zela pela preservação ambiental, conduz experimentos de pesquisa, dissemina produção orgânica e inspeciona o cumprimento de normas técnicas.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Ibirubá e Sertão possuem vasta estrutura agrícola e adicionam os termos "produção agroecológica" ao invés de apenas orgânica.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> Ao Setor Agropecuário, subordinado à Diretoria de Ensino, compete:
-I – planejar e realizar atividades agropecuárias e conduzir experimentos de pesquisa;
-II – desenvolver e adaptar tecnologias de produção;
-III – zelar pela preservação ambiental;
-IV – disseminar a produção orgânica e agroecológica no âmbito do Campus;
-V – recomendar e realizar o destino seguro de embalagens de agrotóxicos e medicamentos veterinários.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Coord. Pesquisa, Pós-graduação e Inovação</span>
-        <span class="sector-badge">Pesquisa</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">O texto atual faz uma descrição genérica, dizendo que "compete as atribuições descritas em legislação própria do Consup". Contém a subordinação da Incubadora Tecnológica (IT).</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Bento Gonçalves elenca competências locais: organizar os editais locais, submeter projetos, apoiar a publicação de artigos e realizar a mostra científica / evento anual do Campus.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> Compete à Gestão de Pesquisa, Pós-graduação e Inovação, subordinada à Direção Geral:
-I – planejar, coordenar e supervisionar as atividades de pesquisa e inovação do Campus;
-II – organizar e apoiar a realização do evento anual de ensino, pesquisa e extensão do Campus Vacaria;
-III – apoiar a elaboração e submissão de projetos de pesquisa por parte de servidores;
-IV – coordenar as ações da Incubadora Tecnológica do Campus Vacaria.
-<span class="art-num azul">Art. X+1.</span> A Incubadora Tecnológica visa a inserção e consolidação de empreendimentos nascentes inovadores, com regimento próprio.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Coordenadoria de Extensão</span>
-        <span class="sector-badge">Extensão</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">Texto atual genérico. Define que a Extensão abriga o Setor de Estágios e Egressos, além de ser o "guarda-chuva" de vários Núcleos.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Bento e Erechim estabelecem explicitamente os incisos de atribuições locais (promover a articulação com a comunidade).</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> Compete à Coordenadoria de Extensão:
-I – planejar, coordenar e executar as atividades de extensão do Campus;
-II – articular as ações de extensão com o ensino e pesquisa comunitária;
-III – fomentar a participação em ações extensionistas.
-<span class="art-num azul">Art. X+1.</span> A Coordenadoria de Extensão é composta pelo Setor de Estágios e Egressos e presta apoio administrativo e suporte aos Núcleos temáticos e Comissões afins.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Setor de Estágios e Egressos</span>
-        <span class="sector-badge">Extensão</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">Supervisiona estágios, encaminha alunos, preenche cadastro e acompanha egressos em sistemas institucionalizados.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Canoas adiciona que a guarda de documentação dos estágios agora pode e deve ser feita "inclusive em meio digital". Enfatiza o acompanhamento do egresso no mundo do trabalho.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> Ao Setor de Estágios e Egressos compete:
-I – supervisionar as atividades relacionadas aos estágios;
-II – manter atualizada a documentação dos estágios, inclusive em meio digital;
-III – divulgar oportunidades de estágios enviadas à Instituição;
-IV – acompanhar, após a conclusão do curso, o ingresso dos egressos no mundo do trabalho;
-V – manter cadastro e contato ativo com a rede de egressos (Alumni).</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Desenvolvimento Institucional e TI</span>
-        <span class="sector-badge">Des. Institucional</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">A CDI acompanha os regimentos. Engloba a Coord. de Tecnologia da Informação (CTI), que gerencia as redes e laboratórios de informática do Campus, prestando suporte técnico e fazendo manutenção.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Ibirubá e Canoas aprofundam vastamente o texto da CTI: Inclusão do "PDTI" (Plano Diretor de TI), gestão corporativa de senhas/perfis e a "Política de Segurança da Informação" do IFRS. Fomento ao Software Livre.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> A Coord. de Desenv. Institucional planeja e acompanha o PDI e a autoavaliação (CPA).
-<span class="art-num azul">Art. X+1.</span> À Coordenadoria de Tecnologia da Informação (CTI) compete:
-I – coordenar a elaboração e execução do Plano Diretor de TI (PDTI) do Campus;
-II – implementar as diretrizes da Política de Segurança da Informação corporativa;
-III – promover a utilização de Software Livre;
-IV – administrar contas e acessos de usuários em articulação com a CGP;
-V – viabilizar atualização de redes, prestar suporte técnico contínuo e garantir cópias de segurança (backups) regulares dos dados não-corporativos hospedados localmente.</div>
-        </div>
-      </div>
-    </div>
-
-</div>
-</div><div id="tab-comissoes" class="tab-content">
-  <div class="intro-panel">
-    <h3>Comissões, Órgãos Colegiados e Núcleos Temáticos</h3>
-    <p>Esta seção descreve os órgãos de natureza consultiva, deliberativa ou avaliativa, formados por representantes de diferentes segmentos da comunidade (docentes, técnicos, alunos e externos). Os <strong>Núcleos</strong> atuam como comissões temáticas permanentes.</p>
-  </div>
-  <div class="sector-grid">
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Conselho do Campus (ConCamp)</span>
-        <span class="sector-badge">Órgão Máximo</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">Composição: Diretor(a) Geral (presidente nato), 2 representantes docentes, 2 técnico-administrativos, 2 discentes e 1 comunidade externa. Quórum: metade mais um. Mandato de 2 anos (docentes e TAE), 1 ano (discentes).
-Possui 33 atribuições privativas listadas.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Bento Gonçalves adota composição ampliada (3 representantes por segmento). Erechim e Rolante incluem a atribuição explícita de "deliberar sobre a política de acesso ao Campus" (visitas, parcerias com escolas da região).</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Texto atual adequado.</span>
-Sugerimos manter a composição atual (2 por segmento), proporcional ao porte do Campus Vacaria. Acrescentar apenas nas atribuições:
-I – Deliberar sobre a política de acesso e parceria com escolas e comunidade da região;
-II – Aprovar o Plano de Acessibilidade do Campus.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">CAGE, CAGPPI e CGAE</span>
-        <span class="sector-badge">Comissões Avaliadoras</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">Comissões de Avaliação e Gestão de Ensino (CAGE), Pesquisa (CAGPPI) e Extensão (CGAE).
-Composição: gestor da respectiva área (nato), 2 docentes, 2 TAE, 2 discentes. Competências remetem ao Regimento geral do IFRS.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Bento Gonçalves inclui parágrafo explicitando que os servidores membros destas comissões avaliadoras devem contemplar, preferencialmente, "todas as grandes áreas do conhecimento" (Ciências Exatas, Humanas, Agrárias etc.).</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Manter composição atual.</span>
-Acrescentar parágrafo em todas as 3 comissões de mérito: "Os servidores membros deverão contemplar, preferencialmente, diferentes áreas do conhecimento representadas pelos cursos do Campus, garantindo a pluralidade na avaliação dos projetos."</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">Núcleo de Ações Afirmativas e Núcleo de Memória</span>
-        <span class="sector-badge">Comissão / Núcleo</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">NAAf: implementa Política de Ações Afirmativas do IFRS.
-NuMem: preserva patrimônio imaterial e material histórico do IFRS no Campus. Composição via portaria.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">A redação de Vacaria para estes dois núcleos já está bem consolidada com os normativos centrais do IFRS. Sugere-se apenas adicionar que o NAAf deve interagir com os outros polos inclusivos (NEABI).</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> Compete ao Núcleo de Ações Afirmativas (NAAf), constituído por portaria colegiada:
-I – implementar as políticas institucionais inclusivas;
-II – criar espaços de estudo e convivência para os estudantes cotistas;
-III – articular com o NEABI, NAPNE e demais núcleos as ações de promoção da igualdade.
-
-<span class="art-num azul">Art. X+1.</span> O Núcleo de Memória (NuMem) organiza e salvaguarda o patrimônio cultural local, sendo constituído por comissão de servidores, egressos e comunidade externa.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">NAPNE — Núcleo de Atendimento a Pessoas com Necessidades Específicas</span>
-        <span class="sector-badge">Comissão / Núcleo</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">O NAPNE possui atribuições, finalidades e competências definidas em legislação e regulamentação própria do IFRS. 
-É descrito como um órgão de natureza consultiva e executiva, de composição multidisciplinar.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Reitera-se em todos os campi a sua função transversal como comitê/núcleo que dialoga com toda a Diretoria de Ensino, professores e Assistência Estudantil.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> O NAPNE, de composição colegiada e multidisciplinar, media a educação inclusiva na instituição. Atua como facilitador e disseminador de ações inclusivas, buscando não apenas a inclusão de alunos com necessidades educacionais específicas, mas também sua permanência e saída exitosa para o mundo do trabalho.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">CISSPA — Comissão Interna de Prevenção de Acidentes</span>
-        <span class="sector-badge">Comissão Permanente</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">Objetivos, composição, atribuições e eleição dos membros regulamentados por Regimento próprio aprovado pelo Conselho Superior do IFRS.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Bento e Erechim acrescentam localmente a atribuição prática de elaborar o Mapa de Risco e o Plano Anual de Saúde Ocupacional.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> A CISSPA do Campus Vacaria tem seus objetivos regulamentados por Regimento próprio. Compete ainda à unidade local colegiada:
-I – Elaborar e atualizar o Mapa de Risco do Campus Vacaria;
-II – Propor ao Conselho do Campus o Plano Anual de Saúde e Segurança do Trabalho;
-III – Articular com a Coordenadoria de Infraestrutura reparos críticos de prevenção de acidentes.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" onclick="toggleCard(this)">
-        <span class="sector-title">CIAAPE — Com. de Permanência e Êxito</span>
-        <span class="sector-badge">Comissão Permanente</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Texto Atual — Vacaria</div>
-          <div class="col-content regtext">Finalidade: elaborar o plano estratégico de permanência e êxito, estudar causas da evasão e retenção e propor ações mitigadoras.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Bento e Erechim detalham a composição mínima (Ensino, CAE, Docentes, Discentes). Rolante prevê obrigatoriedade de Relatório Semestral de Indicadores de Evasão ao ConCamp.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Texto Proposto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> A CIAAPE é composta minimamente por: representante da Diretoria de Ensino, representante da Coordenadoria de Assistência Estudantil, 2 docentes, 1 técnico-administrativo e 2 discentes.
-<span class="art-num azul">Art. X+1.</span> A CIAAPE apresentará relatório semestral ao Conselho do Campus sobre os indicadores de evasão, retenção e êxito, bem como ações implementadas.</div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<div id="tab-excluidos" class="tab-content">
-  <div class="intro-panel">
-    <h3>Setores Excluídos do Regimento do Campus Vacaria</h3>
-    <p>Os setores abaixo foram <strong style="color:var(--vermelho)">removidos da estrutura orgânica</strong> do Campus Vacaria na proposta atual. A exclusão e reorganização destes setores ocorreu por conta de uma dinâmica de centralização de suas atividades para a Reitoria do IFRS. As funções locais remanescentes de licitações e pagamentos foram unificadas nas novas pastas administrativas (ver aba de Estruturas Novas Sugeridas).</p>
-  </div>
-  <div class="sector-grid">
-    <div class="sector-card">
-      <div class="sector-card-header" style="background:var(--vermelho)" onclick="toggleCard(this)">
-        <span class="sector-title">Coordenadoria de Licitações e Contratos e Setores</span>
-        <span class="sector-badge">Removido</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria" style="grid-column: span 3;">
-          <div class="col-content regtext"><strong>Composição Anterior:</strong> Coordenadoria de Licitações e Contratos (Art. 16), Setor de Licitações (Art. 19), Setor de Contratos (Art. 20).
-<strong>Motivo:</strong> Centralização das licitações e compras conjuntas via Reitoria. 
-<strong>Nova Estrutura:</strong> Apenas as atividades de fiscalização local de contratos foram mantidas na proposta e alocadas para a nova <em>Coordenadoria de Gestão e Fiscalização de Contratos</em>.</div>
-        </div>
-      </div>
-    </div>
-    <div class="sector-card">
-      <div class="sector-card-header" style="background:var(--vermelho)" onclick="toggleCard(this)">
-        <span class="sector-title">Coord. de Execução Orçamentária e Setor Financeiro</span>
-        <span class="sector-badge">Removido</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria" style="grid-column: span 3;">
-          <div class="col-content regtext"><strong>Composição Anterior:</strong> Coordenadoria de Execução Orçamentária e Financeira (Art. 21) e Setor Financeiro (Art. 24).
-<strong>Motivo:</strong> Centralização orçamentária para a Reitoria do IFRS.
-<strong>Nova Estrutura:</strong> Operações residuais de pagamentos locais ou prestação de contas podem ser realocadas diretamente à Diretoria de Administração do Campus, eliminando a ramificação de Setores Financeiros independentes.</div>
-        </div>
+    <div id="org-wrapper" style="height:680px;">
+      <div id="org-canvas">
+        <svg id="org-svg"></svg>
+        <div id="org-nodes"></div>
       </div>
     </div>
   </div>
 </div>
-
-<div id="tab-novos-setores" class="tab-content">
-  <div class="intro-panel">
-    <h3>Estruturas Novas Sugeridas</h3>
-    <p>Os itens abaixo existem em outros campi do IFRS, possuem pertinência organizacional, mas não constam do Regimento atual de Vacaria. São apresentados como proposta de inclusão, divididos entre Setores Executivos e Comissões Temáticas (Núcleos).</p>
-  </div>
-  <div class="sector-grid">
-
-    <div class="sector-card">
-      <div class="sector-card-header" style="background:var(--azul)" onclick="toggleCard(this)">
-        <span class="sector-title">★ Coord. de Gestão e Fiscalização de Contratos</span>
-        <span class="sector-badge">Setor Administrativo</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Situação Atual — Vacaria</div>
-          <div class="col-content regtext">As funções estavam no Setor de Contratos (excluído). Erechim e Ibirubá destacam esta função como coordenadoria própria devido ao peso da fiscalização terceirizada local.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Erechim (Art. 26) estabelece que a coordenação deve formalizar prorrogações, reequilíbrios, aplicar sanções, apoiar tecnicamente os fiscais de contrato de limpeza/portaria e administrar contas depósito vinculadas.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Proposta de Texto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> A Coordenadoria de Gestão e Fiscalização de Contratos é o órgão responsável por acompanhar e fiscalizar os contratos administrativos do Campus. Compete:
-I – Formalizar os procedimentos de contratação, prorrogação, reequilíbrio econômico-financeiro e extinção de contratos locais;
-II – Controlar prazos de vigência;
-III – Nomear e dar apoio técnico aos Fiscais de Contrato designados;
-IV – Administrar contas depósito vinculadas;
-V – Instaurar processos de penalização por descumprimento.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" style="background:var(--azul)" onclick="toggleCard(this)">
-        <span class="sector-title">★ Auditoria Interna</span>
-        <span class="sector-badge">Órgão de Controle</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Situação Atual — Vacaria</div>
-          <div class="col-content regtext">Função institucional da UNAI/IFRS não está regulamentada textualmente no nível do campus.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Erechim e Bento G. preveem a Auditoria como órgão que responde hierarquicamente à Reitoria (UNAI), mas tem vinculação administrativa ao Gabinete da Direção Geral do Campus.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Proposta de Texto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> A Auditoria Interna do Campus Vacaria integra a Unidade de Auditoria Interna do IFRS (UNAI/IFRS), vinculada ao Conselho Superior.
-<span class="art-num azul">Art. X+1.</span> Possui subordinação hierárquica à UNAI/IFRS e está, administrativamente, vinculada à Direção Geral do Campus. O funcionamento obedece o regimento da UNAI.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" style="background:var(--azul)" onclick="toggleCard(this)">
-        <span class="sector-title">★ Setor Pedagógico</span>
-        <span class="sector-badge">Setor de Ensino</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Situação Atual — Vacaria</div>
-          <div class="col-content regtext">Funções pedagógicas diluídas entre o Setor de Ensino e a Coordenadoria de Ensino. A criação do Setor próprio traz foco técnico (Pedagogos/TAEs).</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Erechim cria o "Setor Pedagógico" para prestar orientação pedagógica a docentes e discentes, diagnosticar dificuldades de aprendizagem e ajudar em adaptações curriculares.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Proposta de Texto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> O Setor Pedagógico, subordinado à Coordenadoria de Ensino, é responsável pelo apoio pedagógico aos docentes e discentes. Compete:
-I – Prestar orientação didática aos professores;
-II – Diagnosticar dificuldades de aprendizagem e propor intervenções;
-III – Acompanhar a implementação de adaptações curriculares em articulação com o NAPNE;
-IV – Apoiar a formação continuada docente.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" style="background:var(--azul)" onclick="toggleCard(this)">
-        <span class="sector-title">★ Técnicos de Laboratório</span>
-        <span class="sector-badge">Cargos Específicos</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Situação Atual — Vacaria</div>
-          <div class="col-content regtext">O Setor de Laboratórios existe, mas os cargos de base não estão nominalmente designados.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Erechim estabelece em parágrafo único que todo laboratório deve, preferencialmente, ter um Técnico de Laboratório para garantir operação segura e normatizada dos equipamentos.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Proposta de Texto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> Todas as áreas de laboratório devem contar preferencialmente com Técnicos de Laboratório devidamente qualificados. Compete-lhes:
-I – Preparar reagentes, peças e instrumentos para aulas práticas;
-II – Orientar o uso correto dos equipamentos;
-III – Controlar o estoque de reagentes e o descarte correto de químicos.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" style="background:var(--azul)" onclick="toggleCard(this)">
-        <span class="sector-title">★ NEABI — Núcleo de Est. Afro-Brasileiros e Indígenas</span>
-        <span class="sector-badge">Comissão Temática</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Situação Atual — Vacaria</div>
-          <div class="col-content regtext">Não listado formalmente no regimento atual, apesar de ser pilar institucional colegiado.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Previsto em Erechim, Feliz, Ibirubá. É uma comissão/núcleo que visa ações de ensino, pesquisa e extensão voltadas às relações étnico-raciais.</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Proposta de Texto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> O Núcleo de Estudos Afro-Brasileiros e Indígenas (NEABI) é um órgão colegiado propositivo que promove a temática das identidades e relações étnico-raciais.
-I – Promover capacitação de servidores sobre história e cultura afro-brasileira/indígena;
-II – Propor ações afirmativas em parceria com o NAAf.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sector-card">
-      <div class="sector-card-header" style="background:var(--azul)" onclick="toggleCard(this)">
-        <span class="sector-title">★ NAC e NEPGS</span>
-        <span class="sector-badge">Comissões Temáticas</span>
-        <span class="toggle-icon">▼</span>
-      </div>
-      <div class="sector-body">
-        <div class="col col-vacaria">
-          <div class="col-label">🟢 Situação Atual — Vacaria</div>
-          <div class="col-content regtext">Estes núcleos/comissões temáticas não possuem previsão textual atual.</div>
-        </div>
-        <div class="col col-compilado">
-          <div class="col-label">🟡 Adições de Outros Campi</div>
-          <div class="col-content regtext">Bento Gonçalves e Erechim preveem as portarias de composição para o Núcleo de Arte e Cultura (NAC) e para o Núcleo de Estudos em Gênero e Sexualidades (NEPGS).</div>
-        </div>
-        <div class="col col-proposta">
-          <div class="col-label">🔵 Proposta de Texto — Vacaria</div>
-          <div class="col-content regtext"><span class="art-num azul">Art. X.</span> O NAC do Campus Vacaria é uma comissão constituída por servidores, estudantes e comunidade para desenvolver a Política de Arte e Cultura do IFRS.
-<span class="art-num azul">Art. X+1.</span> O NEPGS atua na forma de comitê consultivo estimulando ações orientadas às temáticas de gênero, diversidade sexual e combate à discriminação.</div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<div id="tab-organograma" class="tab-content">
-  <div class="intro-panel" style="margin-bottom:1rem;">
-    <h3>Organograma Interativo — Campus Vacaria (Proposta Atualizada)</h3>
-    <p><strong>Arraste os quadros</strong> para reorganizar livremente. Itens em <span style="color:#8a9a6a;font-weight:700">verde-oliva</span> identificam as Comissões e Núcleos colegiados. <strong style="color:#d32f2f">Clique em um setor para ler o Artigo Proposto Completo</strong> e destacar a sua subordinação em vermelho.</p>
-    <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.6rem;align-items:center;">
-      <button onclick="resetLayout()" style="padding:.35rem .9rem;background:#1a5c38;color:#fff;border:none;border-radius:4px;cursor:pointer;font-size:.82rem;font-weight:600;">&#8635; Resetar posições</button>
-      <button onclick="toggleLines()" id="linesBtn" style="padding:.35rem .9rem;background:#555;color:#fff;border:none;border-radius:4px;cursor:pointer;font-size:.82rem;font-weight:600;">Ocultar linhas</button>
-    </div>
-  </div>
-
-  <div id="orgCanvas" style="position:relative;width:100%;height:820px;background:#f8f7f3;border:1px solid #d8d5cc;border-radius:8px;overflow:hidden;cursor:grab;">
-    <svg id="linesSvg" style="position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;overflow:visible;">
-      <defs>
-        <marker id="ah" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><polygon points="0 0, 7 3.5, 0 7" fill="#bbb"/></marker>
-        <marker id="ahn" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><polygon points="0 0, 7 3.5, 0 7" fill="#1c3d6e"/></marker>
-      </defs>
-    </svg>
-    <div id="nodesLayer" style="position:absolute;top:0;left:0;transform-origin:0 0;"></div>
-  </div>
-
-  <script>
-  (function(){
-    window.NODE_TEXTS = {
-  "dg": { title: "Direção Geral", text: "Art. 5. O Campus Vacaria do IFRS é dirigido por um(a) Diretor(a) Geral eleito(a) na forma da Lei.\n\nArt. 6. As competências e atribuições da Direção-Geral do Campus estão descritas no Estatuto, Regimento Geral e Regimento dos Campi do IFRS." },
-  
-  "gab": { title: "Gabinete da Direção Geral", text: "Subseção II - Do Gabinete da Direção Geral\n\nArt. 7. O Gabinete da Direção Geral é um órgão executivo do Campus, gerido por um(a) Chefe de Gabinete, nomeado(a) pela Direção-Geral e tem por finalidade prestar assistência técnica administrativa à Direção-Geral.\n\nArt. 8. Compete à Chefia de Gabinete as seguintes atribuições:\nI - prestar assistência direta e imediata à Direção-Geral em sua representação política, social e administrativa e incumbir-se do preparo e despacho do expediente;\nII - preparar correspondências oficiais referentes ao Gabinete da Direção-Geral;\nIII - classificar, registrar, distribuir e enviar correspondências referentes ao Gabinete da Direção-Geral;\nIV - organizar e controlar agendas de entrevistas e audiências;\nV - convocar pessoas e providenciar locais para reuniões;\nVI - dar atendimento a pessoas e a telefonemas, bem como recepcionar visitantes para a Direção-Geral;\nVII - coordenar e organizar a expedição, arquivamento e publicação dos documentos emitidos pela Direção-Geral;\nVIII - redigir e publicar o Boletim de Serviço do Campus;\nIX - secretariar reuniões da Direção-Geral e do Conselho de Campus;\nX - coordenar contatos com os órgãos oficiais e demais instituições;\nXI - acompanhar o processo de informações dos diferentes órgãos, mantendo a Direção geral constantemente informada;\nXII - colaborar com o planejamento e constante aperfeiçoamento do Gabinete, visando atender as demandas de ensino, pesquisa, extensão e gestão existentes na Instituição;\nXIII - receber documentações submetidas à Direção-Geral, preparando-a para assinatura, ou diligenciando os encaminhamentos necessários;\nXIV - desempenhar outras atividades correlatas ao cargo ou definidas pela legislação vigente e/ou atribuídas pelo superior hierárquico.\nXV - zelar pelo cumprimento da legislação vigente, do Estatuto, do Regimento geral e demais Regulamentos Internos e normas do IFRS." },
-  
-  "com": { title: "Setor de Comunicação", text: "Subseção III - Do Setor de Comunicação\n\nArt. 9. O Setor de Comunicação é responsável pela comunicação do IFRS Campus Vacaria com seus públicos.\nParágrafo único. As atividades do Setor de Comunicação serão exercidas por equipe composta por jornalista, técnico audiovisual e demais cargos necessários.\n\nArt. 10. Ao Setor da Comunicação, subordinado à Direção Geral, compete as seguintes atribuições:\nI. Estudar, planejar, executar e controlar ações de divulgação publicitária e de prestação de informações de caráter educativo, informativo e de orientação social, estimulando a retroalimentação da comunicação entre a Instituição e a comunidade externa;\nII. Zelar pela preservação da identidade visual da Instituição;\nIII. Prestar apoio técnico à Coordenadoria de Extensão na participação em eventos internos e externos;\nIV. Gerenciar a utilização das salas de recursos audiovisuais do Campus Vacaria, bem como zelar pela preservação dos mesmos;\nV. Instalar, ligar, testar e gerenciar equipamentos de audiovisual;\nVI. Prestar apoio técnico na produção de material didático e/ou de divulgação de ensino, pesquisa, extensão e gestão que necessitar de recursos audiovisuais;\nVII. Elaborar o Plano Anual de Comunicação;\nVIII. Orientar gestores e demais servidores para a consolidação do relacionamento com a imprensa;\nIX. Produzir informativos de interesse institucional e enviá-los à imprensa;\nX. Gerenciar a alimentação de informações no sítio eletrônico e nas páginas nas redes sociais do Campus na internet;\nXI. Integrar a Comissão responsável pela edição e publicação do Boletim de Serviços;\nXII. Desempenhar outras atividades correlatas ao setor de comunicação, ao cargo ou definidas pela legislação e/ou atribuídas pelo superior hierárquico." },
-  
-  "cgp": { title: "Coordenadoria de Gestão de Pessoas", text: "Subseção IV - Da Coordenadoria de Gestão de Pessoas\n\nArt. 11. A Coordenadoria de Gestão de Pessoas (CGP) é o órgão responsável por planejar, coordenar, gerir e supervisionar a execução de atividades relacionadas às políticas de gestão de pessoas.\nArt. 12. As atividades da Coordenadoria de Gestão de Pessoas serão exercidas por um servidor efetivo do quadro de pessoal do IFRS designado pelo(a) Diretor(a) Geral do Campus.\n\nArt. 13. À Coordenadoria de Gestão de Pessoas, subordinada à Direção Geral, compete as seguintes atribuições:\nI. Colaborar com o planejamento e constante aperfeiçoamento da Coordenadoria, visando atender as demandas de ensino, pesquisa, extensão e gestão existentes na Instituição, racionalizando o uso dos recursos e equipamentos;\nII. Oferecer subsídios para o planejamento orçamentário de recursos humanos;\nIII. Coordenar, em articulação com a CPPD e CIS, os programas de progressão funcional e progressão por capacitação dos servidores do Campus Vacaria, bem como processos de enquadramento, reclassificação, licenças, afastamentos e outros presentes nas normativas institucionais e em Lei;\nIV. Propor políticas de gestão de pessoas;\nV. Sugerir políticas, métodos e instrumentos de gestão para a avaliação de desempenho, acompanhamento funcional, estágio probatório e o desenvolvimento de carreira dos servidores;\nVI. Prestar informações e orientar a comunidade interna e externa sobre assuntos de sua competência;\nVII. Emitir documentos oficiais com base nos registros constantes no cadastro geral dos servidores;\nVIII. Propor iniciativas para a qualificação dos processos de trabalho visando à qualidade de vida dos servidores;\nIX. Registrar e organizar informações referentes à vida funcional dos servidores;\nX. Planejar e implantar as políticas de seleção e admissão de servidores substitutos;\nXI. Administrar todas as ações previstas para cadastro, pagamento, benefícios e aposentadoria dos servidores, gerenciando canais de acesso ao requerimento de direitos com fluxos claros de funcionamento;\nXII. Exercer atividades relacionadas à admissão, ao desligamento, ao aperfeiçoamento, à lotação, ao pagamento e ao cadastro de servidores;\nXIII. Acompanhar o processo de estágio probatório;\nXIV. Desempenhar outras atividades correlatas à Coordenadoria de Gestão de Pessoas, ao cargo ou definidas pela legislação e/ou atribuídas pelo superior hierárquico;\nXV. Elaborar o relatório anual das atividades da Coordenadoria." },
-  
-  "dadm": { title: "Diretoria de Administração", text: "Da Diretoria de Administração\n\nArt. 14. As atividades da Diretoria de Administração do Campus Vacaria serão exercidas por um servidor efetivo do quadro de pessoal do IFRS designado pelo(a) Diretor(a) Geral do Campus.\n\nArt. 15. A Diretoria de Administração do Campus Vacaria tem a finalidade de planejar, coordenar e supervisionar as atividades de infraestrutura e contratos do Campus, garantindo o suporte logístico e administrativo para as atividades de ensino, pesquisa e extensão.\n\nA Diretoria de Administração é composta por:\nI - Coordenadoria de Infraestrutura;\nII - Coordenadoria de Gestão e Fiscalização de Contratos (Proposta baseada em outros campi da rede, substituindo a antiga Licitações e Contratos que foi centralizada na Reitoria)." },
-  
-  "cgfc": { title: "Coordenadoria de Gestão e Fiscalização de Contratos (Proposta)", text: "Da Coordenação de Gestão e Fiscalização de Contratos (Proposta baseada no Art. 26 do Campus Erechim)\n\nArt. X. À Coordenação de Gestão e Fiscalização de Contratos, subordinada à Direção de Administração, compete:\nI. Formalizar os procedimentos quanto aos aspectos que envolvam a contratação, prorrogação, alteração, reequilíbrio econômico-financeiro, eventual aplicação de sanções, extinção dos contratos, controle dos prazos de vigência, dentre outros;\nII. Realizar pesquisas mercadológicas para verificar a vantajosidade e economicidade dos preços vigentes;\nIII. Prestar apoio técnico à equipe de fiscalização;\nIV. Administrar, junto à instituição bancária, conta depósito vinculada, aberta pela Administração em nome da contratada, referente a contratação de serviços com dedicação exclusiva de mão de obra;\nV. Abrir o processo de empenho e pagamento, inserindo os documentos pertinentes e tramitar no SIPAC para a equipe de fiscalização;\nVI. Incluir os termos aditivos e apostilamentos no processo de empenho e pagamento;\nVII. Instaurar processos administrativos de penalização;\nVIII. Informar à Reitoria/Setor Financeiro os dados necessários para que o mesmo possa realizar o registro e gerenciamento da conta de controle de contratos no SIAFI." },
-  
-  "cinf": { title: "Coordenadoria de Infraestrutura", text: "Da Coordenadoria de Infraestrutura\n\nArt. 25. A Coordenadoria de Infraestrutura é o órgão responsável por planejar, coordenar, supervisionar orientar, organizar, controlar e executar as atividades relacionadas ao controle do patrimônio, sistema de transporte, serviços de almoxarifado, de vigilância, de limpeza, de apoio e de manutenção geral e infraestrutura.\nArt. 26. As atividades da Coordenadoria de Infraestrutura serão exercidas por um servidor efetivo do quadro de pessoal do IFRS designado pelo(a) Diretor(a) Geral do Campus.\n\nArt. 27. À Coordenadoria de Infraestrutura, subordinada à Diretoria de Administração, compete as seguintes atribuições:\nI. Colaborar com o planejamento e constante aperfeiçoamento da Coordenadoria, visando atender as demandas de ensino, pesquisa, extensão e gestão existentes na Instituição, racionalizando o uso dos recursos e equipamentos;\nII. Acompanhar a execução de obras;\nIII. Gerenciar as operações de conservação e manutenção dos bens móveis e imóveis;\nIV. Gerenciar os bens móveis e imóveis que estão em seus prazos de garantia;\nV. Supervisionar a aquisição e distribuição de material necessários ao bom funcionamento do Campus;\nVI. Gerenciar o controle patrimonial e o planejamento físico para armazenamento de materiais;\nVII. Gerenciar o envio e o recebimento de malotes e correspondências;\nVIII. Gerenciar o agendamento de visitas técnicas dos alunos e servidores;\nIX. Coordenar, através de relatórios, as atividades executadas por empresas terceirizadas e de fornecimento de materiais e disponibilizá-los para controle institucional, nas diferentes áreas de atuação;\nX. Desenvolver atividades adequadas de manejo e de destinação dos resíduos, conforme legislação vigente;\nXI. Encaminhar demandas de aquisição e manutenção de equipamentos, necessidade de reformas e serviços, entre outros, de acordo com o plano de ação;\nXII. Desempenhar outras atividades correlatas à Coordenadoria de Infraestrutura, ao cargo ou definidas pela legislação e/ou atribuídas pelo superior hierárquico;\nXIII. Apresentar anualmente as atividades realizadas pela Coordenadoria de Infraestrutura." },
-
-  "sit": { title: "Setor de Infraestrutura e Transportes", text: "Do Setor de Infraestrutura e Transportes\n\nArt. 28. Ao Setor de Infraestrutura e Transportes, subordinado à Coordenadoria de Infraestrutura, compete as seguintes atribuições:\nI. Colaborar com o planejamento e constante aperfeiçoamento do setor, visando atender as demandas de ensino, pesquisa, extensão e gestão existentes na Instituição, racionalizando o uso dos recursos e equipamentos;\nII. Implementar um programa de controle e manutenção da infraestrutura do Campus Vacaria que atenda aos princípios que norteiam a constituição dos Institutos Federais, permitindo o bom andamento das atividades no Campus, bem como o bem estar de toda a comunidade escolar;\nIII. Vistoriar sistematicamente todas as instalações físicas: salas de aula, laboratórios, ambientes especiais, instalações de campo, equipamentos, etc.;\nIV. Identificar falhas, necessidade de manutenção e de reposição dos itens de infraestrutura;\nV. Acompanhar eventuais serviços terceirizados, contratados para a manutenção e expansão da infraestrutura;\nVI. Controlar todo o material de consumo ou permanente, relacionado ao Campus, e também o cronograma de saída dos mesmos, juntamente aos Setores de Patrimônio e Almoxarifado;\nVII. Controlar todos os equipamentos, materiais permanentes e solicitar o suprimento dos mesmos, juntamente aos Setores de Patrimônio e Almoxarifado;\nVIII. Disponibilizar veículos conforme solicitação, seguindo Instrução Normativa do IFRS no 09, de 13 de novembro de 2013;\nIX. Manter o veículo em condições de atender às normas que regulamentam os serviços de transportes e as obrigações legais da trafegabilidade dos veículos da Instituição para circular em vias públicas e privadas;\nX. Organizar e manter o armazenamento de documentação relativa aos motoristas e veículos oficiais por prazo determinado pela legislação;\nXI. Zelar pela limpeza e conservação interna e externa dos veículos;\nXII. Controlar e executar as manutenções preventivas dos bens móveis a fim de mantê-los em condições seguras para o tráfego, bem como fazer as revisões periódicas indicadas pelos fabricantes dentro dos prazos de garantia;\nXIII. Elaborar relatórios de controle relacionados à utilização de veículos." },
-
-  "salm": { title: "Setor de Almoxarifado", text: "Do Setor de Almoxarifado\n\nArt. 29. Ao Setor de Almoxarifado, subordinado à Coordenadoria de Infraestrutura, compete as seguintes atribuições:\nI. Colaborar com o planejamento e constante aperfeiçoamento do setor, visando atender as demandas de ensino, pesquisa, extensão e gestão existentes na Instituição, racionalizando o uso dos recursos e equipamentos;\nII. Solicitar a aquisição de suprimentos, receber, conferir, armazenar adequadamente, efetuar o seu controle e distribuí-lo conforme solicitação;\nIII. Disponibilizar informações à comissão responsável pela elaboração do inventário;\nIV. Elaborar, em articulação com as demais Diretorias, a previsão anual para aquisição de suprimentos, equipamentos e serviços;\nV. Fazer a entrega e retirada de malote e correspondências junto aos Correios;\nVI. Enviar dados e/ou auxiliar na elaboração do relatório anual da Coordenadoria;\nVII. Executar procedimentos administrativos junto ao fornecedor, visando à cobrança do compromisso firmado com o Campus, observados os limites de competência do setor;\nVIII. Elaborar o relatório anual das atividades;\nIX. Desempenhar outras atividades correlatas ao Setor, ao cargo ou definidas pela legislação e/ou atribuídas pelo superior hierárquico." },
-
-  "spat": { title: "Setor de Patrimônio", text: "Do Setor de Patrimônio\n\nArt. 30. Ao Setor de Patrimônio, subordinado à Coordenadoria de Infraestrutura, compete as seguintes atribuições:\nI. Colaborar com o planejamento e constante aperfeiçoamento do setor, visando atender as demandas de ensino, pesquisa, extensão e gestão existentes na Instituição, racionalizando o uso dos recursos e equipamentos;\nII. Efetuar registros, promover vistorias, conferir a localização e manter atualizado o cadastro de bens móveis e imóveis da Instituição;\nIII. Efetuar cadastramento e tombamento, promover vistorias, conferir a localização e manter atualizado o cadastro de bens móveis e imóveis da Instituição;\nIV. Realizar o lançamento e acompanhamento de toda e qualquer cessão, alienação em geral, movimentações internas e externas, permuta ou baixa de material permanente, de acordo com a legislação vigente;\nV. Assessorar e disponibilizar informações à comissão responsável pela elaboração do inventário de bens móveis e imóveis da Instituição;\nVI. Emitir mensalmente e anualmente o relatório físico e financeiro de movimentação de bens, e entregá-lo à Contabilidade para análise, conferência e arquivamento, conforme as disposições legais;\nVII. Fazer o acompanhamento de bens em manutenção que saem da Instituição;\nVIII. Desempenhar outras atividades correlatas ao Setor, ao cargo ou definidas pela legislação e/ou atribuídas pelo superior hierárquico;\nIX. Enviar dados e/ou auxiliar na elaboração do relatório anual da Coordenadoria." },
-
-  "dens": { title: "Diretoria de Ensino", text: "Da Diretoria de Ensino\n\nArt. 31. A Diretoria de Ensino do Campus Vacaria é o órgão executivo encarregado de planejar, coordenar, acompanhar e avaliar as políticas educacionais e o funcionamento dos cursos nos diversos níveis e modalidades de ensino.\n\nArt. 32. A Diretoria de Ensino é composta pelos seguintes órgãos:\nI - Coordenadoria de Assistência Estudantil (CAE);\nII - Coordenadoria de Registros Escolares (CRE);\nIII - Coordenadoria de Ensino;\nIV - Setor de Biblioteca;\nV - Setor de Laboratórios;\nVI - Setor Agropecuário;\nVII - Setor de Professores." },
-
-  "cae": { title: "Coordenadoria de Assistência Estudantil (CAE)", text: "Da Coordenadoria de Assistência Estudantil (CAE)\n\nArt. 33. A Coordenadoria de Assistência Estudantil (CAE) é o órgão responsável pela implementação da Política de Assistência Estudantil – PAE – do Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul – IFRS, a qual visa promover o acesso, a permanência e o êxito dos estudantes.\nArt. 34. As atividades da Coordenadoria de Assistência Estudantil serão exercidas por um servidor efetivo do quadro de pessoal do IFRS designado pelo(a) Diretor(a) Geral do Campus.\nArt. 35. A Coordenadoria de Assistência Estudantil (CAE), será composta por equipe multiprofissional que, de forma articulada, garantirá a execução das Políticas Nacionais e Institucionais de Assistência Estudantil.\n\nArt. 36. À Coordenadoria de Assistência Estudantil, subordinada à Diretoria de Ensino, compete as seguintes atribuições:\nI. Colaborar com o planejamento e constante aperfeiçoamento da Coordenadoria, visando atender as demandas de ensino, pesquisa, extensão e gestão existentes na Instituição, racionalizando o uso dos recursos e equipamentos;\nII. Aplicar a Política Nacional de Assistência Estudantil (PNAES) e a Política Institucional de Assistência Estudantil, estabelecer requisitos para a percepção de benefícios e implementar mecanismos de acompanhamento e avaliação do PNAES;\nIII. Promover ações para o inter-relacionamento dos integrantes da comunidade estudantil, atuando como agentes da política social, cultural e comunitária;\nIV. Propor metodologias de avaliação das ações e dos projetos de assistência estudantil;\nV. Dialogar com as entidades estudantis sobre questões relacionadas aos projetos e ações de apoio aos estudantes;\nVI. Orientar os servidores, os acadêmicos e suas famílias sobre os serviços sociais vigentes;\nVII. Propor, em conjunto com os núcleos/coordenadorias, diagnóstico da situação socioeconômica e educacional do corpo discente, descrevendo e divulgando o respectivo perfil;\nVIII. Acompanhar o aluno em seu período escolar, colaborando para que ele alcance crescimento, tanto acadêmico quanto pessoal;\nIX. Contribuir para otimizar o processo educativo, diagnosticando possíveis dificuldades de aprendizagem, convívio ou outras;\nX. Indicar ao aluno atendimento clínico e encaminhá-lo ao mesmo, sempre que se fizer necessário;\nXI. Promover atividades de orientação profissional aos discentes, proporcionando momentos de reflexão, autoconhecimento e elaboração de planos e projetos profissionais;\nXII. Orientar os professores, sempre que solicitado, nas dificuldades escolares de seus alunos;\nXIII. Coordenar projetos educativos, através de oficinas direcionadas ao desenvolvimento integral dos alunos;\nXIV. Participar das atividades promovidas pela Instituição;\nXV. Coordenar as atividades referentes à saúde, à alimentação e ao acompanhamento social e disciplinar do quadro discente em consonância com as atividades acadêmicas;\nXVI. Acompanhar a elaboração das adaptações curriculares de discentes, bem como proporcionar espaços para debates e aprendizagem junto ao NAAf;\nXVII. Assessorar as atividades de ensino, pesquisa, extensão e gestão;\nXVIII. Encaminhar à Diretoria de Administração a lista de demanda de insumos, equipamentos e demais necessidades da Coordenadoria;\nXIX. Organizar a distribuição da merenda escolar aos discentes do nível médio;\nXX. Desempenhar outras atividades correlatas à Coordenadoria, ao cargo ou definidas pela legislação e/ou atribuídas pelo superior hierárquico." },
-
-  "cre": { title: "Coordenadoria de Registros Escolares", text: "Da Coordenadoria de Registros Escolares\n\nArt. 37. A Coordenadoria de Registros Escolares é o órgão responsável pelo controle das informações acadêmicas, assim como pela guarda da respectiva documentação.\nArt. 38. As atividades da Coordenadoria de Registros Escolares serão exercidas por um servidor efetivo do quadro de pessoal do IFRS designado pelo(a) Diretor(a) Geral do Campus.\n\nArt. 39. À Coordenadoria de Registros Escolares (CRE), subordinada à Diretoria de Ensino, compete as seguintes atribuições:\nI. Colaborar com o planejamento e constante aperfeiçoamento da Coordenadoria, visando atender as demandas de ensino, pesquisa, extensão e gestão existentes na Instituição, racionalizando o uso dos recursos e equipamentos;\nII. Organizar os serviços de secretaria e apoio acadêmico, mantendo a ordem e a disciplina das atividades;\nIII. Responsabilizar-se pelo sigilo e armazenamento dos registros pertinentes à Coordenadoria;\nIV. Efetivar matrículas e rematrículas em todas as suas etapas, por meio do sistema acadêmico, atendendo também demais solicitações de discentes e egressos;\nV. Emitir atestados, históricos, declarações, certificados, diplomas, certidões, relatórios e outros requerimentos pertinentes à Coordenadoria;\nVI. Sistematizar as informações relacionadas ao quadro discente, para controle institucional e para alimentar o banco de dados dos sistemas de informações gerenciais do Ministério da Educação;\nVII. Redigir as atas de colação de grau e manter atualizados os demais Livros de Registros;\nVIII. Assinar, juntamente com o(a) Diretor(a) Geral, históricos escolares, certificados e diplomas, certidões e declarações, atas de colação de grau e demais termos relacionados;\nIX. Expedir e registrar os diplomas de Ensino Técnico;\nX. Elaborar processos para registro de diplomas de nível Superior e enviá-los à Reitoria do IFRS;\nXI. Participar da elaboração e/ou atualização de Normas Regimentais para cursos Técnicos, de Graduação e Pós-graduação;\nXII. Desempenhar outras atividades correlatas à Coordenadoria, ao cargo ou definidas pela legislação e/ou atribuídas pelo superior hierárquico.\n\nParágrafo único. A Coordenadoria de Registros Escolares não está autorizada a fornecer endereço, telefone ou e-mail de alunos a terceiros. Tais informações são consideradas pessoais e resguardadas pelo direito de sigilo." },
-
-  "cens": { title: "Coordenadoria de Ensino", text: "Da Coordenadoria de Ensino\n\nArt. 40. A Coordenadoria de Ensino, de forma articulada com a Diretoria de Ensino é o órgão responsável por planejar, coordenar, executar, acompanhar e avaliar as políticas educacionais e diretrizes de ensino no Campus.\nArt. 41. As atividades da Coordenadoria de Ensino serão exercidas por um servidor efetivo do quadro de pessoal do IFRS designado pelo(a) Diretor(a) Geral do Campus.\n\nArt. 42. À Coordenadoria de Ensino, subordinada à Diretoria de Ensino, compete as seguintes atribuições:\nI. Colaborar com o planejamento e constante aperfeiçoamento da Coordenadoria, visando atender as demandas de ensino, pesquisa, extensão e gestão existentes na Instituição, racionalizando o uso dos recursos e equipamentos;\nII. Planejar, acompanhar e avaliar a proposta pedagógica institucional, nos diferentes níveis de ensino oferecidos aos discentes;\nIII. Acompanhar o planejamento e a execução dos processos de ensino e aprendizagem;\nIV. Acompanhar a elaboração das propostas pedagógicas;\nV. Encaminhar para aprovação do Conselho de Campus os projetos pedagógicos de cursos de Ensino Médio;\nVI. Encaminhar para aprovação no Conselho de Campus as normas de utilização dos espaços destinados ao ensino;\nVII. Supervisionar os diários de classe dos componentes curriculares de todos os níveis de ensino ofertados pelo campus, junto aos professores e acompanhar sua manutenção, bem como os registros de rendimento acadêmico dos estudantes;\nVIII. Elaborar e coordenar a publicação de editais relativos a monitorias, promovendo a gestão administrativa, incluindo inscrições, controle de frequência e certificação;\nIX. Elaborar quadro de horários;\nX. Organizar os conselhos de classe;\nXI. Propor atividades de capacitação aos Docentes e Técnicos Administrativos em Educação;\nXII. Responder pelo Diretor de Ensino na sua ausência ou impedimento;\nXIII. Desempenhar outras atividades correlatas à Coordenadoria de Ensino, ao cargo ou definidas pela legislação e/ou atribuídas pelo superior hierárquico." },
-
-  "bib": { title: "Setor de Biblioteca", text: "Do Setor de Biblioteca\n\nArt. 44. Ao Setor de Biblioteca, subordinado à Diretoria de Ensino, compete as seguintes atribuições:\nI. Colaborar com o planejamento e constante aperfeiçoamento do Setor, visando atender as demandas de ensino, pesquisa, extensão e gestão existentes na Instituição, racionalizando o uso dos recursos e equipamentos;\nII. Elaborar manuais, normas e regulamentos de serviços, submetendo-os para aprovação do Conselho do Campus;\nIII. Executar a sistematização das informações estatísticas relacionadas à Biblioteca para fins de controle institucional e atualização dos bancos de dados dos Sistemas Federais de Administração;\nIV. Gerenciar as atividades relacionadas a empréstimo, reserva, renovação, pesquisa e catalogação informatizada;\nV. Manter intercâmbio de informações com bibliotecas e centros de documentação nacionais e estrangeiros;\nVI. Capacitar usuários quanto ao uso da Biblioteca e orientação para pesquisa nas bases de dados bibliográficos online;\nVII. Solicitar a aquisição de acervos científicos, técnicos, tecnológicos e culturais, assim como receber, organizar e encaminhar as demandas de ampliação do acervo;\nVIII. Promover a divulgação do acervo, visando otimizar seu uso;\nIX. Desenvolver e executar atividades administrativas da Biblioteca, colaborando nas atividades dos demais setores sempre que estas envolverem assuntos relacionados à Biblioteca;\nX. Desempenhar outras atividades correlatas ao Setor, ao cargo ou definidas pela legislação e/ou atribuídas pelo superior hierárquico." },
-
-  "slab": { title: "Setor de Laboratórios", text: "Do Setor de Laboratórios\n\nArt. 51. Ao Setor de Laboratórios, subordinado à Diretoria de Ensino, compete as seguintes atribuições:\nI. Colaborar com o planejamento e constante aperfeiçoamento do Setor, visando atender as demandas de ensino, pesquisa, extensão e gestão existentes na Instituição, racionalizando o uso dos recursos e equipamentos;\nII. Executar trabalhos técnicos de laboratório relacionados com a área de especialidade, realizando ou orientando coleta, análise e registros de materiais e substâncias por meio de métodos específicos;\nIII. Fazer coleta de amostras e dados em laboratório ou em atividades de campo;\nIV. Elaborar análise de materiais e substâncias em geral utilizando métodos específicos para cada caso;\nV. Efetuar registros das análises realizadas;\nVI. Preparar reagentes, peças, circuitos e outros materiais utilizados em experimentos;\nVII. Proceder montagem e execução de experimentos para utilização em aulas experimentais e ensaios de pesquisa;\nVIII. Auxiliar na elaboração de relatórios técnicos e na computação de dados estatísticos, reunindo os resultados dos exames e informações;\nIX. Selecionar material e equipamentos a serem utilizados em aulas práticas, pesquisas e extensão;\nX. Dispor os elementos biológicos em local apropriado e previamente determinado, montando-os de modo a possibilitar a exposição científica dos mesmos;\nXI. Zelar pela limpeza e conservação de vidrarias, bancadas e equipamentos em geral dos laboratórios de pesquisa e didáticos;\nXII. Controlar o estoque de material de consumo dos laboratórios;\nXIII. Desempenhar outras atividades correlatas ao Setor, ao cargo ou definidas pela legislação e/ou atribuídas pelo superior hierárquico." },
-
-  "sagro": { title: "Setor Agropecuário", text: "Do Setor Agropecuário\n\nArt. 52. Ao Setor Agropecuário, subordinado à Diretoria de Ensino, compete as seguintes atribuições:\nI. Colaborar com o planejamento e constante aperfeiçoamento do Setor, visando atender as demandas de ensino, pesquisa, extensão e gestão existentes na Instituição, racionalizando o uso dos recursos e equipamentos;\nII. Planejar e realizar atividades agropecuárias;\nIII. Fiscalizar a produção agropecuária;\nIV. Desenvolver tecnologias adaptadas à produção agropecuária;\nV. Zelar pela preservação ambiental;\nVI. Utilizar equipamentos de proteção individual (EPI);\nVII. Conduzir experimentos de pesquisa;\nVIII. Verificar infraestrutura (máquinas, equipamentos, instalações e outros);\nIX. Disseminar produção orgânica;\nX. Realizar e inspecionar o cumprimento de normas e padrões técnicos;\nXI. Recomendar e realizar o destino de embalagens de agrotóxicos e medicamentos veterinários;\nXII. Criar, desenvolver e adaptar tecnologias de produção;\nXIII. Adaptar instalações e equipamentos conforme necessidade;\nXIV. Utilizar recursos de informática;\nXV. Executar outras tarefas de mesma natureza e nível de complexidade associadas ao ambiente organizacional." },
-
-  "cppi": { title: "Coordenadoria de Pesquisa, Pós-graduação e Inovação", text: "Da Coordenadoria de Pesquisa, Pós-graduação e Inovação\n\nArt. 53. As atividades de Gestão de Pesquisa, Pós-graduação e Inovação do Campus Vacaria serão exercidas por um servidor efetivo do quadro de pessoal do IFRS designado pelo(a) Diretor(a) Geral do Campus.\nParágrafo único. Compete a Gestão de Pesquisa, Pós-graduação e Inovação, subordinada à Direção Geral, além das competências previstas em legislação vigente ou, ainda, estabelecidas em Estatuto, Regimentos e Regulamentos do IFRS, as atribuições descritas em legislação e regulamentação própria, aprovadas pelo Conselho Superior do IFRS.\n\nArt.54. A Incubadora Tecnológica (IT) do IFRS Campus Vacaria subordina-se diretamente ao organograma funcional da Coordenadoria de Pesquisa Pós-graduação e Inovação do Campus." },
-
-  "inc": { title: "Incubadora Tecnológica", text: "Art.55. A Incubadora Tecnológica (IT) Vacaria é uma incubadora mista de empreendimentos, desenvolvida pelo IFRS Campus Vacaria. É uma entidade sem fins lucrativos que tem por objetivo geral a identificação, formação, inserção e consolidação de empreendimentos nascentes, ou já existentes, com potencial inovador e transformador de realidades no âmbito social, ambiental e produtivo. \nPara isso, prestará o apoio institucional voltado à operacionalização e gerência técnica e administrativa, visando materializar o desenvolvimento econômico e social, local e regional, gerando inovação e tecnologias, com sustentabilidade social, econômica, financeira e ambiental, por meio do apoio nos aspectos científico, tecnológico, gerencial e mercadológico a empreendimentos.\n\nParágrafo único. A Incubadora Tecnológica (IT) possui objetivos, competências e estrutura organizacional e demais considerações definidas em regimento próprio, aprovado pelo Conselho de Campus do IFRS Campus Vacaria." },
-
-  "cext": { title: "Coordenadoria de Extensão", text: "Da Coordenadoria de Extensão\n\nArt. 56. As atividades de Gestão de Extensão serão exercidas por um servidor efetivo do quadro de pessoal do IFRS designado pelo(a) Diretor(a) Geral do Campus.\n\nParágrafo único. Compete à Gestão de Extensão, subordinada à Direção Geral, além das competências previstas em legislação vigente e do estabelecido em Estatuto, Regimentos e Regulamentos do IFRS, as atribuições previstas em legislação e regulamentação própria, aprovadas pelo Conselho Superior do IFRS.\n\nArt. 57. A Coordenadoria de Extensão é composta pelo Setor de Estágios e Egressos, o Núcleo de Ações Afirmativas e o Núcleo de Memória." },
-
-  "see": { title: "Setor de Estágios e Egressos", text: "Do Setor de Estágios e Egressos\n\nArt. 58. Ao Setor de Estágios e Egressos, subordinado a Coordenadoria de Extensão, compete as seguintes atribuições:\nI. Colaborar com o planejamento e constante aperfeiçoamento do Setor, visando atender as demandas de ensino, pesquisa, extensão e gestão existentes na Instituição, racionalizando o uso dos recursos e equipamentos;\nII. Enviar dados e/ou auxiliar na elaboração do relatório anual da Diretoria de Ensino;\nIII. Supervisionar e executar as atividades relacionadas aos estágios;\nIV. Realizar o processo de encaminhamento e acompanhamento de alunos em estágios curriculares, juntamente com os docentes do Campus, sistematizando o processo de avaliação;\nV. Preencher o cadastro e o acompanhamento de egressos por meio de sistemas institucionalizados, subsidiando as Diretorias de Ensino e Administração e as Coordenadorias de Extensão, de Pesquisa, Pós-graduação e Inovação e de Desenvolvimento Institucional, com dados e informações;\nVI. Desempenhar outras atividades correlatas ao Setor, ao cargo ou definidas pela legislação e/ou atribuídas pelo superior hierárquico." },
-
-  "naaf": { title: "Núcleo de Ações Afirmativas (NAAf)", text: "Do Núcleo de Ações Afirmativas\n\nArt. 59. O Núcleo de Ações Afirmativas (NAAf), de forma articulada com a Extensão e demais diretorias, é o órgão responsável pela implementação Política de Ações Afirmativas do IFRS.\n\nArt. 60. As atividades do Núcleo de Ações Afirmativas (NAAf) terá sua presidência exercida por um servidor efetivo do quadro de pessoal do IFRS designado pelo(a) Diretor(a) Geral do Campus.\n\nArt. 61. O Núcleo de Ações Afirmativas (NAAf), vinculado à Coordenadoria de Extensão, possui atribuições, finalidades e competências definidas em legislação e regulamentação própria, aprovadas pelo Conselho Superior do IFRS." },
-
-  "nuem": { title: "Núcleo de Memória (NuMem)", text: "Do Núcleo de Memória\n\nArt. 62. O Núcleo Memória (NuMem) tem por finalidade organizar, preservar, difundir, salvaguardar e permitir ao patrimônio cultural de natureza imaterial e material do IFRS de forma sistemática e permanente. No Campus, o NuMem é representado pelo Núcleo de Memória local, vinculado à Coordenadoria de Extensão.\n\nArt. 63. Os Núcleos de Memória locais podem ter a seguinte composição, designada em portaria exarada pelo diretor-geral da unidade: servidores ativos e aposentados do IFRS, estudantes, egressos e representantes da comunidade externa.\n\nArt. 64. O Núcleo de Memória (NuMem), vinculado à Coordenadoria de Extensão, possui atribuições, finalidades e competências definidas em legislação e regulamentação própria, aprovadas pelo Conselho Superior do IFRS." },
-
-  "cdi": { title: "Coordenadoria de Desenvolvimento Institucional", text: "Da Coordenadoria de Desenvolvimento Institucional\n\nArt. 65. As atividades de Gestão da Coordenadoria de Desenvolvimento Institucional serão exercidas por um servidor efetivo do quadro de pessoal do IFRS designado pelo(a) Diretor(a) Geral do Campus.\n\nParágrafo único. Compete à Gestão de Desenvolvimento Institucional, subordinada à Direção Geral, além das competências previstas em legislação vigente e do estabelecido em Estatuto, Regimentos e Regulamentos do IFRS, as atribuições previstas em legislação e regulamentação própria, aprovadas pelo Conselho Superior do IFRS.\n\nArt. 66. A Coordenadoria de Desenvolvimento Institucional é composta pela Coordenadoria de Tecnologia de Informação." },
-
-  "cti": { title: "Coordenadoria de Tecnologia da Informação", text: "Da Coordenadoria de Tecnologia da Informação\n\nArt. 67. A Coordenadoria de Tecnologia da Informação é o órgão responsável por promover a política de uso da Tecnologia da Informação planejando, coordenando, supervisionando e dando assistência aos demais setores do Campus.\nArt. 68. As atividades da Coordenadoria de Tecnologia de Informação serão exercidas por um servidor efetivo do quadro de pessoal do IFRS designado pelo(a) Diretor(a) Geral do Campus.\nArt. 69. A Coordenadoria de Tecnologia de Informação é composta pelo Setor de Tecnologia da Informação.\n\nArt. 70. À Coordenadoria de Tecnologia da Informação, subordinada à Coordenadoria de Desenvolvimento Institucional, compete as seguintes atribuições:\nI. Colaborar com o planejamento e constante aperfeiçoamento da Coordenadoria, visando atender as demandas de ensino, pesquisa, extensão e gestão existentes na Instituição, racionalizando o uso dos recursos e equipamentos;\nII. Elaborar o relatório anual das atividades da Coordenadoria;\nIII. Apoiar as atividades de ensino, pesquisa, extensão e gestão pertinentes à Coordenadoria;\nIV. Realizar as atividades de suporte à instituição na área de Tecnologia de Informação;\nV. Manter em condições adequadas de equipamentos e programas de informática para que ocorra o processo de gestão do ensino, pesquisa e extensão traçado pela Instituição;\nVI. Auxiliar na elaboração dos contratos de manutenção de equipamentos de informática;\nVII. Viabilizar as atividades que visem ao funcionamento adequado das redes e atualização periódica de softwares;\nVIII. Executar a manutenção de máquinas e equipamentos de informática da Instituição;\nIX. Realizar o suporte aos usuários da Instituição, fornecendo apoio técnico, ferramentas adequadas e orientação na solução dos seus problemas;\nX. Disponibilizar os programas de informática objetivando atender as demandas da Instituição e tornando-os de uso público e gratuito;\nXI. Desempenhar outras atividades correlatas à Coordenadoria, ao cargo ou definidas pela legislação e/ou atribuídas pelo superior hierárquico.\n\nParágrafo único. A Coordenadoria de Tecnologia da Informação é responsável pelos laboratórios de informática, que possuem regulamentação própria." },
-
-  "sti": { title: "Setor de Tecnologia da Informação", text: "Do Setor de Tecnologia de Informação\n\nArt. 71. Ao Setor Tecnologia de Informação, subordinado à Coordenadoria de Tecnologia da Informação, compete as seguintes atribuições:\nI. Colaborar com o planejamento e constante aperfeiçoamento do Setor, visando atender as demandas de ensino, pesquisa, extensão e gestão existentes na Instituição, racionalizando o uso dos recursos e equipamentos;\nII. Projetar, implantar e realizar manutenção de sistemas, aplicações e equipamentos de informática;\nIII. Administrar e gerenciar redes e laboratórios de informática;\nIV. Instalar projetores e equipamentos multimídia;\nV. Dar suporte no manuseio de câmeras e filmadoras digitais;\nVI. Planejar, organizar, executar e acompanhar as atividades técnico administrativas inerentes ao ensino no Campus Vacaria;\nVII. Planejar, organizar, executar ou avaliar as atividades técnico-administrativas inerentes à pesquisa e à extensão no Campus Vacaria;\nVIII. Executar tarefas específicas, utilizando-se de recursos humanos, materiais, financeiros e outros de que o Campus Vacaria disponha, a fim de assegurar a eficiência e a eficácia das atividades de ensino, pesquisa e extensão;\nIX. Executar outras tarefas de mesma natureza e nível de complexidade associadas ao ambiente organizacional." },
-  
-  "conc": { title: "Conselho do Campus", text: "Art. X. O Conselho do Campus é o órgão máximo normativo, consultivo e deliberativo do Campus Vacaria, por delegação de competência do Conselho Superior do IFRS.\n(Composição e atribuições definidas no Regimento Geral do IFRS, complementadas pelas normativas locais do campus)." },
-  
-  "aud": { title: "Auditoria Interna (Proposta)", text: "Da Auditoria Interna (Proposta baseada em Erechim e Bento Gonçalves)\n\nArt. X. A Auditoria Interna do Campus Vacaria integra a Unidade de Auditoria Interna do Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (UNAI/IFRS), vinculada ao Conselho Superior do IFRS.\nArt. X+1. A Auditoria Interna possui subordinação hierárquica à UNAI/IFRS e está, administrativamente, vinculada à Direção Geral do Campus." },
-
-  "copp": { title: "COPPID", text: "Comissão Permanente de Processo de Ingresso Discente (COPPID)\n\nÓrgão colegiado que possui a função de planejar, executar e acompanhar o Processo de Ingresso Discente, trabalhando de forma integrada às demais coordenações e setores do Campus." },
-
-  "ccur": { title: "Coordenadorias de Cursos", text: "Coordenadorias de Cursos\n\nSubordinadas à Coordenadoria de Ensino. A elas compete a gestão didático-pedagógica dos respectivos cursos, tendo suas atribuições regulamentadas em Regimento próprio aprovado pelo Conselho Superior do IFRS." },
-
-  "sped": { title: "Setor Pedagógico (Proposta)", text: "Do Setor Pedagógico (Proposta baseada no Art. 35 do Campus Erechim)\n\nArt. X. Ao Setor Pedagógico, subordinado à Direção de Ensino, compete:\nI. Contribuir com a comunicação dos assuntos referentes ao Setor de forma eficiente e integrada;\nII. Contribuir para a efetivação do projeto pedagógico institucional;\nIII. Qualificar os processos de ensino e de aprendizagem, atuando no acompanhamento, assessoria e mediação do trabalho pedagógico;\nIV. Fomentar a reflexão sobre a prática pedagógica;\nV. Assessorar as coordenações de curso e a Direção de Ensino em relação à legislação educacional vigente." },
-
-  "tlab": { title: "Técnicos de Laboratório (Proposta)", text: "Dos Técnicos de Laboratório (Proposta baseada no Art. 41 do Campus Erechim)\n\nParágrafo único. Todas as áreas de laboratórios devem, preferencialmente, contar com, no mínimo, um técnico de laboratório devidamente qualificado, conforme previsto no Projeto Pedagógico do Curso (PPC), com o objetivo de garantir o adequado funcionamento dos equipamentos, a segurança das operações e a qualidade dos resultados obtidos, conforme as normas técnicas e regulamentações vigentes." },
-
-  "spro": { title: "Setor de Professores", text: "Setor de Professores\n\nÓrgão ligado à Diretoria de Ensino onde os docentes exercem suas atividades de planejamento, atendimento a alunos, pesquisa e extensão fora do horário de sala de aula. Regulamentado por normativas de encargos docentes do IFRS." },
-
-  "sens": { title: "Setor de Ensino", text: "Setor de Ensino\n\nEquipe de apoio administrativo e técnico-pedagógico subordinada à Diretoria de Ensino, atuando na execução de tarefas transversais de apoio aos docentes e alunos." },
-
-  "napne": { title: "NAPNE", text: "Núcleo de Apoio às Pessoas com Necessidades Específicas (NAPNE)\n\nÓrgão de natureza consultiva e executiva, de composição multidisciplinar, que atua como comissão facilitadora e disseminadora de ações inclusivas, buscando a permanência e o êxito de alunos com necessidades educacionais específicas." },
-
-  "neabi": { title: "NEABI (Proposta)", text: "Núcleo de Estudos Afro-Brasileiros e Indígenas (NEABI) - Proposta\n\nÓrgão colegiado que estimula ações de Ensino, Pesquisa e Extensão orientadas à temática das identidades e relações étnico-raciais, voltado à conscientização e capacitação da comunidade acadêmica." },
-
-  "nac": { title: "NAC (Proposta)", text: "Núcleo de Arte e Cultura (NAC) - Proposta\n\nInstância organizacional constituída por servidores e alunos, responsável por planejar, desenvolver e qualificar as ações da Política de Arte e Cultura do IFRS no âmbito do Campus." },
-
-  "nepgs": { title: "NEPGS (Proposta)", text: "Núcleo de Estudos em Gênero e Sexualidades (NEPGS) - Proposta\n\nÓrgão consultivo e propositivo que estimula e promove ações de Ensino, Pesquisa e Extensão orientadas às temáticas de gênero, diversidade sexual e combate à discriminação." },
-
-  "cperm": { title: "Comissões Permanentes", text: "Comissões Permanentes (CAGE, CAGPPI, CGAE, CPL, CIS, CPPD, CPA)\n\nÓrgãos de assessoramento, avaliação e deliberação específica compostos por representantes eleitos, cuja finalidade é garantir a gestão democrática e a correta aplicação dos regulamentos do IFRS no Campus." },
-
-  "cdem": { title: "Demais Comissões", text: "Outras comissões de caráter consultivo ou avaliativo, como a Comissão de Organização e Acompanhamento (COA) e comissões para dimensionamento de pessoal." },
-
-  "cep": { title: "Comissão Eleitoral Provisória (Proposta)", text: "Comissão Eleitoral Provisória\n\nÓrgão instituído especificamente para conduzir processos eleitorais internos nos casos em que a Comissão Eleitoral Permanente não tiver sido constituída." },
-
-  "nead": { title: "Núcleo de Educação a Distância (NEaD)", text: "Núcleo de Educação a Distância (NEaD)\n\nÓrgão que auxilia no desenvolvimento de materiais didáticos, tutorias e recursos de acompanhamento de aulas em ambientes virtuais de aprendizagem, com atribuições definidas em legislação própria do IFRS." }
-};
-
-    var NODES=[
-      {id:"dg",    lns:["DIREÇÃO GERAL"],                     sub:"Diretor(a) Geral",                  t:"dg",    x:680, y:20},
-
-      // Nível 1
-      {id:"gab",   lns:["Chefia de","Gabinete"],               sub:"",                                  t:"coord", x:350, y:155},
-      {id:"com",   lns:["Setor de","Comunicação"],             sub:"",                                  t:"setor", x:540, y:155},
-      {id:"conc",  lns:["Conselho do","Campus"],               sub:"ConCamp",                           t:"coleg", x:730, y:155},
-      {id:"aud",   lns:["★ Auditoria","Interna"],              sub:"(novo)",                            t:"novo",  x:920, y:155},
-      {id:"copp",  lns:["COPPID"],                             sub:"Ingresso Discente",                 t:"comiss",x:1105,y:155},
-
-      // Nível 2
-      {id:"dadm",  lns:["Direção de","Administração"],         sub:"",                                  t:"dir",   x:60,  y:310},
-      {id:"cppi",  lns:["Coord. Pesquisa","Pós-Grad. e Inov."],sub:"",                                  t:"coord", x:310, y:310},
-      {id:"dens",  lns:["Direção de","Ensino"],                sub:"",                                  t:"dir",   x:570, y:310},
-      {id:"cext",  lns:["Coord. de","Extensão"],               sub:"",                                  t:"coord", x:820, y:310},
-      {id:"cgp",   lns:["Coord. Gestão","de Pessoas"],         sub:"",                                  t:"coord", x:1050,y:310},
-      {id:"cdi",   lns:["Coord. Desenv.","Institucional"],     sub:"",                                  t:"coord", x:1280,y:310},
-
-      // Nível 3 — DAdm
-      {id:"cgfc",  lns:["★ Coord. Gestão","Fisc. Contratos"],  sub:"(novo)",                            t:"novo",  x:30,  y:455},
-      {id:"cinf",  lns:["Coord. de","Infraestrutura"],         sub:"",                                  t:"coord", x:200, y:455},
-
-      // Nível 3 — CPPI
-      {id:"inc",   lns:["Incubadora","Tecnológica"],           sub:"",                                  t:"setor", x:310, y:455},
-
-      // Nível 3 — DEns
-      {id:"cae",   lns:["Coord. Assist.","Estudantil"],        sub:"CAE",                               t:"coord", x:430, y:455},
-      {id:"cre",   lns:["Coord. Registros","Escolares"],       sub:"CRE",                               t:"coord", x:570, y:455},
-      {id:"cens",  lns:["Coord. de","Ensino"],                 sub:"",                                  t:"coord", x:700, y:455},
-      {id:"bib",   lns:["Setor de","Biblioteca"],              sub:"",                                  t:"setor", x:835, y:455},
-      {id:"nead",  lns:["NEAD"],                               sub:"EaD",                               t:"setor", x:948, y:455},
-      {id:"slab",  lns:["Setor de","Laboratórios"],            sub:"",                                  t:"coord", x:1045,y:455},
-
-      // Nível 3 — CExt
-      {id:"see",   lns:["Setor Estágios","e Egressos"],        sub:"",                                  t:"setor", x:1170,y:455},
-      
-      // Nível 3 — CDI
-      {id:"cti",   lns:["Coord. de TI"],                       sub:"",                                  t:"coord", x:1430,y:455},
-
-      // Nível 4 — cinf
-      {id:"sit",   lns:["Infra e","Transportes"],              sub:"",                                  t:"setor", x:130, y:600},
-      {id:"salm",  lns:["Almoxarifado"],                       sub:"",                                  t:"setor", x:245, y:600},
-      {id:"spat",  lns:["Patrimônio"],                         sub:"",                                  t:"setor", x:352, y:600},
-
-      // Nível 4 — cens
-      {id:"ccur",  lns:["Coord. de","Cursos"],                 sub:"",                                  t:"setor", x:620, y:600},
-      {id:"sped",  lns:["★ Setor","Pedagógico"],               sub:"(novo)",                            t:"novo",  x:740, y:600},
-
-      // Nível 4 — slab
-      {id:"tlab",  lns:["★ Técnicos de","Laboratório"],        sub:"(novo)",                            t:"novo",  x:1045,y:600},
-
-      // Outros de DEns nível 4
-      {id:"sagro", lns:["Setor","Agropecuário"],               sub:"",                                  t:"setor", x:835, y:600},
-      {id:"spro",  lns:["Setor de","Professores"],             sub:"",                                  t:"setor", x:470, y:600},
-      {id:"sens",  lns:["Setor de","Ensino"],                  sub:"",                                  t:"setor", x:1145,y:600},
-
-      // TI nível 4
-      {id:"sti",   lns:["Setor de TI"],                        sub:"",                                  t:"setor", x:1430,y:600},
-
-      // COMISSÕES E NÚCLEOS TEMÁTICOS (Modificados para t:"comiss")
-      {id:"napne", lns:["NAPNE"],                              sub:"Nec. Específicas",                  t:"comiss", x:930, y:600},
-      {id:"naaf",  lns:["NAAf"],                               sub:"Ações Afirmativas",                 t:"comiss", x:1278,y:455},
-      {id:"nuem",  lns:["NuMem"],                              sub:"Memória",                           t:"comiss", x:1278,y:540},
-      {id:"neabi", lns:["★ NEABI"],                            sub:"Afro-Bras. e Indígenas",            t:"comiss", x:1278,y:625},
-      {id:"nac",   lns:["★ NAC"],                              sub:"Arte e Cultura",                    t:"comiss", x:1278,y:710},
-      {id:"nepgs", lns:["★ NEPGS"],                            sub:"Gênero e Sexualidades",             t:"comiss", x:1278,y:795},
-
-      {id:"cperm", lns:["Comissões Avaliativas"],              sub:"CAGE · CAGPPI · CGAE...",           t:"coleg", x:280, y:800},
-      {id:"cdem",  lns:["DEMAIS COMISSÕES"],                   sub:"COA · Dim. e Recrutamento",         t:"comiss", x:820, y:800},
-      {id:"cep",   lns:["★ Com. Eleitoral","Provisória"],      sub:"(novo)",                            t:"comiss", x:1090,y:800}
-    ];
-
-    var EDGES=[
-      ["dg","gab"],["dg","com"],["dg","conc"],["dg","aud"],["dg","copp"],
-      ["dg","dadm"],["dg","cppi"],["dg","dens"],["dg","cext"],["dg","cgp"],["dg","cdi"],
-      
-      ["dadm","cgfc"],["dadm","cinf"],
-      ["cinf","sit"],["cinf","salm"],["cinf","spat"],
-      
-      ["cppi","inc"],
-      
-      ["dens","cae"],["dens","cre"],["dens","cens"],["dens","bib"],["dens","nead"],["dens","slab"],["dens","spro"],["dens","sagro"],["dens","napne"],["dens","sens"],
-      ["cens","ccur"],["cens","sped"],
-      ["slab","tlab"],
-      
-      ["cext","see"],["cext","naaf"],["cext","nuem"],["cext","neabi"],["cext","nac"],["cext","nepgs"],
-      
-      ["cdi","cti"],["cti","sti"],
-      ["conc","cperm"],["conc","cdem"],["conc","cep"]
-    ];
-
-    var NEW_IDS={aud:1,cgfc:1,sped:1,tlab:1,neabi:1,nac:1,nepgs:1,cep:1};
-    var elems={}, showLines=true, dragging=null, ox=0, oy=0;
-    var isPan=false, psx=0, psy=0, tx=0, ty=0, sc=1;
-    window.activeEdge = null; 
-
-    function applyT(){
-      var t='translate('+tx+'px,'+ty+'px) scale('+sc+')';
-      var nl=document.getElementById('nodesLayer');
-      var sv=document.getElementById('linesSvg');
-      if(nl){nl.style.transform=t; nl.style.transformOrigin='0 0';}
-      if(sv){sv.style.transform=t; sv.style.transformOrigin='0 0';}
-    }
-
-    var _raf = null;
-    function drawLines(){
-      if(_raf) cancelAnimationFrame(_raf);
-      _raf = requestAnimationFrame(_doDrawLines);
-    }
-    
-    function _doDrawLines(){
-      var svg = document.getElementById('linesSvg');
-      if(!svg) return;
-      svg.innerHTML = '';
-      if(!showLines) return;
-      for(var i=0;i<EDGES.length;i++){
-        var aid=EDGES[i][0], bid=EDGES[i][1];
-        var aEl=elems[aid], bEl=elems[bid];
-        if(!aEl||!bEl) continue;
-        
-        var isNew=!!NEW_IDS[bid];
-        var isHighlighted = window.activeEdge && window.activeEdge[0] === aid && window.activeEdge[1] === bid;
-        
-        var ax=parseFloat(aEl.style.left)||0, ay=parseFloat(aEl.style.top)||0;
-        var aw=aEl.offsetWidth||120,           ah=aEl.offsetHeight||40;
-        var bx=parseFloat(bEl.style.left)||0, by=parseFloat(bEl.style.top)||0;
-        var bw=bEl.offsetWidth||120,           bh=bEl.offsetHeight||40;
-        
-        var x1=ax+aw/2, y1=ay+ah;
-        var x2=bx+bw/2, y2=by;
-        
-        if(by+bh < ay){ x1=ax+aw/2; y1=ay; x2=bx+bw/2; y2=by+bh; }
-        else if(Math.abs((ay+ah/2)-(by+bh/2)) < 30){
-          if(bx > ax){ x1=ax+aw; y1=ay+ah/2; x2=bx; y2=by+bh/2; }
-          else       { x1=ax;   y1=ay+ah/2; x2=bx+bw; y2=by+bh/2; }
-        }
-        var midY=(y1+y2)/2;
-        var d='M'+x1+' '+y1+' L'+x1+' '+midY+' L'+x2+' '+midY+' L'+x2+' '+y2;
-        var path=document.createElementNS('http://www.w3.org/2000/svg','path');
-        path.setAttribute('d',d);
-        path.setAttribute('fill','none');
-        
-        path.setAttribute('stroke', isHighlighted ? 'var(--vermelho)' : (isNew?'#1c3d6e':'#bbb'));
-        path.setAttribute('stroke-width', isHighlighted ? '3' : (isNew?'1.8':'1.3'));
-        if(isNew && !isHighlighted) path.setAttribute('stroke-dasharray','6,3');
-        
-        path.setAttribute('stroke-linecap','round');
-        path.setAttribute('stroke-linejoin','round');
-        svg.appendChild(path);
-        
-        var s= isHighlighted ? 7 : 5;
-        var dir=(y2>midY)?1:-1;
-        if(Math.abs((ay+ah/2)-(by+bh/2))<30) dir=0;
-        var arr=document.createElementNS('http://www.w3.org/2000/svg','polygon');
-        var pts;
-        if(dir===1)       pts=(x2-s)+','+(y2-s*1.4)+' '+x2+','+y2+' '+(x2+s)+','+(y2-s*1.4);
-        else if(dir===-1) pts=(x2-s)+','+(y2+s*1.4)+' '+x2+','+y2+' '+(x2+s)+','+(y2+s*1.4);
-        else if(bx>ax)    pts=x2+','+(y2-s)+' '+(x2+s*1.4)+','+y2+' '+x2+','+(y2+s);
-        else              pts=x2+','+(y2-s)+' '+(x2-s*1.4)+','+y2+' '+x2+','+(y2+s);
-        arr.setAttribute('points',pts);
-        arr.setAttribute('fill', isHighlighted ? 'var(--vermelho)' : (isNew?'#1c3d6e':'#bbb'));
-        svg.appendChild(arr);
-      }
-    }
-
-    function highlightParent(nodeId) {
-      document.querySelectorAll('.onode').forEach(n => n.classList.remove('highlight-parent'));
-      var parentId = null;
-      for(var i=0; i<EDGES.length; i++) {
-        if(EDGES[i][1] === nodeId) {
-          parentId = EDGES[i][0];
-          break;
-        }
-      }
-      if(parentId && elems[parentId]) {
-        elems[parentId].classList.add('highlight-parent');
-        window.activeEdge = [parentId, nodeId];
-      } else {
-        window.activeEdge = null;
-      }
-      drawLines();
-    }
-
-    function buildNodes(){
-      var layer = document.getElementById('nodesLayer');
-      if(!layer) return;
-      layer.innerHTML = '';
-      elems = {};
-      for(var i=0;i<NODES.length;i++){
-        var n = NODES[i];
-        var el = document.createElement('div');
-        el.className = 'onode nd-'+n.t;
-        var html = n.lns.join('<br>');
-        if(n.sub) html += '<div class="osub">'+n.sub+'</div>';
-        el.innerHTML = html;
-        el.style.left = n.x+'px';
-        el.style.top  = n.y+'px';
-        el.dataset.nodeId = n.id;
-        
-        el.addEventListener('mousedown', nodeDown);
-        el.addEventListener('touchstart', nodeTouchStart, {passive:false});
-        el.addEventListener('click', function(e){
-          if(!this._wasDragged) {
-            highlightParent(this.dataset.nodeId);
-            openModal(this.dataset.nodeId);
-          }
-          this._wasDragged = false;
-        });
-        layer.appendChild(el);
-        elems[n.id] = el;
-      }
-      setTimeout(function(){ applyT(); drawLines(); }, 80);
-    }
-
-    function nodeDown(e){
-      e.stopPropagation();
-      dragging = e.currentTarget;
-      ox = e.clientX - parseFloat(dragging.style.left)*sc - tx;
-      oy = e.clientY - parseFloat(dragging.style.top)*sc  - ty;
-      document.addEventListener('mousemove', nodeMove);
-      document.addEventListener('mouseup',   nodeUp);
-    }
-    function nodeTouchStart(e){
-      e.stopPropagation(); e.preventDefault();
-      var t = e.touches[0];
-      dragging = e.currentTarget;
-      ox = t.clientX - parseFloat(dragging.style.left)*sc - tx;
-      oy = t.clientY - parseFloat(dragging.style.top)*sc  - ty;
-      document.addEventListener('touchmove', nodeTouchMove, {passive:false});
-      document.addEventListener('touchend',  nodeUp);
-    }
-    function nodeMove(e){
-      if(!dragging) return;
-      dragging._wasDragged = true;
-      dragging.style.left = (e.clientX - tx - ox)/sc + 'px';
-      dragging.style.top  = (e.clientY - ty - oy)/sc + 'px';
-      drawLines();
-    }
-    function nodeTouchMove(e){
-      e.preventDefault();
-      if(!dragging) return;
-      var t = e.touches[0];
-      dragging._wasDragged = true;
-      dragging.style.left = (t.clientX - tx - ox)/sc + 'px';
-      dragging.style.top  = (t.clientY - ty - oy)/sc + 'px';
-      drawLines();
-    }
-    function nodeUp(){
-      dragging = null;
-      document.removeEventListener('mousemove', nodeMove);
-      document.removeEventListener('mouseup',   nodeUp);
-      document.removeEventListener('touchmove', nodeTouchMove);
-      document.removeEventListener('touchend',  nodeUp);
-    }
-
-    window.initCanvas = function initCanvas(){
-      var cv = document.getElementById('orgCanvas');
-      if(!cv) return;
-      
-      cv.addEventListener('click', function(e){
-        if(e.target === cv || e.target.id === 'linesSvg') {
-          document.querySelectorAll('.onode').forEach(n => n.classList.remove('highlight-parent'));
-          window.activeEdge = null;
-          drawLines();
-        }
-      });
-
-      cv.addEventListener('mousedown', function(e){
-        if(e.target !== cv && e.target.id !== 'linesSvg' && e.target.tagName !== 'path' && e.target.tagName !== 'polygon') return;
-        isPan=true; psx=e.clientX-tx; psy=e.clientY-ty;
-        cv.style.cursor='grabbing';
-      });
-      document.addEventListener('mousemove', function(e){
-        if(!isPan) return;
-        tx=e.clientX-psx; ty=e.clientY-psy; applyT();
-      });
-      document.addEventListener('mouseup', function(){
-        isPan=false;
-        var c=document.getElementById('orgCanvas');
-        if(c) c.style.cursor='grab';
-      });
-      cv.addEventListener('dblclick', function(e){
-        if(e.target!==cv && e.target.id!=='linesSvg') return;
-        window.resetLayout();
-      });
-      cv.addEventListener('wheel', function(e){
-        e.preventDefault();
-        sc=Math.min(Math.max(sc*(e.deltaY>0?0.9:1.1),0.25),3);
-        applyT();
-      },{passive:false});
-    };
-
-    window.resetLayout = function(){
-      for(var i=0;i<NODES.length;i++){
-        var n=NODES[i], el=elems[n.id];
-        if(el){el.style.left=n.x+'px'; el.style.top=n.y+'px';}
-      }
-      sc=1; tx=0; ty=0; 
-      document.querySelectorAll('.onode').forEach(n => n.classList.remove('highlight-parent'));
-      window.activeEdge = null;
-      applyT(); drawLines();
-    };
-
-    window.toggleLines = function(){
-      showLines=!showLines;
-      var btn=document.getElementById('linesBtn');
-      if(btn) btn.textContent=showLines?'Ocultar linhas':'Mostrar linhas';
-      drawLines();
-    };
-
-    window.buildNodes = function(){ buildNodes(); };
-
-    function init(){ buildNodes(); initCanvas(); }
-    if(document.readyState==='loading'){
-      document.addEventListener('DOMContentLoaded', init);
-    } else {
-      setTimeout(init, 50);
-    }
-  })();
-  </script>
-
-</div>
-
-
-</div>
-<footer style="background:var(--verde);color:rgba(255,255,255,0.7);text-align:center;padding:1.5rem;font-size:0.82rem;margin-top:3rem;">
-  Documento gerado por análise comparativa dos Regimentos Complementares dos Campi do IFRS — Campus Vacaria · 2025<br>
-  <span style="color:rgba(255,255,255,0.4);">Baseado nos arquivos originais fornecidos.</span>
-</footer>
 
 <script>
-function showTab(name) {
-  document.querySelectorAll('.tab-content').forEach(function(t) { t.classList.remove('active'); });
-  document.querySelectorAll('.nav-btn').forEach(function(b) { b.classList.remove('active'); });
-  var el = document.getElementById('tab-' + name);
-  if (el) el.classList.add('active');
-  document.querySelectorAll('.nav-btn').forEach(function(b) {
-    var oc = b.getAttribute('onclick') || '';
-    if (oc.indexOf("'" + name + "'") !== -1) b.classList.add('active');
-  });
-  if (name === 'organograma') {
-    setTimeout(function() {
-      if (typeof buildNodes === 'function') buildNodes();
-      if (typeof initCanvas === 'function') initCanvas();
-    }, 80);
+// ============================================================
+// DATA — all nodes with hierarchy and suggested text
+// ============================================================
+const ORG_NODES = [{"id":"Direção Geral","parent":null,"sugestao":"Órgão executivo superior do Campus Vacaria do IFRS.","tipo":"raiz"},{"id":"Gabinete da Direção Geral","parent":"Direção Geral","sugestao":"Art. 7. O Gabinete da Direção Geral é um órgão executivo do Campus, gerido por um(a) Chefe de Gabinete, nomeado(a) pela Direção-Geral, e tem por finalidade prestar assistência técnica administrativa à Direção-Geral.\n\nArt. 8. As atividades do Gabinete da Direção-Geral serão exercidas por um servidor efetivo do quadro de pessoal do IFRS designado pelo(a) Diretor(a)-Geral do Campus.\n\nArt. 9. O Gabinete da Direção-Geral é composto pela Secretaria de Gabinete e Setor de Telefonia, bem como de outros servidores colocados à sua disposição.\n\nArt. 10. Compete à Chefia de Gabinete as seguintes atribuições:\n\nI - prestar assistência direta e imediata à Direção-Geral em sua representação política, social e administrativa e incumbir-se do preparo e despacho do expediente;\n\nII - preparar correspondências oficiais referentes ao Gabinete da Direção-Geral;\n\nIII - classificar, registrar, distribuir e enviar correspondências referentes ao Gabinete da Direção-Geral;\n\nIV - organizar e controlar agendas de entrevistas e audiências;\n\nV - convocar pessoas e providenciar locais para reuniões;\n\nVI - dar atendimento a pessoas e a telefonemas, bem como recepcionar visitantes para a Direção-Geral;\n\nVII - coordenar e organizar a expedição, arquivamento e publicação dos documentos emitidos pela Direção-Geral;\n\nVIII - redigir e publicar o Boletim de Serviço do Campus;\n\nIX - secretariar reuniões da Direção-Geral e do Conselho de Campus;\n\nX - coordenar contatos com os órgãos oficiais e demais instituições;\n\nXI - acompanhar o processo de informações dos diferentes órgãos, mantendo a Direção-Geral constantemente informada;\n\nXII - acompanhar o planejamento geral da Instituição;\n\nXIII - colaborar com o planejamento e constante aperfeiçoamento do Gabinete;\n\nXIV - elaborar o relatório anual das atividades da Chefia de Gabinete;\n\nXV - receber documentações submetidas à Direção-Geral, preparando-a para assinatura, ou diligenciando os encaminhamentos necessários;\n\nXVI - articular em conjunto com as Diretorias Sistêmicas as atividades do Campus;\n\nXVII - zelar pelo cumprimento da legislação vigente, do Estatuto, do Regimento Geral e demais Regulamentos Internos e normas do IFRS;\n\nXVIII - desempenhar outras atividades correlatas ao cargo ou definidas pela legislação vigente e/ou atribuídas pelo superior hierárquico.","tipo":"comparativo"},{"id":"Setor de Comunicação","parent":"Direção Geral","sugestao":"Art. 9. O Setor de Comunicação, concebido como sistêmico dentro da unidade por congregar ações que integram as áreas do ensino, da pesquisa e da extensão, é responsável pela comunicação do Campus com seus públicos.\n\nParágrafo único. As atividades do Setor de Comunicação serão exercidas por equipe composta por jornalista, técnico audiovisual e demais cargos necessários.\n\nArt. 10. Ao Setor da Comunicação, subordinado à Direção Geral, compete as seguintes atribuições:\n\nI. Estudar, planejar, executar e controlar ações de divulgação publicitária;\nII. Zelar pela preservação da identidade visual da Instituição;\nIII. Prestar apoio técnico à Coordenadoria de Extensão;\nIV. Gerenciar a utilização das salas de recursos audiovisuais;\nV. Instalar, ligar, testar e gerenciar equipamentos de audiovisual;\nVI. Elaborar o Plano Anual de Comunicação;\nVII. Orientar gestores e demais servidores para a consolidação do relacionamento com a imprensa;\nVIII. Produzir informativos de interesse institucional;\nIX. Gerenciar a alimentação de informações no sítio eletrônico e redes sociais;\nX. Integrar a Comissão responsável pelo Boletim de Serviços;\nXI. Desempenhar outras atividades correlatas.","tipo":"comparativo"},{"id":"Coordenadoria de Gestão de Pessoas","parent":"Direção Geral","sugestao":"Art. 11. A Coordenadoria de Gestão de Pessoas (CGP) é o órgão responsável por planejar, coordenar, gerir e supervisionar a execução de atividades relacionadas às políticas de gestão de pessoas.\n\nArt. 13. À CGP, subordinada à Direção Geral, compete:\n\nI. Colaborar com o planejamento e constante aperfeiçoamento da Coordenadoria;\nII. Oferecer subsídios para o planejamento orçamentário de recursos humanos;\nIII. Coordenar, em articulação com a CPPD e CIS, os programas de progressão funcional;\nIV. Propor políticas de gestão de pessoas;\nV. Prestar informações e orientar a comunidade;\nVI. Emitir documentos oficiais com base nos registros dos servidores;\nVII. Registrar, organizar e manter atualizadas as informações referentes à vida funcional dos servidores;\nVIII. Planejar e implantar políticas de seleção e admissão de servidores substitutos;\nIX. Administrar todas as ações previstas para cadastro, pagamento, benefícios e aposentadoria;\nX. Acompanhar e aplicar programas de capacitação;\nXI. Acompanhar o processo de estágio probatório;\nXII. Atualizar permanentemente o quadro de lotação de todos os servidores;\nXIII. Elaborar e realizar publicações dos atos de pessoal no DOU e no Boletim de Serviço;\nXIV. Elaborar o relatório anual das atividades da Coordenadoria.","tipo":"comparativo"},{"id":"Auditoria Interna","parent":"Direção Geral","sugestao":"Art. X. A Auditoria Interna do Campus integra a Unidade de Auditoria Interna do IFRS (UNAI-IFRS), que está vinculada ao Conselho Superior do IFRS e tem sua estrutura, composição, competências e funcionamento organizados conforme regimento específico.\n§ 1º A Auditoria Interna do Campus é formada por um Auditor Interno e equipe de apoio sob sua chefia, conforme necessidade, sendo os auditores lotados e/ou em exercício no Campus subordinados ao Auditor-chefe da UNAI-IFRS.\n§ 2º A Auditoria Interna do Campus possui subordinação hierárquica à UNAI-IFRS, contudo, administrativamente, está vinculada à Direção Geral do Campus.\n§ 3º As competências do Auditor Interno estão dispostas no Regimento da Unidade de Auditoria Interna do IFRS.","tipo":"inedito"},{"id":"Diretoria de Administração","parent":"Direção Geral","sugestao":"Art. 14. As atividades da Diretoria de Administração do Campus serão exercidas por um servidor efetivo do quadro de pessoal do IFRS designado pelo(a) Diretor(a) Geral do Campus.\n\nParágrafo único. As competências e atribuições da Diretoria de Administração do Campus, subordinada à Direção Geral, estão descritas no Regimento dos Campi do IFRS, aprovado pelo Conselho Superior.\n\nArt. 15. A Diretoria de Administração do Campus é composta pela Coordenadoria de Licitações e Contratos, Coordenadoria de Execução Orçamentária e Financeira, Coordenadoria de Infraestrutura e Coordenadoria de Apoio Técnico-didático.","tipo":"comparativo"},{"id":"Coordenadoria de Infraestrutura","parent":"Diretoria de Administração","sugestao":"Art. 25. A Coordenadoria de Infraestrutura é o órgão responsável por planejar, coordenar, supervisionar, orientar, organizar, controlar e executar as atividades relacionadas ao controle de projetos e obras, patrimônio, sistema de transporte, serviços de almoxarifado, de vigilância, de limpeza, de apoio e de manutenção geral e infraestrutura.\n\nArt. 27. À Coordenadoria de Infraestrutura, subordinada à Diretoria de Administração, compete as seguintes atribuições:\n\nI. Colaborar com o planejamento e constante aperfeiçoamento da Coordenadoria;\nII. Planejar, coordenar, supervisionar e executar as atividades relacionadas a projetos e obras;\nIII. Gerenciar as operações de conservação e manutenção dos bens móveis e imóveis;\nIV. Realizar vistorias periódicas dos bens patrimoniais;\nV. Gerenciar o controle patrimonial e o planejamento físico para armazenamento;\nVI. Realizar a guarda e manutenção dos veículos oficiais;\nVII. Coordenar, supervisionar e fiscalizar as atividades executadas por empresas terceirizadas;\nVIII. Desenvolver atividades adequadas de manejo e destinação dos resíduos;\nIX. Encaminhar demandas de aquisição e manutenção de equipamentos conforme plano de ação;\nX. Elaborar e apresentar anualmente o relatório das atividades realizadas.","tipo":"comparativo"},{"id":"Setor de Infraestrutura e Transportes","parent":"Coordenadoria de Infraestrutura","sugestao":"Art. 28. Ao Setor de Infraestrutura e Transportes, subordinado à Coordenadoria de Infraestrutura, compete as seguintes atribuições:\nI. Colaborar com o planejamento e constante aperfeiçoamento do setor;\nII. Implementar um programa de controle e manutenção da infraestrutura;\nIII. Vistoriar sistematicamente todas as instalações físicas;\nIV. Identificar falhas e necessidade de manutenção;\nV. Acompanhar eventuais serviços terceirizados;\nVI. Controlar todo o material de consumo ou permanente;\nVII. Disponibilizar veículos conforme solicitação;\nVIII. Manter o veículo em condições de trafegabilidade;\nIX. Organizar e manter a documentação relativa aos motoristas e veículos;\nX. Zelar pela limpeza e conservação dos veículos;\nXI. Controlar e executar as manutenções preventivas;\nXII. Elaborar relatórios de controle relacionados à utilização de veículos.","tipo":"comparativo"},{"id":"Setor de Almoxarifado","parent":"Coordenadoria de Infraestrutura","sugestao":"Art. 29. Ao Setor de Almoxarifado, subordinado à Coordenadoria de Infraestrutura, compete:\nI. Colaborar com o planejamento e constante aperfeiçoamento do setor;\nII. Solicitar a aquisição de suprimentos, receber, conferir, armazenar e distribuir;\nIII. Registrar a entrada e saída de materiais nos sistemas administrativos vigentes;\nIV. Atender as requisições de materiais de consumo, controlando os estoques;\nV. Acompanhar a elaboração do inventário anual;\nVI. Elaborar o relatório mensal da movimentação (RMA) e encaminhar à Contabilidade;\nVII. Desempenhar outras atividades correlatas.","tipo":"comparativo"},{"id":"Setor de Patrimônio","parent":"Coordenadoria de Infraestrutura","sugestao":"Art. 30. Ao Setor de Patrimônio, subordinado à Coordenadoria de Infraestrutura, compete:\nI. Colaborar com o planejamento e constante aperfeiçoamento do setor;\nII. Efetuar cadastramento e tombamento dos bens móveis e imóveis;\nIII. Manter cadastro, identificação e termos de responsabilidade atualizados;\nIV. Promover vistorias periódicas dos bens patrimoniais;\nV. Realizar inventários periódicos para registro e controle;\nVI. Instruir os processos de doação, alienação e baixa de material permanente;\nVII. Elaborar o relatório mensal de bens (RMB) e encaminhar à Contabilidade;\nVIII. Desempenhar outras atividades correlatas.","tipo":"comparativo"},{"id":"Coordenação de Gestão e Fiscalização de Contratos","parent":"Diretoria de Administração","sugestao":"(Aguardando redação sugerida)","tipo":"inedito"},{"id":"Diretoria de Ensino","parent":"Direção Geral","sugestao":"Art. 31. As atividades de Gestão de Ensino serão exercidas por um servidor efetivo do quadro de pessoal do IFRS designado pelo(a) Diretor(a) Geral do Campus.\n\nParágrafo único. As competências e atribuições da Diretoria de Ensino do Campus, subordinada à Direção Geral, estão descritas no Regimento dos Campi do IFRS, aprovado pelo Conselho Superior.\n\nArt. 32. A Diretoria de Ensino é composta pela Coordenadoria de Ensino, Coordenadoria de Ensino Médio e Educação Profissional, Coordenadoria de Ensino de Graduação, Coordenadoria Pedagógica, Coordenadoria de Assistência Estudantil (CAE), Coordenadoria de Registros Acadêmicos, Setor de Biblioteca, Seção de Estágios, NEAD, NAPNE, Coordenações de Cursos, Setor Pedagógico e Setor Agropecuário.","tipo":"comparativo"},{"id":"Coordenadoria de Assistência Estudantil (CAE)","parent":"Diretoria de Ensino","sugestao":"Art. 33. A Coordenadoria de Assistência Estudantil (CAE) é o órgão responsável pela implementação da Política de Assistência Estudantil – PAE – do IFRS, a qual visa promover o acesso, a permanência e o êxito dos estudantes.\n\nArt. 36. À CAE, subordinada à Diretoria de Ensino, compete:\n\nI. Colaborar com o planejamento e aperfeiçoamento da Coordenadoria;\nII. Aplicar a Política Nacional de Assistência Estudantil (PNAES);\nIII. Planejar, implementar e avaliar as ações de Assistência Estudantil;\nIV. Zelar pelo cumprimento das Diretrizes dos Direitos e Deveres dos Estudantes;\nV. Promover ações para o inter-relacionamento da comunidade estudantil;\nVI. Realizar acompanhamentos pedagógicos, psicológicos e sociais;\nVII. Acompanhar reuniões de Conselhos de Classe;\nVIII. Realizar a gestão do Programa de Auxílios Estudantis;\nIX. Deliberar sobre os critérios de utilização dos recursos destinados à Assistência Estudantil;\nX. Desempenhar outras atividades correlatas.","tipo":"comparativo"},{"id":"Coordenadoria de Registros Escolares","parent":"Diretoria de Ensino","sugestao":"Art. 37. A Coordenadoria de Registros Escolares é o órgão responsável pelo controle das informações acadêmicas, assim como pela guarda da respectiva documentação.\n\nArt. 39. À CRE, subordinada à Diretoria de Ensino, compete:\n\nI. Organizar os serviços de secretaria e apoio acadêmico;\nII. Responsabilizar-se pelo sigilo e armazenamento dos registros;\nIII. Efetivar matrículas e rematrículas por meio do sistema acadêmico;\nIV. Emitir atestados, históricos, declarações, certificados, diplomas e certidões;\nV. Expedir e registrar os diplomas de Ensino Técnico;\nVI. Elaborar processos para registro de diplomas de nível Superior;\nVII. Desempenhar outras atividades correlatas.","tipo":"comparativo"},{"id":"Coordenadoria de Ensino","parent":"Diretoria de Ensino","sugestao":"Art. 40. A Coordenadoria de Ensino, de forma articulada com a Diretoria de Ensino, é o órgão responsável por planejar, coordenar, executar, acompanhar e avaliar as políticas educacionais e diretrizes de ensino no Campus.\n\nArt. 42. À Coordenadoria de Ensino, subordinada à Diretoria de Ensino, compete:\n\nI. Colaborar com o planejamento e constante aperfeiçoamento das políticas de ensino;\nII. Planejar, acompanhar e avaliar a proposta pedagógica institucional;\nIII. Acompanhar o planejamento, a execução e o desenvolvimento dos processos de ensino e aprendizagem;\nIV. Encaminhar para aprovação do Conselho de Campus os projetos pedagógicos;\nV. Supervisionar os diários de classe;\nVI. Elaborar quadro de horários;\nVII. Organizar os conselhos de classe;\nVIII. Propor atividades de capacitação;\nIX. Promover ações que garantam a articulação entre ensino, pesquisa e extensão;\nX. Planejar e acompanhar ações de permanência e êxito dos estudantes;\nXI. Desempenhar outras atividades correlatas.","tipo":"comparativo"},{"id":"Setor de Biblioteca","parent":"Diretoria de Ensino","sugestao":"Ao Setor de Biblioteca, subordinado à Diretoria de Ensino, compete:\nI. Colaborar com o planejamento e constante aperfeiçoamento do Setor;\nII. Elaborar manuais, normas e regulamentos de serviços;\nIII. Gerenciar as atividades relacionadas a empréstimo, pesquisa, reserva, renovação e catalogação;\nIV. Manter intercâmbio de informações com bibliotecas e centros de documentação;\nV. Capacitar usuários quanto ao uso da Biblioteca e pesquisa em bases de dados;\nVI. Solicitar a aquisição de acervos científicos, técnicos, tecnológicos e culturais;\nVII. Desenvolver e executar atividades administrativas da Biblioteca;\nVIII. Desempenhar outras atividades correlatas.","tipo":"comparativo"},{"id":"Setor de Professores","parent":"Diretoria de Ensino","sugestao":"Art. 49. O Setor de Professores, subordinado à Diretoria de Ensino, tem suas atividades docentes regulamentadas em legislação e regulamentação própria, aprovadas pelo Conselho Superior do IFRS.","tipo":"comparativo"},{"id":"Coordenadoria Pedagógica","parent":"Diretoria de Ensino","sugestao":"(Aguardando redação sugerida)","tipo":"inedito"},{"id":"Coordenadoria de Produção Agropecuária","parent":"Diretoria de Ensino","sugestao":"(Aguardando redação sugerida)","tipo":"inedito"},{"id":"Setor de Ensino","parent":"Coordenadoria de Ensino","sugestao":"Art. X. Ao Setor de Ensino, subordinado à Coordenadoria de Ensino, compete:\nI - colaborar com o planejamento e constante aperfeiçoamento do setor;\nII - elaborar, propor e desenvolver projetos de apoio ao ensino, à pesquisa, à extensão e à gestão;\nIII - apoiar as Coordenações de Ensino, Pesquisa e Extensão em atividades técnico-pedagógicas;\nIV - planejar, organizar e divulgar ações relativas às atividades de ensino em todos os níveis;\nV - coordenar, acompanhar e avaliar o desenvolvimento do processo de ensino-aprendizagem;\nVI - verificar e emitir atestados de docência;\nVII - viabilizar ações de Permanência e Êxito dos estudantes;\nVIII - desempenhar outras atividades correlatas.","tipo":"comparativo"},{"id":"Setor de Laboratórios","parent":"Coordenadoria de Ensino","sugestao":"Art. 51. Ao Setor de Laboratórios, subordinado à Coordenadoria de Ensino, compete:\nI. Colaborar com o planejamento e constante aperfeiçoamento do Setor;\nII. Executar, assessorar e supervisionar projetos em infraestrutura dos laboratórios;\nIII. Executar trabalhos técnicos de laboratório;\nIV. Propor medidas de segurança nos laboratórios;\nV. Realizar o atendimento de suporte aos usuários dos laboratórios;\nVI. Promover a manutenção preventiva e corretiva dos laboratórios;\nVII. Zelar pela limpeza e conservação dos laboratórios;\nVIII. Controlar o estoque de material de consumo dos laboratórios;\nIX. Desempenhar outras atividades correlatas.","tipo":"comparativo"},{"id":"Setor Agropecuário","parent":"Coordenadoria de Ensino","sugestao":"Art. 52. Ao Setor Agropecuário, subordinado à Coordenadoria de Ensino, compete:\nI. Colaborar com o planejamento e constante aperfeiçoamento do Setor;\nII. Planejar e realizar atividades agropecuárias;\nIII. Fiscalizar a produção agropecuária;\nIV. Desenvolver tecnologias adaptadas à produção agropecuária;\nV. Zelar pela preservação ambiental;\nVI. Conduzir experimentos de pesquisa;\nVII. Desempenhar outras atividades correlatas.","tipo":"comparativo"},{"id":"Coordenadoria de Ensino Médio e Educação Profissional","parent":"Coordenadoria de Ensino","sugestao":"(Aguardando redação sugerida)","tipo":"inedito"},{"id":"Coordenadoria de Ensino de Graduação","parent":"Coordenadoria de Ensino","sugestao":"(Aguardando redação sugerida)","tipo":"inedito"},{"id":"Seção de Produção Vegetal","parent":"Coordenadoria de Produção Agropecuária","sugestao":"(Aguardando redação sugerida)","tipo":"inedito"},{"id":"Seção de Produção Animal","parent":"Coordenadoria de Produção Agropecuária","sugestao":"(Aguardando redação sugerida)","tipo":"inedito"},{"id":"Coordenadoria de Pesquisa, Pós-graduação e Inovação","parent":"Direção Geral","sugestao":"Art. 53. As atividades de Gestão de Pesquisa, Pós-graduação e Inovação do Campus serão exercidas por um servidor efetivo do quadro de pessoal do IFRS designado pelo(a) Diretor(a) Geral.\n\nArt. 54. Compete à Coordenadoria de Pesquisa, Pós-graduação e Inovação:\nI. Propor, coordenar, supervisionar e avaliar as políticas, diretrizes e projetos de pesquisa, pós-graduação e inovação;\nII. Estimular e desenvolver as políticas de pesquisa e inovação no Campus;\nIII. Elaborar projetos, editais e relatórios;\nIV. Organizar, estimular e divulgar a produção técnico-científica;\nV. Promover ações de difusão científica;\nVI. Promover ações de captação de recursos para financiamento de projetos;\nVII. Presidir e participar da CAGPPI;\nVIII. Apresentar relatório anual das atividades desenvolvidas.","tipo":"comparativo"},{"id":"Secretaria de Pós-graduação","parent":"Coordenadoria de Pesquisa, Pós-graduação e Inovação","sugestao":"(Aguardando redação sugerida)","tipo":"inedito"},{"id":"Seção de Ações de Pesquisa e Inovação","parent":"Coordenadoria de Pesquisa, Pós-graduação e Inovação","sugestao":"(Aguardando redação sugerida)","tipo":"inedito"},{"id":"Coordenadoria de Extensão","parent":"Direção Geral","sugestao":"Art. 56. As atividades de Gestão de Extensão serão exercidas por um servidor efetivo do quadro de pessoal do IFRS designado pelo(a) Diretor(a) Geral do Campus.\n\nArt. 58. Compete à Coordenadoria de Extensão:\nI – Promover e expandir as ações de extensão, com estreita relação entre ensino e pesquisa;\nII – Viabilizar mecanismos de acesso da sociedade às atividades da Instituição;\nIII – Fomentar a participação dos servidores em Editais de extensão;\nIV – Apoiar o desenvolvimento de ações de integração com o mundo do trabalho;\nV – Realizar os encaminhamentos das atividades de estágio curricular;\nVI – Apoiar o desenvolvimento de ações inclusivas vinculadas aos núcleos institucionais;\nVII – Organizar, divulgar e estimular a participação no evento anual de extensão;\nVIII – Desempenhar as demais atribuições inerentes a essa área.","tipo":"comparativo"},{"id":"Setor de Estágios e Egressos","parent":"Coordenadoria de Extensão","sugestao":"Art. X. O Setor de Estágios e Egressos, subordinado à Coordenadoria de Extensão, compete as seguintes atribuições:\nI - colaborar com o planejamento e constante aperfeiçoamento do Setor;\nII - coordenar e supervisionar as atividades relacionadas aos estágios curriculares;\nIII - orientar sobre normas, procedimentos, documentos e processos que regem os estágios;\nIV - elaborar e manter atualizados os documentos pertinentes ao processo de estágio;\nV - realizar o encaminhamento e acompanhamento de alunos em estágios curriculares;\nVI - realizar cadastramento de organizações que possam oferecer a inclusão dos discentes no mercado de trabalho;\nVII - cadastrar e manter atualizados os dados dos estagiários e o acompanhamento de egressos;\nVIII - desempenhar outras atividades correlatas.","tipo":"comparativo"},{"id":"Seção de Ações de Extensão e de Acompanhamento de Egressos","parent":"Coordenadoria de Extensão","sugestao":"(Aguardando redação sugerida)","tipo":"inedito"},{"id":"Coordenadoria de Desenvolvimento Institucional","parent":"Direção Geral","sugestao":"Art. 65. As atividades de Gestão da Coordenadoria de Desenvolvimento Institucional serão exercidas por um servidor efetivo do quadro de pessoal do IFRS designado pelo(a) Diretor(a) Geral.\n\nArt. 66. Compete à Coordenadoria de Desenvolvimento Institucional:\nI - Obter e sistematizar dados a fim de gerar indicadores diagnósticos do Campus;\nII - Analisar e propor estratégias para o atendimento das demandas de cursos e vagas;\nIII - Coordenar a construção e acompanhar o cumprimento e execução do Plano de Ação;\nIV - Propor e/ou apoiar o desenvolvimento de ações de desenvolvimento institucional;\nV - Desempenhar as demais atribuições inerentes a essa área.\n\nArt. 67. A Coordenadoria de Desenvolvimento Institucional é composta pela Coordenadoria de Tecnologia de Informação.","tipo":"comparativo"},{"id":"Coordenadoria de Tecnologia da Informação","parent":"Coordenadoria de Desenvolvimento Institucional","sugestao":"Art. 67. A Coordenadoria de Tecnologia da Informação é o órgão responsável por promover a política de uso da Tecnologia da Informação planejando, coordenando, supervisionando e dando assistência aos demais setores do Campus.\n\nArt. 70. À CTI, subordinada à Coordenadoria de Desenvolvimento Institucional, compete:\nI. Efetuar planejamento com metas e objetivos de melhoria dos serviços de redes;\nII. Gerenciar a infraestrutura necessária para os serviços de TI;\nIII. Prover o acesso à Internet com disponibilidade e segurança;\nIV. Garantir a disponibilidade da rede local;\nV. Responsabilizar-se pela aplicação da Política de Segurança da Informação;\nVI. Zelar pela integridade e segurança dos dados institucionais com backups periódicos;\nVII. Desenvolver, implantar e atualizar sistemas de informação;\nVIII. Realizar atendimento de suporte aos usuários;\nIX. Desempenhar outras atividades correlatas.\n\nParágrafo único. A CTI é responsável pelos laboratórios de informática, que possuem regulamentação própria.","tipo":"comparativo"},{"id":"Setor de Tecnologia de Informação","parent":"Coordenadoria de Tecnologia da Informação","sugestao":"Art. 71. Ao Setor de Tecnologia de Informação, subordinado à CTI, compete:\nI. Colaborar com o planejamento e constante aperfeiçoamento do Setor;\nII. Projetar, desenvolver, implantar, atualizar e realizar manutenção de sistemas, aplicações e equipamentos;\nIII. Administrar e gerenciar redes e laboratórios de informática;\nIV. Promover a manutenção preventiva e corretiva dos serviços de rede;\nV. Realizar e manter cópias de segurança dos dados;\nVI. Manter os servidores em funcionamento;\nVII. Monitorar o link de internet;\nVIII. Efetuar o credenciamento e descredenciamento de usuários da rede;\nIX. Prestar apoio técnico em eventos institucionais;\nX. Desempenhar outras atividades correlatas.","tipo":"comparativo"},{"id":"Coordenadoria de Comunicação Social","parent":"Coordenadoria de Desenvolvimento Institucional","sugestao":"(Aguardando redação sugerida)","tipo":"inedito"},{"id":"Seção de Planejamento e Pesquisa Institucional","parent":"Coordenadoria de Desenvolvimento Institucional","sugestao":"(Aguardando redação sugerida)","tipo":"inedito"}];
+
+// ============================================================
+// ORGANOGRAMA — auto-layout (tree layout by levels)
+// ============================================================
+const NODE_W = 148, NODE_H = 52, H_GAP = 18, V_GAP = 56;
+
+function buildTree() {
+  const byId = {}, children = {};
+  ORG_NODES.forEach(n => { byId[n.id] = n; children[n.id] = []; });
+  ORG_NODES.forEach(n => { if(n.parent && children[n.parent]) children[n.parent].push(n.id); });
+
+  // Compute subtree widths bottom-up
+  function subtreeW(id) {
+    const ch = children[id];
+    if(!ch.length) return NODE_W;
+    const total = ch.reduce((s, c) => s + subtreeW(c), 0) + H_GAP * (ch.length - 1);
+    return Math.max(total, NODE_W);
   }
-  window.scrollTo({top: 0, behavior: 'smooth'});
+
+  // Assign x,y positions top-down
+  const pos = {};
+  function layout(id, left, depth) {
+    const ch = children[id];
+    const y = depth * (NODE_H + V_GAP) + 20;
+    if(!ch.length) {
+      pos[id] = { x: left, y };
+      return left + NODE_W;
+    }
+    const totalW = ch.reduce((s, c) => s + subtreeW(c), 0) + H_GAP * (ch.length - 1);
+    const x = left + (totalW - NODE_W) / 2;
+    pos[id] = { x, y };
+    let cur = left;
+    ch.forEach(c => {
+      layout(c, cur, depth + 1);
+      cur += subtreeW(c) + H_GAP;
+    });
+    return left + totalW;
+  }
+
+  const root = ORG_NODES.find(n => !n.parent);
+  layout(root.id, 20, 0);
+  return { byId, children, pos };
 }
 
-function openModal(nodeId) {
-  var data = window.NODE_TEXTS[nodeId];
-  if (!data) return;
-  document.getElementById('orgModalTitle').textContent = data.title;
-  document.getElementById('orgModalBody').textContent = data.text;
+let orgState = { scale: 0.82, dragStart: null, scrollStart: null };
+
+function initOrg() {
+  const { byId, children, pos } = buildTree();
+
+  // Canvas size
+  const xs = Object.values(pos).map(p => p.x + NODE_W);
+  const ys = Object.values(pos).map(p => p.y + NODE_H);
+  const canvasW = Math.max(...xs) + 20;
+  const canvasH = Math.max(...ys) + 20;
+
+  const canvas = document.getElementById('org-canvas');
+  canvas.style.width = canvasW + 'px';
+  canvas.style.height = canvasH + 'px';
+  canvas.style.transform = `scale(${orgState.scale})`;
+
+  // SVG lines
+  const svg = document.getElementById('org-svg');
+  svg.setAttribute('width', canvasW);
+  svg.setAttribute('height', canvasH);
+  let lines = '';
+  ORG_NODES.forEach(n => {
+    if(!n.parent || !pos[n.parent] || !pos[n.id]) return;
+    const p = pos[n.parent], c = pos[n.id];
+    const x1 = p.x + NODE_W/2, y1 = p.y + NODE_H;
+    const x2 = c.x + NODE_W/2, y2 = c.y;
+    const my = (y1 + y2) / 2;
+    lines += `<path d="M${x1},${y1} C${x1},${my} ${x2},${my} ${x2},${y2}" 
+      stroke="#9cb8ac" stroke-width="1.8" fill="none" stroke-linecap="round"/>`;
+  });
+  svg.innerHTML = lines;
+
+  // Nodes
+  const nodesDiv = document.getElementById('org-nodes');
+  nodesDiv.innerHTML = '';
+  ORG_NODES.forEach(n => {
+    if(!pos[n.id]) return;
+    const p = pos[n.id];
+    const tipo = n.tipo === 'raiz' ? 'raiz'
+      : n.id.startsWith('Diretoria') ? 'dir'
+      : n.id.startsWith('Coordenadoria') || n.id.startsWith('Coordenação') ? 'coord'
+      : n.id.startsWith('Seção') ? 'secao'
+      : n.id.startsWith('Setor') ? 'setor'
+      : n.tipo === 'inedito' ? 'inedito'
+      : 'coord';
+    const el = document.createElement('div');
+    el.className = `onode tipo-${tipo}`;
+    el.style.left = p.x + 'px';
+    el.style.top = p.y + 'px';
+    el.title = n.id;
+    // Shorten label if too long
+    const label = n.id.length > 35 ? n.id.substring(0, 33) + '…' : n.id;
+    el.textContent = label;
+    el.addEventListener('click', (e) => { e.stopPropagation(); openOrgModal(n); });
+    nodesDiv.appendChild(el);
+  });
+
+  // Pan (drag to scroll)
+  const wrapper = document.getElementById('org-wrapper');
+  wrapper.onmousedown = (e) => {
+    if(e.target.classList.contains('onode')) return;
+    orgState.dragStart = { x: e.clientX, y: e.clientY, sl: wrapper.scrollLeft, st: wrapper.scrollTop };
+    document.onmousemove = (mv) => {
+      if(!orgState.dragStart) return;
+      wrapper.scrollLeft = orgState.dragStart.sl - (mv.clientX - orgState.dragStart.x);
+      wrapper.scrollTop  = orgState.dragStart.st - (mv.clientY - orgState.dragStart.y);
+    };
+    document.onmouseup = () => { orgState.dragStart = null; document.onmousemove = null; };
+  };
+}
+
+function orgZoom(delta) {
+  orgState.scale = Math.min(1.5, Math.max(0.3, orgState.scale + delta));
+  document.getElementById('org-canvas').style.transform = `scale(${orgState.scale})`;
+}
+
+function orgReset() {
+  orgState.scale = 0.82;
+  document.getElementById('org-canvas').style.transform = `scale(${orgState.scale})`;
+  const w = document.getElementById('org-wrapper');
+  w.scrollLeft = 0; w.scrollTop = 0;
+}
+
+function openOrgModal(node) {
+  const typeLabels = { raiz: 'RAIZ', comparativo: 'TEXTO SUGERIDO', inedito: 'ESTRUTURA INÉDITA' };
+  document.getElementById('orgModalTitle').textContent = node.id;
+  document.getElementById('orgModalType').textContent = typeLabels[node.tipo] || node.tipo.toUpperCase();
+  document.getElementById('orgModalSubtitle').textContent = `Subordinado a: ${node.parent || '— (raiz)'}`;
+  const body = document.getElementById('orgModalBody');
+  if(node.sugestao && node.sugestao !== '(Aguardando redação sugerida)' && node.sugestao.trim()) {
+    body.innerHTML = '';
+    body.className = '';
+    body.textContent = node.sugestao;
+  } else {
+    body.innerHTML = '<span class="modal-empty">Texto sugerido ainda não disponível para este setor.</span>';
+    body.className = '';
+  }
   document.getElementById('orgModal').classList.add('open');
-  document.body.style.overflow = 'hidden';
 }
-function closeModal() {
-  document.getElementById('orgModal').classList.remove('open');
-  document.body.style.overflow = '';
+function closeModal() { document.getElementById('orgModal').classList.remove('open'); }
+
+// ============================================================
+// EXCEL RENDERING
+// ============================================================
+async function loadExcelData() {
+  try {
+    const response = await fetch('Relatorio_IFRS_Final_v11.xlsx');
+    const buf = await response.arrayBuffer();
+    const wb = XLSX.read(new Uint8Array(buf), { type: 'array' });
+    renderSheet(wb, 'Setores_Comparativo', 'render-executivos');
+    renderSheet(wb, 'Comissoes_Nucleos', 'render-comissoes');
+    const abaIn = wb.SheetNames.find(n => n.toLowerCase().includes('inedito'));
+    renderSheet(wb, abaIn, 'render-novos', true);
+    const abaEx = wb.SheetNames.find(n => n.toLowerCase().includes('exclui'));
+    renderSheet(wb, abaEx, 'render-excluidos', false, true);
+  } catch(e) { console.error("Erro ao carregar Excel:", e); }
 }
-document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeModal(); });
+
+function renderSheet(wb, sheetName, containerId, isIneditos = false, isExcluido = false) {
+  const sheet = wb.Sheets[sheetName];
+  if(!sheet) { document.getElementById(containerId).innerHTML = '<p style="color:#999;padding:1rem">Aba não encontrada.</p>'; return; }
+  const data = XLSX.utils.sheet_to_json(sheet);
+  const container = document.getElementById(containerId);
+  container.innerHTML = data.map(item => {
+    let titulo, textoVacaria, textoOutros, badge, headerColor;
+    const sugestao = item["Sugestão"] || item["Sugestao"] || "<em style='color:#999'>(Aguardando redação...)</em>";
+    if(isIneditos) {
+      titulo = item["Setor Inédito"] || "Indefinido";
+      textoVacaria = "<em style='color:#999'>Não há (Inédito em Vacaria).</em>";
+      textoOutros = `${item["Texto Original"] || ""}${item["Origem"] ? `<span class='origem-label'>ORIGEM: ${item["Origem"]}</span>` : ""}`;
+      badge = "ESTRUTURA NOVA"; headerColor = "var(--azul)";
+    } else if(isExcluido) {
+      titulo = item["Setor"] || "Excluído";
+      textoVacaria = item["Texto Vacaria (2023)"] || "---";
+      textoOutros = item["Texto Diferente"] || "Setor centralizado.";
+      badge = "REMOVIDO"; headerColor = "var(--vermelho)";
+    } else {
+      titulo = item["Setor"] || "Unidade";
+      textoVacaria = item["Texto Vacaria (2023)"] || "---";
+      textoOutros = item["Texto Diferente"] || "---";
+      badge = sheetName.replace(/_/g, ' '); headerColor = "var(--verde)";
+    }
+    return `
+    <div class="sector-card">
+      <div class="sector-card-header" style="background:${headerColor}" onclick="toggleCard(this)">
+        <span class="sector-title">${titulo}</span>
+        <div style="display:flex;align-items:center;gap:0.5rem">
+          <span class="sector-badge">${badge}</span>
+          <span class="sector-toggle">▼</span>
+        </div>
+      </div>
+      <div class="sector-body">
+        <div class="col col-vacaria"><div class="col-label">🟢 Vacaria (2023)</div><div class="regtext">${textoVacaria}</div></div>
+        <div class="col col-outros"><div class="col-label">🟡 Outros Campi</div><div class="regtext">${textoOutros}</div></div>
+        <div class="col col-sugestao"><div class="col-label">🔵 Sugestão</div><div class="regtext">${sugestao}</div></div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ============================================================
+// TAB & CARD TOGGLES
+// ============================================================
+function showTab(name, btn) {
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  btn.classList.add('active');
+  if(name === 'organograma') setTimeout(initOrg, 50);
+}
 
 function toggleCard(header) {
   const body = header.nextElementSibling;
-  const icon = header.querySelector('.toggle-icon');
-  if (body.classList.contains('open')) {
-    body.classList.remove('open');
-    icon.style.transform = 'rotate(0deg)';
-  } else {
-    body.classList.add('open');
-    icon.style.transform = 'rotate(180deg)';
-  }
+  const toggle = header.querySelector('.sector-toggle');
+  body.classList.toggle('open');
+  if(toggle) toggle.textContent = body.classList.contains('open') ? '▲' : '▼';
 }
 
-// Open first cards by default
-document.addEventListener('DOMContentLoaded', () => {
-  const firstExec = document.querySelector('#tab-orgaos-exec .sector-card-header');
-  if (firstExec) toggleCard(firstExec);
-});
+document.addEventListener('keydown', e => { if(e.key === 'Escape') closeModal(); });
+window.addEventListener('DOMContentLoaded', loadExcelData);
 </script>
+<footer style="background:var(--verde);color:rgba(255,255,255,0.75);text-align:center;padding:1.3rem 2rem;font-size:0.875rem;font-family:'Source Sans 3',sans-serif;border-top:3px solid var(--dourado);margin-top:3rem;">
+  Documento elaborado pelo <strong style="color:#fff;">Prof. Dr. Rafhael Cunha</strong>
+</footer>
 </body>
-</html>git
+</html>
